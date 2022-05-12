@@ -37,4 +37,7 @@ Operators:
     Equal:                    =
     Not Equal:                !=
     Greater:                  >
+                              >=
     Less Than:                <
+                              <=
+
