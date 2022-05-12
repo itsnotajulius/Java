@@ -4,3 +4,4 @@ https://www.javatpoint.com/Scanner-class
 
     Import Scanner:             import java.util.*;
     Call Scanner:               Scanner myScanObj = new Scanner(parms)
+    Read users input:           new Scanner(System.in)
