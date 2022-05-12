@@ -80,6 +80,6 @@ Operators:
   Conditions:
     If:                         if(condition){}
     If Else:                    if(condition){}else{}
-                                
+    Ternary Operator:           dataType var = (condition) ? conditionMet : else
     Else if:                    if(condition){}else if(condition){}else{}
 
