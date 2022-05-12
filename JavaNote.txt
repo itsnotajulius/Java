@@ -92,3 +92,7 @@ Operators:
                                     executeBox....
                                 }
 
+
+    While:                      while(condition){}
+    Do While:                   do{}while(condition)
+
