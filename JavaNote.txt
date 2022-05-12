@@ -67,3 +67,11 @@ Operators:
       Backspace:                  \b      (Del)
       Form Feed:                  \f
     
+
+
+  Math Functions:
+    Max:                        Math.max(x,y)
+    Min:                        Math.min(x,y)
+    Square Root:                Math.sqrt(x)
+    Absolute(Positive):         Math.abs(x)
+    Random:                     Math.random()
