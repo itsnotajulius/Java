@@ -92,7 +92,7 @@ Operators:
                                     executeBox....
                                 }
 
-
+    For Loop:                   for(var)
     While:                      while(condition){}
     Do While:                   do{}while(condition)
 
