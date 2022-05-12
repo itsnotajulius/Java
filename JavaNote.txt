@@ -148,6 +148,7 @@ Operators:
                                 abstract                  (methods can only be used in abstract class)
                                 transient                 (attri and methods are skipped when serializing)
                                 synchronized              (methods can only be access one thread @ time)
+                                volatile                  (attri is not cached)
 
 
   
