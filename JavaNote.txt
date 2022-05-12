@@ -16,6 +16,7 @@
     Float:                    float var = decimal.7;
     Double:                   double var = decimal.15
     Boolean:                  boolean var = true/false;
+    
     Final:                    final varType = X; (Sets the output as constant)
     Type Casting:
       Widening Casting:       double var = varByte;
@@ -116,8 +117,8 @@ Operators:
   
 
   METHODS:
-    Static Method:              static void myMethod(?dataType? ?var?,...){}
-    Not Static Method:          static dataType myMethod(?dataType? ?var?,...){return dataTypeVar;}
+    Void Method:                static void myMethod(?dataType? ?var?,...){}
+    Not Void Method:            static dataType myMethod(?dataType? ?var?,...){return dataTypeVar;}
     Method Overloading:         dataType1 myMethod(dataType1 var){return;}  dataType2 myMethod(dataType2 var){return;}          (use the same name)
     Recursion Method:           static dataType myMethod(?dataType? ?var?,...){return myMethod(?var?);}
     abstract Method:            abstract void myMethod();
@@ -150,6 +151,7 @@ Operators:
                                 transient                 (attri and methods are skipped when serializing)
                                 synchronized              (methods can only be access one thread @ time)
                                 volatile                  (attri is not cached)
+    
 
 
   
