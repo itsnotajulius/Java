@@ -45,3 +45,13 @@ Operators:
     AND:                        &&
     OR:                         ||
     Not:                        !
+
+  
+  FUNCTIONS:
+
+  String Functions:
+    Length:                     text.length()
+    Upper Case:                 text.toUpperCase()
+    Lower Case:                 text.toLowerCase()
+    IndexOf:                    text.indexOf("searchText")
+    
