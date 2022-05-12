@@ -64,5 +64,6 @@ Operators:
       New Line:                   \n
       Carriage Return:            \r
       Tab:                        \t
-      Backspace:                  \b
+      Backspace:                  \b      (Del)
+      Form Feed:                  \f
     
