@@ -158,6 +158,11 @@ Operators:
     Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set                              
     
 
+    Packages:
+      Package:                  Used to group related classes
+                                Java API has built-In Packages 
+      Built-In Pack:            import package.name.*/Class
+      User-defined:             package mypack;
 
   
 
