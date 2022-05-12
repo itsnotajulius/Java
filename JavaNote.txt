@@ -125,7 +125,7 @@ Operators:
     
 
    Object Oriented Programming:
-     
+    Definition:                 OOP is about creating objects that contain both data and methods. It is reuseable and less code and shorted dev time
 
   
 
