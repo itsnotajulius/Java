@@ -93,6 +93,8 @@ Operators:
                                 }
 
     For Loop:                   for(var;condition;increment)
+    For:Each                    for(var :array){}
+
     While:                      while(condition){}
     Do While:                   do{}while(condition)
 
