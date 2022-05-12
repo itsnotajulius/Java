@@ -117,6 +117,7 @@ Operators:
 
   METHODS:
     Static Method:              static void myMethod(?dataType? ?var?,...){}
+    Not Static Method:          static dataType myMethod(?dataType? ?var?,...){return dataTypeVar;}
     Call Method:                myMethod(?var?,...);
 
   
