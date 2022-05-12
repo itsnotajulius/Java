@@ -75,3 +75,9 @@ Operators:
     Square Root:                Math.sqrt(x)
     Absolute(Positive):         Math.abs(x)
     Random:                     Math.random()
+
+  
+  Conditions:
+    If:                         if(condition){}
+    If Else:                    if(condition){}else{}
+    Else if:                    if(condition){}else if(condition){}else{}
