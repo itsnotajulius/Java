@@ -112,6 +112,13 @@ Operators:
     Absolute(Positive):         Math.abs(x)
     Random:                     Math.random()
 
+
+  
+
+  METHODS:
+    Static Method:              static void myMethod(){}
+    Call Method:                myMethod();
+
   
 
 
