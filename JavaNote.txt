@@ -116,8 +116,8 @@ Operators:
   
 
   METHODS:
-    Static Method:              static void myMethod(){}
-    Call Method:                myMethod();
+    Static Method:              static void myMethod(?dataType? ?var?,...){}
+    Call Method:                myMethod(?var?,...);
 
   
 
