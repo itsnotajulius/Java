@@ -126,8 +126,11 @@ Operators:
 
    Object Oriented Programming:
     Definition:                 OOP is about creating objects that contain both data and methods. It is reuseable and less code and shorted dev time
-    Classes:                    Is the template for objects
-    Objects:                    Is an instance of classes, they inherit all variables and methods of class
+                                Classes:  Is the template for objects
+                                Objects:  Is an instance of classes, they inherit all variables and methods of class
+
+    Class:                      public class myClass{}
+    Object:                     myClass myObj = new myClass();
 
   
 
