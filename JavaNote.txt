@@ -120,7 +120,7 @@ Operators:
     Not Static Method:          static dataType myMethod(?dataType? ?var?,...){return dataTypeVar;}
     Method Overloading:         dataType1 myMethod(dataType1 var){return;}  dataType2 myMethod(dataType2 var){return;}          (use the same name)
     Recursion Method:           static dataType myMethod(?dataType? ?var?,...){return myMethod(?var?);}
-    abstract Method:            abstract 
+    abstract Method:            abstract void myMethod();
     Call Method:                myMethod(?var?,...);
 
     
