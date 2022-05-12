@@ -1,5 +1,5 @@
 // This App is used to convert from on Currency to another
 /*
     Reference for the project are:
-    - https://hackr.io/blog/java-projects but making it my own.
+    - 10 Free Java Projects for Beginners 2022: https://hackr.io/blog/java-projects
 */
