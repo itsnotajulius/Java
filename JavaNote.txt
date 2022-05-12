@@ -50,6 +50,7 @@ Operators:
   FUNCTIONS:
 
   String Functions:
+    Concatenation:              Text+""+Text
     Length:                     text.length()
     Upper Case:                 text.toUpperCase()
     Lower Case:                 text.toLowerCase()
