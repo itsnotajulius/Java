@@ -92,7 +92,7 @@ Operators:
                                     executeBox....
                                 }
 
-    For Loop:                   for(var)
+    For Loop:                   for(var;condition;increment)
     While:                      while(condition){}
     Do While:                   do{}while(condition)
 
