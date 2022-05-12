@@ -3,4 +3,5 @@
   - Comment Out: //
   - Commentout Box: \* \*/
 
-- P
+- Printing:
+  - System.out.println(""/#/Boolean)
