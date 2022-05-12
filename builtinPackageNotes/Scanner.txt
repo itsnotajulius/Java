@@ -1,4 +1,6 @@
 SCANNER:
+https://www.javatpoint.com/Scanner-class
+
 
     Import Scanner:             import java.util.*;
-    Call Scanner:               Scanner myScanObj = new Scanner()
+    Call Scanner:               Scanner myScanObj = new Scanner(parms)
