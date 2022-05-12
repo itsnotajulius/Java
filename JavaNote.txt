@@ -131,6 +131,7 @@ Operators:
 
     Class:                      public class myClass{}
     Object:                     myClass myObj = new myClass();
+    Object variable:            myObj.x
 
   
 
