@@ -138,13 +138,16 @@ Operators:
 
 
   Modifiers:
-    Access Modifers:            public (accessible by other classes)
-                                private (only in declared class)
-                                protected (only same packahe and subclasses)
-                                default (accessed by classes in same package, when no modifiers set)
-    Non-Access Modifers:        final (cant be inherited and attri cant be moded)
-                                static (attr and methods belong to class)
-                                abstract (cant make objects)
+    Access Modifers:            public                    (accessible by other classes)
+                                private                   (only in declared class)
+                                protected                 (only same packahe and subclasses)
+                                default                   (accessed by classes in same package, when no modifiers set)
+    Non-Access Modifers:        final                     (cant be inherited and attri cant be moded)
+                                static                    (attr and methods belong to class)
+                                abstract                  (the class cant make objects)
+                                abstract                  (methods can only be used in abstract class)
+                                transient                 (attri and methods are skipped when serializing)
+                                synchronized              (methods can only be access one thread @ time)
 
 
   
