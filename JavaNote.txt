@@ -63,5 +63,6 @@ Operators:
       Backslash:                 \\
       New Line:                   \n
       Carriage Return:            \r
-
+      Tab:                        \t
+      Backspace:                  \b
     
