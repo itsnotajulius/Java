@@ -130,7 +130,7 @@ Operators:
                                 Objects:  Is an instance of classes, they inherit all variables and methods of class
 
     Class:                      public class myClass{}
-    Object:                     myClass myObj = new myClass();
+    Object:                     myClass myObj = new myClass();                            (Can be in different java files but same dir)
     Object variable:            myObj.x
 
   
