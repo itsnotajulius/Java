@@ -51,6 +51,7 @@ Operators:
 
   String Functions:
     Concatenation:              Text+""+Text
+    Cancate:                    text1.concat("text2")
     Length:                     text.length()
     Upper Case:                 text.toUpperCase()
     Lower Case:                 text.toLowerCase()
