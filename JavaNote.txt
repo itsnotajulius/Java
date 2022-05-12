@@ -122,6 +122,11 @@ Operators:
     Recursion Method:           static dataType myMethod(?dataType? ?var?,...){return myMethod(?var?);}
     Call Method:                myMethod(?var?,...);
 
+    
+
+   Object Oriented Programming:
+     
+
   
 
 
