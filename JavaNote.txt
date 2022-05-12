@@ -83,3 +83,12 @@ Operators:
     Ternary Operator:           dataType var = (condition) ? conditionMet : else
     Else if:                    if(condition){}else if(condition){}else{}
 
+
+    Switch Case:                switch (expression){
+                                  case checkValue:
+                                    executeBox....
+                                    break;
+                                  default:
+                                    executeBox....
+                                }
+
