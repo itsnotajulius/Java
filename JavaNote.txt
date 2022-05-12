@@ -20,3 +20,14 @@
     Type Casting:
       Widening Casting:       double var = varByte;
       Narrow Casting:         byte var = (byte) varDouble;   
+
+
+Operators:
+  Arithmetic Operators:
+    Addition:                 +
+    Sub:                      -
+    Multi                     *
+    Division                  /
+    Mod/Remainder             %
+    Increment:                ++
+    Decrement:                --
