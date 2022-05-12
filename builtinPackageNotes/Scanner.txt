@@ -1,0 +1,4 @@
+SCANNER:
+
+    Import Scanner:             import java.util.*;
+    Call Scanner
