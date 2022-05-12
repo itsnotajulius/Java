@@ -29,5 +29,12 @@ Operators:
     Multi                     *
     Division                  /
     Mod/Remainder             %
+    Power:                    ^
     Increment:                ++
     Decrement:                --
+
+  Comparison Operators:
+    Equal:                    =
+    Not Equal:                !=
+    Greater:                  >
+    Less Than:                <
