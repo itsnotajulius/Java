@@ -136,6 +136,17 @@ Operators:
     Modi Variable:              myObj.x = stuff
     Static and Public:          static can be accesed without object, public need object to be accessed 
 
+
+  Modifiers:
+    Access Modifers:            public (accessible by other classes)
+                                private (only in declared class)
+                                protected (only same packahe and subclasses)
+                                default (accessed by classes in same package, when no modifiers set)
+    Non-Access Modifers:        final (cant be inherited and attri cant be moded)
+                                static (attr and methods belong to class)
+                                abstract (cant make objects)
+
+
   
 
 
