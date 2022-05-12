@@ -1,7 +1,7 @@
 - Extra:
 
-  - Comment Out: //
-  - Commentout Box: \* \*/
+  - Comments: //
+  - Multi-Line Comment: \* \*/
 
 - Printing:
   - System.out.println(""/#/Boolean)
