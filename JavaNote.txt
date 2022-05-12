@@ -7,9 +7,9 @@
   - System.out.println(""/#/Boolean)
 
   Variables:
-  String:                   String var = "";
-  Integer:                  iny var = #;
-  Float:                    float var = decimal;
-  Char:                     char var = 'Letter';
-  Boolean:                  boolean var = true/false;
-  Final:                    final varType = X; (Sets the output as constant)
+    String:                   String var = "";
+    Integer:                  iny var = #;
+    Float:                    float var = decimal;
+    Char:                     char var = 'Letter';
+    Boolean:                  boolean var = true/false;
+    Final:                    final varType = X; (Sets the output as constant)
