@@ -6,10 +6,14 @@
 - Printing:
   - System.out.println(""/#/Boolean)
 
-  Variables:
-    String:                   String var = "";
-    Integer:                  iny var = #;
-    Float:                    float var = decimal;
+  Datatypes:
     Char:                     char var = 'Letter';
+    String:                   String var = "Text";
+    Byte:                     byte var = #;           (Between -128 and 127)
+    Short                     short var = #
+    Integer:                  int var = #;
+    Long:                     long var =#;
+    Float:                    float var = decimal.7;
+    Double:                   double var = decimal.15
     Boolean:                  boolean var = true/false;
     Final:                    final varType = X; (Sets the output as constant)
