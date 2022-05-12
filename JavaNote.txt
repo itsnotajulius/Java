@@ -62,5 +62,6 @@ Operators:
       Double Quote:             \"text\"
       Backslash:                 \\
       New Line:                   \n
-      
+      Carriage Return:            \r
+
     
