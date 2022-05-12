@@ -22,9 +22,11 @@
       Narrow Casting:         byte var = (byte) varDouble;  
 
   Arrays:
-    Single Array:             dataType[] varArray; 
+    Single Array:             dataType[] varArray;
                               dataType[] varArray = {element,element,..};
+    TwoD Array                dataType[][] varArray = {{},{}};
     Length:                   varArray.length
+                              varArray[i].length
 
 
 Operators:
