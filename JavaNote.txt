@@ -56,4 +56,11 @@ Operators:
     Upper Case:                 text.toUpperCase()
     Lower Case:                 text.toLowerCase()
     IndexOf:                    text.indexOf("searchText")
+
+    Special Charaters:
+      Single Quote:             \'text\'
+      Double Quote:             \"text\"
+      Backslash:                 \\
+      New Line:                   \n
+      
     
