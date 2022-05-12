@@ -98,3 +98,6 @@ Operators:
     While:                      while(condition){}
     Do While:                   do{}while(condition)
 
+    Break:                      break;                    (stops)
+    Continue:                   continue;                 (Next)
+
