@@ -41,3 +41,7 @@ Operators:
     Less Than:                <
                               <=
 
+  Logical Operators:
+    AND: 
+    OR:
+
