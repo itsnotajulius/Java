@@ -1,4 +1,4 @@
 SCANNER:
 
     Import Scanner:             import java.util.*;
-    Call Scanner
+    Call Scanner:               Scanner myScanObj = new Scanner()
