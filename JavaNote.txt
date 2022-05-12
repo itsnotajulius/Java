@@ -19,7 +19,11 @@
     Final:                    final varType = X; (Sets the output as constant)
     Type Casting:
       Widening Casting:       double var = varByte;
-      Narrow Casting:         byte var = (byte) varDouble;   
+      Narrow Casting:         byte var = (byte) varDouble;  
+
+  Arrays:
+    Single Array:             dataType[] var; 
+                              dataType[] var = {element,element,..};
 
 
 Operators:
@@ -47,6 +51,35 @@ Operators:
     Not:                        !
 
   
+  Conditions:
+    If:                         if(condition){}
+    If Else:                    if(condition){}else{}
+    Ternary Operator:           dataType var = (condition) ? conditionMet : else
+    Else if:                    if(condition){}else if(condition){}else{}
+
+
+    Switch Case:                switch (expression){
+                                  case checkValue:
+                                    executeBox....
+                                    break;
+                                  default:
+                                    executeBox....
+                                }
+
+    For Loop:                   for(var;condition;increment)
+    For:Each                    for(var :array){}
+
+    While:                      while(condition){}
+    Do While:                   do{}while(condition)
+
+    Break:                      break;                    (stops)
+    Continue:                   continue;                 (Next)
+
+
+
+
+
+
   FUNCTIONS:
 
   String Functions:
@@ -77,27 +110,5 @@ Operators:
     Random:                     Math.random()
 
   
-  Conditions:
-    If:                         if(condition){}
-    If Else:                    if(condition){}else{}
-    Ternary Operator:           dataType var = (condition) ? conditionMet : else
-    Else if:                    if(condition){}else if(condition){}else{}
 
-
-    Switch Case:                switch (expression){
-                                  case checkValue:
-                                    executeBox....
-                                    break;
-                                  default:
-                                    executeBox....
-                                }
-
-    For Loop:                   for(var;condition;increment)
-    For:Each                    for(var :array){}
-
-    While:                      while(condition){}
-    Do While:                   do{}while(condition)
-
-    Break:                      break;                    (stops)
-    Continue:                   continue;                 (Next)
 
