@@ -40,7 +40,7 @@ public class App {
             int guess =-1;
             myApp.printStuff("You need to guess the number \nIts between 0 and 100\n\nMake your guess:");
             do{
-                do{
+                
                     
                     while(!myScan.hasNextInt()){
                         System.out.println("Not a Number go again:");
@@ -48,7 +48,7 @@ public class App {
                     }
                     guess =myScan.nextInt();
                     System.out.println(guess+"");
-                }while(guess>100);
+                
                 
                 
                 myApp.setInput(guess);
