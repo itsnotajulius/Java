@@ -18,6 +18,7 @@
     Boolean:                  boolean var = true/false;
     
     Final:                    final varType = X; (Sets the output as constant)
+    Converting:               dataType var = dataType.parseType(text)
     Type Casting:
       Widening Casting:       double var = varByte;
       Narrow Casting:         byte var = (byte) varDouble;  
