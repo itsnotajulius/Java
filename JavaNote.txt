@@ -94,6 +94,7 @@ Operators:
     Upper Case:                 text.toUpperCase()
     Lower Case:                 text.toLowerCase()
     IndexOf:                    text.indexOf("searchText")
+    Check in Digit:             text.matchs("[0-9]+.")            (+ means one or more times)
 
     Special Charaters:
       Single Quote:             \'text\'
