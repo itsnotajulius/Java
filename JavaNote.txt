@@ -80,7 +80,21 @@ Operators:
 
     Break:                      break;                    (stops)
     Continue:                   continue;                 (Next)
+ 
 
+
+  Modifiers:
+    Access Modifers:            public                    (accessible by other classes)
+                                private                   (accessible only in declared class)
+                                protected                 (only same packahe and subclasses)
+                                default                   (accessed by classes in same package, when no modifiers set)
+    Non-Access Modifers:        final                     (cant be inherited by other classes and attri cant be moded)
+                                static                    (attr and methods belong to class)
+                                abstract                  (the class cant make objects)
+                                abstract                  (methods can only be used in abstract class)
+                                transient                 (attri and methods are skipped when serializing)
+                                synchronized              (methods can only be access one thread @ time)
+                                volatile                  (attri is not cached)
 
 
 
@@ -143,21 +157,7 @@ OOP:
     Static and Public:          static can be accesed without object, public need object to be accessed 
 
 
-  Modifiers:
-    Access Modifers:            public                    (accessible by other classes)
-                                private                   (only in declared class)
-                                protected                 (only same packahe and subclasses)
-                                default                   (accessed by classes in same package, when no modifiers set)
-    Non-Access Modifers:        final                     (cant be inherited and attri cant be moded)
-                                static                    (attr and methods belong to class)
-                                abstract                  (the class cant make objects)
-                                abstract                  (methods can only be used in abstract class)
-                                transient                 (attri and methods are skipped when serializing)
-                                synchronized              (methods can only be access one thread @ time)
-                                volatile                  (attri is not cached)
-
-
-   Encapsulation:
+    Encapsulation:
     Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set                              
     
 
