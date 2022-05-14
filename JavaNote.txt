@@ -9,6 +9,10 @@ Extra:
 Printing:
   System.out.println(""/#/Boolean)
 
+
+
+
+
   Datatypes:
     Char:                     char var = 'Letter';
     String:                   String var = "Text";
