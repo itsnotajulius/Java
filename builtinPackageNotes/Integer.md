@@ -6,5 +6,9 @@ Variable:
 
 - Min
   ```java
-    Interger.MIN_VALUE
+    int var = Interger.MIN_VALUE
+  ```
+- Max
+  ```java
+    int var = Interger.MAX_VALUE
   ```
