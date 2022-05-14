@@ -15,7 +15,7 @@ Printing:
 
   Datatypes:
     Primitive Types:
-      Char:                     char var = 'Letter';
+      Char:                     char var = 'L';         (L = Letter)
       Byte:                     byte var = #;           (Between -128 and 127)
       Short                     short var = #
       Integer:                  int var = #;
