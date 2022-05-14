@@ -14,15 +14,17 @@ Printing:
 
 
   Datatypes:
-    Char:                     char var = 'Letter';
+    Primitive Types:
+      Char:                     char var = 'Letter';
+      Byte:                     byte var = #;           (Between -128 and 127)
+      Short                     short var = #
+      Integer:                  int var = #;
+      Float:                    float var = decimal.7;
+      Double:                   double var = decimal.15
+      Boolean:                  boolean var = true/false;
+
     String:                   String var = "Text";
-    Byte:                     byte var = #;           (Between -128 and 127)
-    Short                     short var = #
-    Integer:                  int var = #;
     Long:                     long var =#;
-    Float:                    float var = decimal.7;
-    Double:                   double var = decimal.15
-    Boolean:                  boolean var = true/false;
     
     Final:                    final varType = X; (Sets the output as constant)
     Converting:               dataType var = dataType.parseType(text)
