@@ -1,5 +1,9 @@
 <h1> **INTERGER** </h1>
 
+Info:
+
+\asd
+
 Methods:
 
 Variable:
