@@ -78,12 +78,15 @@ Operators:
 
 
     Switch Case:                switch (expression){
-                                  case checkValue:
+                                  case checkValue1:
                                     executeBox....
                                     break;
-                                  case checkValue:
+                                  case checkValue2: case checkValue3:
+                                    ....
+                                    break;
                                   default:
                                     executeBox....
+                                    break;
                                 }
 
     For Loop:                   for(var;condition;increment)
