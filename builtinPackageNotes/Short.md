@@ -1,4 +1,4 @@
-<h1> **INTERGER** </h1>
+<h1> **SHORT** </h1>
 
 Info:
 
