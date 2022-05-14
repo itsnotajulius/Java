@@ -27,7 +27,7 @@ Printing:
       String:                   String var = "Text";
       Long:                     long var =#;
     
-    Final:                    final varType = X; (Sets the output as constant)
+    Final:                    final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
     Converting:               dataType var = dataType.parseType(text)
     Type Casting:
       Widening Casting:       double var = varByte;
@@ -105,7 +105,7 @@ Java KEYWORDS:
                                 private                   (accessible only in declared class)
                                 protected                 (only same packahe and subclasses)
                                 default                   (accessed by classes in same package, when no modifiers set)
-    Non-Access Modifers:        final                     (cant be inherited by other classes and attri cant be moded)
+    Non-Access Modifers:        final                     (cant be inherited by other classes and attri cant be moded spell in caps)
                                 static                    (attr and methods belong to class)
                                 abstract                  (the class cant make objects)
                                 abstract                  (methods can only be used in abstract class)
