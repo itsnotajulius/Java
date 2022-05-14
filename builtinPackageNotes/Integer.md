@@ -5,8 +5,6 @@ Methods:
 Variable:
 
 - Min
-
-
-    ```java
-        Interger.MIN_VALUE
-    ```
+  ```java
+      Interger.MIN_VALUE
+  ```
