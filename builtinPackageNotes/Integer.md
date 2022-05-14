@@ -5,6 +5,7 @@ Info:
 | <h2>Definitions:</h2> |     |                                               |
 | --------------------- | --- | --------------------------------------------: |
 | INT Limits:           |     | Min Value: -2147483648, Max Value: 2147483647 |
+| INT Limits:           |     | Min Value: -2147483648, Max Value: 2147483647 |
 
 Methods:
 
