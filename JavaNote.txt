@@ -1,10 +1,13 @@
-- Extra:
+JAVANOTES
 
-  - Comments: //
-  - Multi-Line Comment: \* \*/
 
-- Printing:
-  - System.out.println(""/#/Boolean)
+
+Extra:
+  Comments: //
+  Multi-Line Comment: \* \*/
+
+Printing:
+  System.out.println(""/#/Boolean)
 
   Datatypes:
     Char:                     char var = 'Letter';
