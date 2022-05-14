@@ -57,6 +57,7 @@ Operators:
 
   Comparison Operators:
     Equal:                    =
+                              ==              (boolean/int)
     Not Equal:                !=
     Greater:                  >
                               >=
