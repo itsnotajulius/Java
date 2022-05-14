@@ -51,7 +51,9 @@ Operators:
     Mod/Remainder             %
     Power:                    ^
     Increment:                ++
+                              += #
     Decrement:                --
+                              -= #
 
   Comparison Operators:
     Equal:                    =
