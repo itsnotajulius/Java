@@ -1,5 +1,7 @@
 public class SpeedConverter {
 
+    //Summary: Converting Kilometer to Miles
+
     public static long toMilesPerHour(double kilometersPerHour){
         long answer = -1L;
         if(kilometersPerHour>=0){
