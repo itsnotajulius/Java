@@ -16,6 +16,7 @@ Printing:
   Datatypes:
     Primitive Types:
       Char:                     char var = 'L';         (L = Letter)
+                                char var = '\u####'     (\u is unicode, search for unicode)
       Byte:                     byte var = #;           (Between -128 and 127)
       Short                     short var = #
       Integer:                  int var = #;
