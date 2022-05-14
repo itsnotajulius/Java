@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 
-public class ReadTemps {
+public class scanFile {
 
     public static void main(String[] args) throws IOException {
     // TODO code application logic here
