@@ -142,6 +142,7 @@ Java KEYWORDS:
     Square Root:                Math.sqrt(x)
     Absolute(Positive):         Math.abs(x)
     Random:                     Math.random()
+    Round:                      Math.round(x)
 
 
   
