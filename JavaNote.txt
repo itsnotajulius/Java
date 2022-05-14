@@ -81,6 +81,7 @@ Operators:
                                   case checkValue:
                                     executeBox....
                                     break;
+                                  case checkValue:
                                   default:
                                     executeBox....
                                 }
