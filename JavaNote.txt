@@ -7,7 +7,7 @@ Extra:
   Multi-Line Comment: \* \*/
 
 Printing:
-  System.out.println(""/#/Boolean)
+  System.out.println(""/#/Boolean+...)
 
 
 
