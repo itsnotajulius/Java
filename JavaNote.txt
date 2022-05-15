@@ -128,7 +128,7 @@ Java KEYWORDS:
     Lower Case:                 text.toLowerCase()
     IndexOf:                    text.indexOf("searchText")
     Check if Digit:             text.matchs("[0-9]+.")            (+ means one or more times)
-    Format Numbers:             String.format()
+    Format Numbers:             String.format("format",text)      (eg: "%.2f") 
 
 
     Special Charaters:
