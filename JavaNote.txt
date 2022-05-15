@@ -172,8 +172,8 @@ FUNCTIONS:
 OOP:
   Object Oriented Programming:
     Definition:                 OOP is about creating objects that contain both data and methods. It is reuseable and less code and shorted dev time
-                                Classes:  Is the template for objects
-                                Objects:  Is an instance of classes, they inherit all variables and methods of class
+                                Classes:  Is a blueprint. Is the template for objects
+                                Objects:  Is an instance of classes, they inherit all public variables and methods of class
                                 Getters/setters:  Used for validation and tests
 
     Class:                      public class myClass{dataType arriType = data;....}
