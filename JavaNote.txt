@@ -56,7 +56,12 @@ Printing:
       Single Array:                 ArrayList<dataType> varList = new ArrayList<dataType>()
 
       Methds:
-        Add:                        varList.add(x)
+        Add:                        varList.add(item)                                                (Kinda append)
+        Change item:                varList.set(posInt,newItem)                                      (Replace item with new Item at posInt)
+        Call item:                  varList.get(posInt)
+        Delete:                     varList.remove(posInt)
+        Length:                     varList.size()
+
 
 
 Operators:
