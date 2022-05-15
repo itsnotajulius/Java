@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TestGround {
+public class ReadNameAge {
 
     public static final String INVALID_VALUE_MESSAGE = "Invalid value";
 
