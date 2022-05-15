@@ -58,12 +58,15 @@ Operators:
 
   Comparison Operators:
     Equal:                      =
-                                ==              (boolean/int)
+                                ==                              (boolean/int)
     Not Equal:                  !=
     Greater:                    >
                                 >=
     Less Than:                  <
                                 <=
+  String Operators:
+    Equals:                     =
+                                text.equals(text)               (useful if toLowerCase)
 
   Logical Operators:
     AND:                        &&
@@ -129,6 +132,7 @@ FUNCTIONS:
     IndexOf:                    text.indexOf("searchText")
     Check if Digit:             text.matchs("[0-9]+.")            (+ means one or more times)
     Format Numbers:             String.format("format",text)      (eg: "%.2f") 
+    Equal:                      text.Equal(text)                  (boolean output)
 
 
     Special Charaters:
