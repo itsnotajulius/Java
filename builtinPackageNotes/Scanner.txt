@@ -10,6 +10,7 @@ https://www.javatpoint.com/Scanner-class
 
 
     METHODS:
+    Gets next:                  .next()
     Gets Line:                  .nextLine()
     Gets next Int:              .nextInt()
     delimiter                   .useDelimiter(Pattern/String pattern)
