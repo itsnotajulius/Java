@@ -90,8 +90,8 @@ Operators:
                                     break;
                                 }
 
-    For Loop:                   for(var;condition;increment)
-    For:Each                    for(var :array){}
+    For Loop:                   for(init;termination;increment)
+    For:Each                    for(init :array){}
 
     While:                      while(condition){}
     Do While:                   do{}while(condition)
