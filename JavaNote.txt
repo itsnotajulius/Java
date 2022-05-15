@@ -196,8 +196,9 @@ OOP:
     Inheritance:
       Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
       To inherit:                 class subclass-Name extends superclass-Name                   (if it has constructer subclass must have constructer)
-      Call SupConstruc:           super(?var?,...);
-      Call Sup Method:            super.method(...);
+      Call SupConstruc:           super(?var?,...);                                             (Access Parent Class Construcs)
+      Call Sup Method:            super.method(...);                                            (Access Parent Class methods)
+      Call Sup var:               super.var;                                                    (Access Parent Class vars)
       Override:                   @Override methodStuff                                         (Stops going to Superclass and uses local methods of same name in subClass.) 
                                                                                                 (Call Sup Method to not look locally)
                                   
