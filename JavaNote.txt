@@ -197,7 +197,7 @@ OOP:
       To inherit:                 class subclass-Name extends superclass-Name                   (if it has constructer subclass must have constructer)
       Call SupConstruc:           super(?var?,...);
       Call Sup Method:            super.method(...);
-      Override:                   @
+      Override:                   @Override methodStuff                                         (Override lets you stop going to Superclass and use methods in subClass)
 
 
 
