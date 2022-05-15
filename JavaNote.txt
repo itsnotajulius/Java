@@ -47,6 +47,7 @@ Printing:
         Length:                     varArray.length                                             (single Array)
                                     varArray[i].length                                          (2d Array)
         Sort:                       Arrays.sort(varArray)                                       (Import util.Arrays)
+        Copy:                       Arrays.copyOf(..,..)
 
 
 Operators:
