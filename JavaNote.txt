@@ -195,6 +195,8 @@ OOP:
       Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
       To inherit:                 class subclass-Name extends superclass-Name                   (if it has constructer subclass must have constructer)
 
+
+
     Packages:
       Package:                  Used to group related classes
                                 Java API has built-In Packages 
