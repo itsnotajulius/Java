@@ -63,6 +63,7 @@ Printing:
         Length:                     varList.size()
         Contains:                   varList.contains(searchItem)
         Copy Over:                  newList.addAll(varList)                                           (make a getter method for quick access)
+                                    new ArrayList<dataType>(varList)
 
 
 
