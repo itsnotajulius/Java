@@ -52,6 +52,9 @@ Printing:
         Copy array:                 Arrays.copyOf(..,..)
         Print:                      Arrays.toString(varArray)
 
+    ArrayList:
+      
+
 
 Operators:
   Arithmetic Operators:
