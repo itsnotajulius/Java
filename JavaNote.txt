@@ -198,7 +198,7 @@ OOP:
       Call SupConstruc:           super(?var?,...);
       Call Sup Method:            super.method(...);
       Override:                   @Override methodStuff                                         (Stops going to Superclass and uses local methods of same name in subClass.) 
-                                                                                                (Call Sup Method to get to super Method)
+                                                                                                (Call Sup Method to not look locally)
                                   
 
 
