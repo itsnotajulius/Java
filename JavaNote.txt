@@ -197,7 +197,7 @@ OOP:
       Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
       To inherit:                 class subclass-Name extends superclass-Name                   (if it has constructer subclass must have constructer)
       Call SupConstruc:           super(?var?,...);                                             (Access Parent Class Construcs)
-      Call Sup Method:            super.method(...);                                            (Access Parent Class methods)
+      Call Sup Method:            super.methodName(...);                                        (Access Parent Class methods)
       Call Sup var:               super.var;                                                    (Access Parent Class vars)
       Override:                   @Override methodStuff                                         (Call child method thats in Superclass needs same methodName and paras)
                                                                                                 (Runtime Polymorphism)(Cant override final&private or static only instance)
