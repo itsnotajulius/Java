@@ -61,6 +61,7 @@ Printing:
         Call item:                  varList.get(posInt)
         Delete:                     varList.remove(posInt)
         Length:                     varList.size()
+        Contains:                   varList.contains(searchItem)
 
 
 
