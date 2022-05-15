@@ -53,7 +53,7 @@ Printing:
         Print:                      Arrays.toString(varArray)
 
     ArrayList:
-      Single Array:                 ArrayList<dataType> varList = new ArrayList<dataType>()
+      Single Array:                 ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>()
 
       Methds:
         Add:                        varList.add(item)                                                (Kinda append)
