@@ -55,6 +55,9 @@ Printing:
     ArrayList:
       Single Array:                 ArrayList<dataType> varList = new ArrayList<dataType>()
 
+      Methds:
+        Add:                        varList.add(x)
+
 
 Operators:
   Arithmetic Operators:
