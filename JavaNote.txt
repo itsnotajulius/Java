@@ -106,11 +106,11 @@ Operators:
 Java KEYWORDS:
   Modifiers:
     Access Modifers:            public                    (accessible by other classes)
-                                private                   (accessible only in declared class)
+                                private                   (accessible only in declared class,subclasses can access)
                                 protected                 (only same packahe and subclasses)
                                 default                   (accessed by classes in same package, when no modifiers set)
     Non-Access Modifers:        final                     (cant be inherited by other classes and attri cant be moded spell in caps)
-                                static                    (attr and methods belong to class)
+                                static                    (attr and methods belong to class but can be used but classes methods cant use instance variable)
                                 abstract                  (the class cant make objects)
                                 abstract                  (methods can only be used in abstract class)
                                 transient                 (attri and methods are skipped when serializing)
