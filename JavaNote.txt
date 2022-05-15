@@ -57,13 +57,13 @@ Operators:
                               
 
   Comparison Operators:
-    Equal:                    =
-                              ==              (boolean/int)
-    Not Equal:                !=
-    Greater:                  >
-                              >=
-    Less Than:                <
-                              <=
+    Equal:                      =
+                                ==              (boolean/int)
+    Not Equal:                  !=
+    Greater:                    >
+                                >=
+    Less Than:                  <
+                                <=
 
   Logical Operators:
     AND:                        &&
