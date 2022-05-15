@@ -42,8 +42,8 @@ Printing:
                                   dataType[] varArray = {element,element,..};
       TwoD Array                  dataType[][] varArray = {{},{}};
       Assign Array:               varArray = new dataType[] {element,..,}
-      Length:                     varArray.length
-                                  varArray[i].length
+      Length:                     varArray.length                                             (single Array)
+                                  varArray[i].length                                          (2d Array)
 
 
 Operators:
