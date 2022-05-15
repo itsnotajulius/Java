@@ -34,13 +34,16 @@ Printing:
       Widening Casting:         double var = varByte;
       Narrow Casting:           byte var = (byte) varDouble;  
 
-  Arrays:
-    Single Array:               dataType[] varArray;
-                                dataType[] varArray = {element,element,..};
-    TwoD Array                  dataType[][] varArray = {{},{}};
-    Assign Array:               varArray = new dataType[] {element,..,}
-    Length:                     varArray.length
-                                varArray[i].length
+
+  DataStructure
+    Arrays:
+      Single Array:               dataType[] varArray;                                        (No assigned)
+                                  dataType[] varArray = new dataType[#]
+                                  dataType[] varArray = {element,element,..};
+      TwoD Array                  dataType[][] varArray = {{},{}};
+      Assign Array:               varArray = new dataType[] {element,..,}
+      Length:                     varArray.length
+                                  varArray[i].length
 
 
 Operators:
