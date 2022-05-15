@@ -193,7 +193,7 @@ OOP:
 
     Inheritance:
       Def:                        A class you know another class will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
-      To inherit:                 class subclass-Name extends classNeed
+      To inherit:                 class subclass-Name extends superclass-Name 
 
     Packages:
       Package:                  Used to group related classes
