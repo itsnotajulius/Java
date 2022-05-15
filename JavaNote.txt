@@ -50,6 +50,7 @@ Printing:
                                     varArray[i].length                                          (2d Array)
         Sort:                       Arrays.sort(varArray)                                       (Import util.Arrays)
         Copy array:                 Arrays.copyOf(..,..)
+        Print:                      Arrays.toString(varArray)
 
 
 Operators:
