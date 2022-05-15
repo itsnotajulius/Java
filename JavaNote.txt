@@ -28,7 +28,7 @@ Printing:
       Long:                     long var =#;
     
     Final:                    final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
-    Converting:               dataType var = dataType.parseType(text)
+    Converting/Parsing:               dataType var = dataType.parseType(text)
 
     Type Casting:
       Widening Casting:       double var = varByte;
@@ -118,7 +118,7 @@ Java KEYWORDS:
 
 
 
-  FUNCTIONS:
+FUNCTIONS:
 
   String Functions:
     Concatenation:              Text+""+Text
@@ -141,7 +141,8 @@ Java KEYWORDS:
       Backspace:                  \b      (Del)
       Form Feed:                  \f
     
-
+  Integer:
+    Pa
 
   Math Functions:
     Max:                        Math.max(x,y)
