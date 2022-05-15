@@ -39,11 +39,11 @@ Printing:
 
   DataStructure
     Arrays:
-      Single Array:               dataType[] varArray;                                        (No assigned)
-                                  dataType[] varArray = new dataType[#]                       (Sets default: 0,false,null)
-                                  dataType[] varArray = {element,element,..};
-      TwoD Array                  dataType[][] varArray = {{},{}};
-      Assign Array:               varArray = new dataType[] {element,..,}
+      Single Array:                 dataType[] varArray;                                        (No assigned)
+                                    dataType[] varArray = new dataType[#]                       (Sets default: 0,false,null)
+                                    dataType[] varArray = {element,element,..};
+      TwoD Array                    dataType[][] varArray = {{},{}};
+      Assign Array:                 varArray = new dataType[] {element,..,}
       
       Methods:
         Length:                     varArray.length                                             (single Array)
@@ -53,7 +53,7 @@ Printing:
         Print:                      Arrays.toString(varArray)
 
     ArrayList:
-      
+      Single Array:                 ArrayList<dataType> varList = new ArrayList<dataType>()
 
 
 Operators:
