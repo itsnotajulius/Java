@@ -191,7 +191,9 @@ OOP:
       Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set                              
     
 
-    Inh
+    Inheritance:
+      Def:                        A class you know another class will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
+      To inherit:                 class className extends classNeed
 
     Packages:
       Package:                  Used to group related classes
