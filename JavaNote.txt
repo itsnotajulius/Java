@@ -199,8 +199,9 @@ OOP:
       Call SupConstruc:           super(?var?,...);                                             (Access Parent Class Construcs)
       Call Sup Method:            super.method(...);                                            (Access Parent Class methods)
       Call Sup var:               super.var;                                                    (Access Parent Class vars)
-      Override:                   @Override methodStuff                                         (Stops going to Superclass and uses local methods of same name in subClass.) 
-                                                                                                (Call Sup Method to not look locally)
+      Override:                   @Override methodStuff                                         (Call child method thats in Superclass needs same methodName and paras)
+                                                                                                (Runtime Polymorphism)
+                                                                                                
                                   
 
 
