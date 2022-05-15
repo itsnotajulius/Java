@@ -200,7 +200,7 @@ OOP:
       Call Sup Method:            super.method(...);                                            (Access Parent Class methods)
       Call Sup var:               super.var;                                                    (Access Parent Class vars)
       Override:                   @Override methodStuff                                         (Call child method thats in Superclass needs same methodName and paras)
-                                                                                                (Runtime Polymorphism)(Can override static only instance)
+                                                                                                (Runtime Polymorphism)(Cant override final&private or static only instance)
                                                                                                 
                                   
 
