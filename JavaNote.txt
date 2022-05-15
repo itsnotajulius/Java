@@ -62,6 +62,7 @@ Printing:
         Delete:                     varList.remove(posInt)
         Length:                     varList.size()
         Contains:                   varList.contains(searchItem)
+        Copy Over:                  newList.addAll(varList)                                           (make a getter method for quick access)
 
 
 
