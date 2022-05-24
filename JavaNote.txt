@@ -221,7 +221,8 @@ OOP:
     Encapsulation:
       Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set                              
     
-    Composition
+    Composition:
+      
 
     Inheritance:
       Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
