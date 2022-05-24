@@ -23,6 +23,7 @@ public class Fish extends Animal {
 
 
     Dog dogie = new DOg();
+    dogie.
 
     private void rest(){
 
