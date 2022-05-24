@@ -23,6 +23,8 @@ public class Dog extends Animal{
         this.coat = coat;
     }
     
+
+
     public void chew(){
         System.out.println("Dog.chew() called");
     }
