@@ -54,6 +54,8 @@ Extra:
 | Final                |          |     |     |     |     |     | final dataType VAR = X;                        |
 |                      |          |     |     |     |     |     | (Sets the output as constant, Spell with CAPS) |
 | Converting/Parsing:: |          |     |     |     |     |     | dataType var = dataType.parseType(text)        |
+|                      |          |     |     |     |     |     |                                                |
+|                      |          |     |     |     |     |     |                                                |
 | Type Casting:        |          |     |     |     |     |     |                                                |
 |                      | Widening |     |     |     |     |     | double var = varByte;                          |
 |                      | Narrow   |     |     |     |     |     | byte var = (byte) varDouble;                   |
