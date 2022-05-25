@@ -89,44 +89,43 @@ Extra:
 
 ### ARRAYLIST:
 
-- Single Array:
+- ### Single Array:
+
   ```java
   ArrayList`<dataTypeClass>` varList = new ArrayList`<dataTypeClass>`()
   ```
+
   (No Primitive)
 
-<br/>
+  - ### METHODS:
 
-- ### METHODS:
-
-  - Add:
-    - varList.add(item) (Kinda append)
-    - Autoboxing: varList.add( typeClass.valueOf (item) ); (Note: Java can do this auto)
-  - Change item:
-    - varList.set(posInt,newItem) (Replace item with new Item at posInt)
-  - Call item:
-    - varList.get(posInt)
-    - Unboxing: varList.get( posInt ).typeClassValue( ); (Note: Java can do this auto)
-  - Delete:
-    - varList.remove(posInt)
-  - Length:
-    - varList.size()
-  - Contains:
-    - varList.contains(searchItem)
-  - Copy Over:
-    - newList.addAll(varList) (make a getter method for quick access)
-    - new ArrayList`<dataType>`(varList)
-  - To Array:
-    - varList.toArray()
-  - ### Boxing
-    - Autoboxing:
-      - Converting primitive to dataTypeClass to store in List
-        - EG: `datatypeClass.valueOf(#);`
-    - Unboxing
-      - Converting dataTypeClass back to primitive
-        - Eg: `datatypeClassVar.datatypeClassValue(); `
-
-(Note: Java can do this auto)
+    - Add:
+      - varList.add(item) (Kinda append)
+      - Autoboxing: varList.add( typeClass.valueOf (item) ); (Note: Java can do this auto)
+    - Change item:
+      - varList.set(posInt,newItem) (Replace item with new Item at posInt)
+    - Call item:
+      - varList.get(posInt)
+      - Unboxing: varList.get( posInt ).typeClassValue( ); (Note: Java can do this auto)
+    - Delete:
+      - varList.remove(posInt)
+    - Length:
+      - varList.size()
+    - Contains:
+      - varList.contains(searchItem)
+    - Copy Over:
+      - newList.addAll(varList) (make a getter method for quick access)
+      - new ArrayList`<dataType>`(varList)
+    - To Array:
+      - varList.toArray()
+    - ### Boxing
+      - (Note: Java can do this auto)
+      - Autoboxing:
+        - Converting primitive to dataTypeClass to store in List
+          - EG: `datatypeClass.valueOf(#);`
+      - Unboxing
+        - Converting dataTypeClass back to primitive
+          - Eg: `datatypeClassVar.datatypeClassValue(); `
 
 </br>
 
