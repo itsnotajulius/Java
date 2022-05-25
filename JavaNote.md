@@ -39,15 +39,19 @@ Primitive Types:
 
 Class Type:
 
-|           |     |     |     |     |     |     |                                      |
-| --------- | --- | --- | --- | --- | --- | --- | ------------------------------------ |
-| Integer:: |     |     |     |     |     |     | Integer var = new Integer(#);        |
-| Double:   |     |     |     |     |     |     | Double var = new Double(decimal.15); |
-| String:   |     |     |     |     |     |     | String var = "Text";                 |
+|          |     |     |     |     |     |     |                                      |
+| -------- | --- | --- | --- | --- | --- | --- | ------------------------------------ |
+| Integer: |     |     |     |     |     |     | Integer var = new Integer(#);        |
+| Double:  |     |     |     |     |     |     | Double var = new Double(decimal.15); |
+| String:  |     |     |     |     |     |     | String var = "Text";                 |
 
-Final: final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
+Extra:
 
-Converting/Parsing: dataType var = dataType.parseType(text)
+|                      |     |     |     |     |     |     |                                                |
+| -------------------- | --- | --- | --- | --- | --- | --- | ---------------------------------------------- |
+| Final                |     |     |     |     |     |     | final dataType VAR = X;                        |
+|                      |     |     |     |     |     |     | (Sets the output as constant, Spell with CAPS) |
+| Converting/Parsing:: |     |     |     |     |     |     | dataType var = dataType.parseType(text)        |
 
     Type Casting:
       Widening Casting:         double var = varByte;
