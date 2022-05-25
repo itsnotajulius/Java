@@ -45,6 +45,8 @@ Class Type:
 | Double:  |     |     |     |     |     |     | Double var = new Double(decimal.15); |
 | String:  |     |     |     |     |     |     | String var = "Text";                 |
 
+<br/>
+
 Extra:
 
 |                      |     |     |     |     |     |     |                                                |
