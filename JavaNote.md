@@ -58,9 +58,9 @@ Converting/Parsing: dataType var = dataType.parseType(text)
 - Assign Array: varArray = new dataType[] {element,..,}
 
       Methods:
-        Length:                     varArray.length                                             (single Array)
-                                    varArray[i].length                                          (2d Array)
-        Sort:                       Arrays.sort(varArray)                                       (Import util.Arrays)
+        Length:                     varArray.length (single Array)
+                                    varArray[i].length (2d Array)
+        Sort:                       Arrays.sort(varArray)(Import util.Arrays)
         Copy array:                 Arrays.copyOf(..,..)
         Print:                      Arrays.toString(varArray)
 
