@@ -158,6 +158,8 @@ Extra:
     - `varInter.hasNext()` - boolean
   - Next
     - `varInter.next()` - Goes to next
+  - Remove
+  - `varInter.next()` - Goes to next
 
 </br>
 </br>
