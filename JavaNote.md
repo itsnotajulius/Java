@@ -228,4 +228,4 @@ Getters/setters: Used for validation and tests
       Package:                  Used to group related classes
                                 Java API has built-In Packages
       Built-In Pack:            import package.name.*/Class
-      User-defined:             package mypack;
+      User-defined:             package path;
