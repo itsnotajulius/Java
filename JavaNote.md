@@ -146,8 +146,12 @@ Extra:
   - METHOD:
     - Add:
       - `varList.add(item)`
-    - Clear:
-      - `varList.iterator` (C)
+    - Delete all:
+      - `varList.clear`
+    - Add:
+      - `varList.add(item)`
+    - Delete all:
+      - `varList.clear`
 
 #### INTERATORS:
 
