@@ -149,17 +149,19 @@ Extra:
     - Iterator:
       - `varList.iterator` (C)
 
-#### Iterator:
+#### INTERATORS:
 
 - Used to loop through collections (ArrayList, HashSet)
 - Upgrade from Enumeration
+- METHODS
+  -
 
 </br>
 </br>
 </br>
 ----
 
-## Operators:
+## OPERATORS:
 
 ### Arithmetic Operators:
 
