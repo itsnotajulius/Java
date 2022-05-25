@@ -19,7 +19,7 @@
 ## Datatypes:
 
 Primitive Types:
-| | ||
+| | |
 ---------|----------|---------
 Char: | | char var = 'L'; (L = Letter)
 | | char var = '\u####' (\u is unicode, search for unicode)
