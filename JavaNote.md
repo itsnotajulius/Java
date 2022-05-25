@@ -151,7 +151,7 @@ Extra:
 
 #### Iterator:
 
-Used to loop through collections (ArrayList, HashSet);
+Used to loop through collections (ArrayList, HashSet)
 
 ## Operators:
 
