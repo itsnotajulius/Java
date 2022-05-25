@@ -151,10 +151,10 @@ Not: !
 ### Conditions:
 
 ```java
-If:                         if(condition){}
-If Else:                    if(condition){}else{}
-Ternary Operator:           dataType var = (condition) ? conditionMet : else
-Else if:                    if(condition){}else if(condition){}else{}
+If:                         if(condition){..}
+If_Else:                    if(condition){..}else{..}
+Ternary Operator:           dataType var = (condition) ? conditionMet : .._else_...
+Else_if:                    if(condition){..}else if(condition){..}else{..}
 
 Switch Case:                switch (expression){
                               case checkValue1:
@@ -169,9 +169,9 @@ Switch Case:                switch (expression){
                             }
 
 For Loop:                   for(init;termination;increment)
-For:Each                    for(init :array){}
+For:Each                    for(init :array){...}
 
-While:                      while(condition){}
+While:                      while(condition){...}
 Do While:                   do{}while(condition)
 
 Break:                      break;                    (stops)
