@@ -223,7 +223,7 @@ OOP:
     
     Composition:
       Definition:                 Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
-                                  
+                                  Intheri
 
     Inheritance:
       Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
