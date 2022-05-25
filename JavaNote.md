@@ -152,7 +152,7 @@ Extra:
 #### Iterator:
 
 - Used to loop through collections (ArrayList, HashSet)
-- Upgrade from Enul
+- Upgrade from Enumeration
 
 </br>
 </br>
