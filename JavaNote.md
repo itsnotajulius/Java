@@ -148,32 +148,35 @@ AND: &&
 OR: ||
 Not: !
 
-Conditions:
-If: if(condition){}
-If Else: if(condition){}else{}
-Ternary Operator: dataType var = (condition) ? conditionMet : else
-Else if: if(condition){}else if(condition){}else{}
+### Conditions:
 
-    Switch Case:                switch (expression){
-                                  case checkValue1:
-                                    executeBox....
-                                    break;
-                                  case checkValue2: case checkValue3:
-                                    ....
-                                    break;
-                                  default:
-                                    executeBox....
-                                    break;
-                                }
+```java
+If:                         if(condition){}
+If Else:                    if(condition){}else{}
+Ternary Operator:           dataType var = (condition) ? conditionMet : else
+Else if:                    if(condition){}else if(condition){}else{}
 
-    For Loop:                   for(init;termination;increment)
-    For:Each                    for(init :array){}
+Switch Case:                switch (expression){
+                              case checkValue1:
+                                executeBox....
+                                break;
+                              case checkValue2: case checkValue3:
+                                ....
+                                break;
+                              default:
+                                executeBox....
+                                break;
+                            }
 
-    While:                      while(condition){}
-    Do While:                   do{}while(condition)
+For Loop:                   for(init;termination;increment)
+For:Each                    for(init :array){}
 
-    Break:                      break;                    (stops)
-    Continue:                   continue;                 (Next)
+While:                      while(condition){}
+Do While:                   do{}while(condition)
+
+Break:                      break;                    (stops)
+Continue:                   continue;                 (Next)
+```
 
 Java KEYWORDS:
 Modifiers:
