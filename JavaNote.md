@@ -153,7 +153,8 @@ Extra:
 
 - Used to loop through collections and store path (ArrayList, HashSet)
 - Upgrade from Enumeration
-- `Iterator<typeClass> varInter = list.iterator();`
+- Assign:
+  - `Iterator<typeClass> varInter = list.iterator();`
 - METHODS
   - Has Next
     - `varInter.hasNext()` - boolean
