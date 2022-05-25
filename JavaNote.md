@@ -35,6 +35,16 @@ Primitive Types:
 | String:   |     |     |     |     |     |     | String var = "Text";                                    |
 | Long:     |     |     |     |     |     |     | long var =#;                                            |
 
+</br>
+
+Class Type:
+
+|           |     |     |     |     |     |     |                               |
+| --------- | --- | --- | --- | --- | --- | --- | ----------------------------- |
+| Integer:: |     |     |     |     |     |     | Integer var = new Integer(#); |
+| Double:   |     |     |     |     |     |     | double var = decimal.15       |
+| String:   |     |     |     |     |     |     | String var = "Text";          |
+
 Final: final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
 
 Converting/Parsing: dataType var = dataType.parseType(text)
