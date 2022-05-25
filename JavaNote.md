@@ -55,9 +55,9 @@ Extra:
 |                      |     |     |     |     |     |     | (Sets the output as constant, Spell with CAPS) |
 | Converting/Parsing:: |     |     |     |     |     |     | dataType var = dataType.parseType(text)        |
 
-    Type Casting:
-      Widening Casting:         double var = varByte;
-      Narrow Casting:           byte var = (byte) varDouble;
+- Type Casting:
+  - Widening Casting: double var = varByte;
+  - Narrow Casting: byte var = (byte) varDouble;
 
 ---
 
