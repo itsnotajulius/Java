@@ -20,18 +20,18 @@
 
 Primitive Types:
 
-|           |     |                                                         |
-| --------- | --- | ------------------------------------------------------- |
-| Char:     |     | char var = 'L'; (L = Letter)                            |
-|           |     | char var = '\u####' (\u is unicode, search for unicode) |
-| Byte:     |     | byte var = #; (Between -128 and 127)                    |
-| Short     |     | short var = #                                           |
-| Integer:: |     | int var = #;                                            |
-| Float:    |     | float var = decimal.7;                                  |
-| Double:   |     | double var = decimal.15                                 |
-| Boolean:  |     | boolean var = true/false;                               |
-| String:   |     | String var = "Text";                                    |
-| Long:     |     | long var =#;                                            |
+|           |     |     |                                                         |
+| --------- | --- | --- | ------------------------------------------------------- |
+| Char:     |     |     | char var = 'L'; (L = Letter)                            |
+|           |     |     | char var = '\u####' (\u is unicode, search for unicode) |
+| Byte:     |     |     | byte var = #; (Between -128 and 127)                    |
+| Short     |     |     | short var = #                                           |
+| Integer:: |     |     | int var = #;                                            |
+| Float:    |     |     | float var = decimal.7;                                  |
+| Double:   |     |     | double var = decimal.15                                 |
+| Boolean:  |     |     | boolean var = true/false;                               |
+| String:   |     |     | String var = "Text";                                    |
+| Long:     |     |     | long var =#;                                            |
 
 Short
 
