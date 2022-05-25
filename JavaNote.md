@@ -98,7 +98,6 @@ Extra:
   (No Primitive)
 
   - ### METHODS:
-
     - Add:
       - varList.add(item) (Kinda append)
       - Autoboxing: varList.add( typeClass.valueOf (item) ); (Note: Java can do this auto)
