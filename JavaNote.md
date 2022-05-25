@@ -146,7 +146,7 @@ Extra:
   - METHOD:
     - Add:
       - `varList.add(item)`
-    - Iterator:
+    - Clear:
       - `varList.iterator` (C)
 
 #### INTERATORS:
