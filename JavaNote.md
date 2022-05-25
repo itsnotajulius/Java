@@ -111,14 +111,14 @@ Extra:
 
 #### Boxing
 
-(Note: Java can do this auto)
-
 - Autoboxing:
   - Converting primitive to dataTypeClass to store in List
     - EG: `datatypeClass.valueOf(#);`
 - Unboxing
   - Converting dataTypeClass back to primitive
     - Eg: `datatypeClassVar.datatypeClassValue(); `
+
+(Note: Java can do this auto)
 
 </br>
 
