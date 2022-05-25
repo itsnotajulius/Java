@@ -49,16 +49,16 @@ Class Type:
 
 Extra:
 
-|                      |     |     |     |     |     |     |                                                |
-| -------------------- | --- | --- | --- | --- | --- | --- | ---------------------------------------------- |
-| Final                |     |     |     |     |     |     | final dataType VAR = X;                        |
-|                      |     |     |     |     |     |     | (Sets the output as constant, Spell with CAPS) |
-| Converting/Parsing:: |     |     |     |     |     |     | dataType var = dataType.parseType(text)        |
-| Type Casting:        |     |     |     |     |     |     | Widening Casting: double var = varByte;        |
-|                      |     |     |     |     |     |     | Narrow Casting: byte var = (byte) varDouble;   |
+|                      |                   |     |     |     |     |     |                                                |
+| -------------------- | ----------------- | --- | --- | --- | --- | --- | ---------------------------------------------- |
+| Final                |                   |     |     |     |     |     | final dataType VAR = X;                        |
+|                      |                   |     |     |     |     |     | (Sets the output as constant, Spell with CAPS) |
+| Converting/Parsing:: |                   |     |     |     |     |     | dataType var = dataType.parseType(text)        |
+| Type Casting:        |                   |     |     |     |     |     |                                                |
+|                      | Widening Casting: |     |     |     |     |     | double var = varByte;                          |
+|                      | Narrow Casting:   |     |     |     |     |     | byte var = (byte) varDouble;                   |
 
-- Type Casting:
-  -
+- ## Type Casting:
   -
 
 ---
