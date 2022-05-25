@@ -150,6 +150,8 @@ Extra:
       - `varList.clear()`
     - Contains:
       - `varList.contains("item")` - Boolean
+    - Search Position:
+      - `varList.indexOf("item")` - of position
     - Print Out:
       - `varList.toString()`
     - Clone:
@@ -158,8 +160,6 @@ Extra:
       - `varList.iteraror` - Iterator Class of items
     - Iterator Desc:
       - `varList.descendingiteraror` - Iterator Class of items backwards
-    - Search Position:
-      - `varList.indexOf("item")` -
     - Print Out:
       - `varList.toString()`
 
