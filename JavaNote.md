@@ -153,13 +153,14 @@ Extra:
 
 - Used to loop through collections and store path (ArrayList, HashSet)
 - Upgrade from Enumeration
+- `Iterator<typeClass> varInter = list.iterator();`
 - METHODS
   - Has Next
     - `varInter.hasNext()` - boolean
   - Next
     - `varInter.next()` - Goes to next
   - Remove
-  - `varInter.remove()` - Goes to next
+    - `varInter.remove()` - Removes current item
 
 </br>
 </br>
