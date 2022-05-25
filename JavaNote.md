@@ -71,7 +71,7 @@ Extra:
 - Single Array: dataType[] varArray; (No assigned)
 - dataType[] varArray = new dataType[#] (Sets default: 0,false,null)
 - dataType[] varArray = {element,element,..};
-- TwoD Array dataType[][] varArray = {{},{}};
+- TwoD Array dataType[] [] varArray = { {} , {} };
 - Assign Array: varArray = new dataType[] {element,..,}
 
       Methods:
@@ -83,7 +83,7 @@ Extra:
 
 ### ArrayList:
 
-- Single Array: ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>() (No Primitive)
+- Single Array: ArrayList`<dataTypeClass>` varList = new ArrayList`<dataTypeClass>`() (No Primitive)
 
 <br/>
 
@@ -95,6 +95,7 @@ Extra:
   - varList.set(posInt,newItem) (Replace item with new Item at posInt)
 - Call item:
   - varList.get(posInt)
+  - Unboxing:
 - Delete:
   - varList.remove(posInt)
 - Length:
@@ -103,7 +104,7 @@ Extra:
   - varList.contains(searchItem)
 - Copy Over:
   - newList.addAll(varList) (make a getter method for quick access)
-  - new ArrayList<dataType>(varList)
+  - new ArrayList`<dataType>`(varList)
 - To Array:
   - varList.toArray()
 
