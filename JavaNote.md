@@ -147,15 +147,17 @@ Extra:
     - Add:
       - `varList.add(item)`
     - Delete all:
-      - `varList.clear`
+      - `varList.clear()`
     - Contains:
       - `varList.contains("item")` - Boolean
     - Print Out:
       - `varList.toString()`
     - Clone:
       - `varList.clone()` - Object
-    - Delete all:
-      - `varList.clear`
+    - Iterator:
+      - `varList.iteraror` - Iterator Class of items
+    - Iterator:
+      - `varList.descendingiteraror` - Iterator Class of items backwards
     - Contains:
       - `varList.contains("item")` - Boolean
     - Print Out:
