@@ -1,4 +1,4 @@
-# JAVANOTES
+# **JAVANOTES**
 
 ### Extra:
 
@@ -18,7 +18,7 @@
 
 <br>
 
-## Datatypes:
+## **Datatypes:**
 
 Primitive Types:
 
@@ -64,7 +64,8 @@ Converting/Parsing: dataType var = dataType.parseType(text)
         Copy array:                 Arrays.copyOf(..,..)
         Print:                      Arrays.toString(varArray)
 
-ArrayList:
+### ArrayList:
+
 Single Array: ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>() (No Primitive)
 
 Methds:
