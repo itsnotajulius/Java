@@ -92,31 +92,31 @@ Extra:
 - ### Single Array:
 
   ```java
-  ArrayList`<dataTypeClass>` varList = new ArrayList`<dataTypeClass>`()
+  ArrayList<dataTypeClass> varList = new ArrayList`<dataTypeClass>`()
   ```
 
   (No Primitive)
 
   - ### METHODS:
     - Add:
-      - varList.add(item) (Kinda append)
-      - Autoboxing: varList.add( typeClass.valueOf (item) ); (Note: Java can do this auto)
+      - `varList.add(item)` (Kinda append)
+      - Autoboxing: `varList.add( typeClass.valueOf (item) );` (Note: Java can do this auto)
     - Change item:
-      - varList.set(posInt,newItem) (Replace item with new Item at posInt)
+      - `varList.set(posInt,newItem)` (Replace item with new Item at posInt)
     - Call item:
-      - varList.get(posInt)
-      - Unboxing: varList.get( posInt ).typeClassValue( ); (Note: Java can do this auto)
+      - `varList.get(posInt)`
+      - Unboxing: `varList.get( posInt ).typeClassValue( );` (Note: Java can do this auto)
     - Delete:
-      - varList.remove(posInt)
+      - `varList.remove(posInt)`
     - Length:
-      - varList.size()
+      - `varList.size()`
     - Contains:
-      - varList.contains(searchItem)
+      - `varList.contains(searchItem)`
     - Copy Over:
-      - newList.addAll(varList) (make a getter method for quick access)
-      - new ArrayList`<dataType>`(varList)
+      - `newList.addAll(varList)` (make a getter method for quick access)
+      - `new ArrayList<typeClass>(varList)`
     - To Array:
-      - varList.toArray()
+      - `varList.toArray()`
     - ### Boxing
       - (Note: Java can do this auto)
       - Autoboxing:
