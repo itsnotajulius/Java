@@ -87,13 +87,17 @@ Extra:
   <br/>
   <br/>
 
-### ArrayList:
+### ARRAYLIST:
 
-- Single Array: ArrayList`<dataTypeClass>` varList = new ArrayList`<dataTypeClass>`() (No Primitive)
+- Single Array:
+  ```java
+  ArrayList`<dataTypeClass>` varList = new ArrayList`<dataTypeClass>`()
+  ```
+  (No Primitive)
 
 <br/>
 
-- ### Methds:
+- ### METHODS:
 
   - Add:
     - varList.add(item) (Kinda append)
