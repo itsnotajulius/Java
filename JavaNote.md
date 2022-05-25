@@ -47,7 +47,7 @@ Assign Array: varArray = new dataType[] {element,..,}
         Print:                      Arrays.toString(varArray)
 
     ArrayList:
-      Single Array:                 ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>()
+      Single Array:                 ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>()   (No Primitive)
 
       Methds:
         Add:                        varList.add(item)                                                (Kinda append)
