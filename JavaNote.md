@@ -39,11 +39,11 @@ Primitive Types:
 
 Class Type:
 
-|           |     |     |     |     |     |     |                               |
-| --------- | --- | --- | --- | --- | --- | --- | ----------------------------- |
-| Integer:: |     |     |     |     |     |     | Integer var = new Integer(#); |
-| Double:   |     |     |     |     |     |     | double var = decimal.15       |
-| String:   |     |     |     |     |     |     | String var = "Text";          |
+|           |     |     |     |     |     |     |                                        |
+| --------- | --- | --- | --- | --- | --- | --- | -------------------------------------- |
+| Integer:: |     |     |     |     |     |     | Integer var = new Integer(#);          |
+| Double:   |     |     |     |     |     |     | Integer var = new Integer(decimal.15); |
+| String:   |     |     |     |     |     |     | String var = "Text";                   |
 
 Final: final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
 
