@@ -149,7 +149,9 @@ Extra:
     - Iterator:
       - `varList.iterator` (C)
 
----
+#### Iterator:
+
+## Used to
 
 ## Operators:
 
