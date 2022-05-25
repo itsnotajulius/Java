@@ -36,19 +36,26 @@ Primitive Types:
 | Long:     |     |     |     |     |     |     | long var =#;                                            |
 
 Final: final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
+
 Converting/Parsing: dataType var = dataType.parseType(text)
 
     Type Casting:
       Widening Casting:         double var = varByte;
       Narrow Casting:           byte var = (byte) varDouble;
 
-DataStructure
-Arrays:
-Single Array: dataType[] varArray; (No assigned)
-dataType[] varArray = new dataType[#] (Sets default: 0,false,null)
-dataType[] varArray = {element,element,..};
-TwoD Array dataType[][] varArray = {{},{}};
-Assign Array: varArray = new dataType[] {element,..,}
+---
+
+<br/>
+
+## DataStructure
+
+### Arrays:
+
+- Single Array: dataType[] varArray; (No assigned)
+- dataType[] varArray = new dataType[#] (Sets default: 0,false,null)
+- dataType[] varArray = {element,element,..};
+- TwoD Array dataType[][] varArray = {{},{}};
+- Assign Array: varArray = new dataType[] {element,..,}
 
       Methods:
         Length:                     varArray.length                                             (single Array)
@@ -57,19 +64,19 @@ Assign Array: varArray = new dataType[] {element,..,}
         Copy array:                 Arrays.copyOf(..,..)
         Print:                      Arrays.toString(varArray)
 
-    ArrayList:
-      Single Array:                 ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>()   (No Primitive)
+ArrayList:
+Single Array: ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>() (No Primitive)
 
-      Methds:
-        Add:                        varList.add(item)                                                (Kinda append)
-        Change item:                varList.set(posInt,newItem)                                      (Replace item with new Item at posInt)
-        Call item:                  varList.get(posInt)
-        Delete:                     varList.remove(posInt)
-        Length:                     varList.size()
-        Contains:                   varList.contains(searchItem)
-        Copy Over:                  newList.addAll(varList)                                           (make a getter method for quick access)
-                                    new ArrayList<dataType>(varList)
-        To Array:                   varList.toArray()
+Methds:
+Add: varList.add(item) (Kinda append)
+Change item: varList.set(posInt,newItem) (Replace item with new Item at posInt)
+Call item: varList.get(posInt)
+Delete: varList.remove(posInt)
+Length: varList.size()
+Contains: varList.contains(searchItem)
+Copy Over: newList.addAll(varList) (make a getter method for quick access)
+new ArrayList<dataType>(varList)
+To Array: varList.toArray()
 
 Operators:
 Arithmetic Operators:
