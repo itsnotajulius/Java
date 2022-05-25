@@ -159,7 +159,7 @@ Extra:
     - Iterator Desc:
       - `varList.descendingiteraror` - Iterator Class of items backwards
     - Search Position:
-      - `varList.contains("item")` - Boolean
+      - `varList.indexOf("item")` -
     - Print Out:
       - `varList.toString()`
 
