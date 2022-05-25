@@ -194,16 +194,6 @@ Getters/setters: Used for validation and tests
 
 
 
-    Encapsulation:
-      Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set
-                                  Hide things from other classes
-
-    Composition:
-      `Note:`                      `Use before Inheritance`
-      Definition:                 Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
-                                  Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
-                                  Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
-
     Inheritance:
       Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
       To inherit:                 class subclass-Name extends superclass-Name                   (if it has constructer subclass must have constructer)
@@ -213,6 +203,16 @@ Getters/setters: Used for validation and tests
       Override:                   @Override methodStuff                                         (Call child method thats in Superclass needs same methodName and paras)
                                                                                                 (Runtime Polymorphism)(Cant override final&private or static only instance/this)
 
+
+    Encapsulation:
+      Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set
+                                  Hide things from other classes
+
+    Composition:
+      `Note:`                      `Use before Inheritance`
+      Definition:                 Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
+                                  Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
+                                  Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
 
 
 
