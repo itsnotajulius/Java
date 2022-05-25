@@ -151,7 +151,7 @@ Extra:
 
 #### Iterator:
 
-## Used to
+Used to loop through collections (ArrayList, Hash)
 
 ## Operators:
 
