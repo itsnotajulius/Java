@@ -24,9 +24,8 @@ Primitive Types:
 | ----- | --- | ------------------------------------------------------- |
 | Char: |     | char var = 'L'; (L = Letter)                            |
 |       |     | char var = '\u####' (\u is unicode, search for unicode) |
-| A3    | B3  | C3                                                      |
+| Byte: |     | byte var = #; (Between -128 and 127)                    |
 
-Byte: byte var = #; (Between -128 and 127)
 Short short var = #
 Integer: int var = #;
 Float: float var = decimal.7;
