@@ -85,6 +85,8 @@ Extra:
 
 - Single Array: ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>() (No Primitive)
 
+<br/>
+
 #### Methds:
 
 - Add:
