@@ -60,9 +60,6 @@ Extra:
 |                      | Widening |     |     |     |     |     | double var = varByte;                          |
 |                      | Narrow   |     |     |     |     |     | byte var = (byte) varDouble;                   |
 
-- ## Type Casting:
-  -
-
 ---
 
 <br/>
