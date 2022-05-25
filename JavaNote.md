@@ -150,8 +150,16 @@ Extra:
       - `varList.clear`
     - Contains:
       - `varList.contains("item")` - Boolean
+    - Print Out:
+      - `varList.toString()`
+    - Add:
+      - `varList.add(item)`
     - Delete all:
       - `varList.clear`
+    - Contains:
+      - `varList.contains("item")` - Boolean
+    - Print Out:
+      - `varList.toString()`
 
 #### INTERATORS:
 
