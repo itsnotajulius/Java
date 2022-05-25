@@ -156,7 +156,7 @@ Extra:
       - `varList.clone()` - Object
     - Iterator:
       - `varList.iteraror` - Iterator Class of items
-    - Iterator:
+    - Iterator Desc:
       - `varList.descendingiteraror` - Iterator Class of items backwards
     - Contains:
       - `varList.contains("item")` - Boolean
