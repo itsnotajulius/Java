@@ -66,6 +66,8 @@ Extra:
 
 ## DataStructure
 
+<br/>
+
 ### Arrays:
 
 - Single Array: dataType[ ] varArray; (No assigned)
@@ -74,12 +76,16 @@ Extra:
 - TwoD Array dataType[ ] [ ] varArray = { {} , {} };
 - Assign Array: varArray = new dataType[ ] {element,..,}
 
-      Methods:
-        Length:                     varArray.length (single Array)
-                                    varArray[i].length (2d Array)
-        Sort:                       Arrays.sort(varArray)(Import util.Arrays)
-        Copy array:                 Arrays.copyOf(..,..)
-        Print:                      Arrays.toString(varArray)
+        Methods:
+          Length:                     varArray.length (single Array)
+                                      varArray[i].length (2d Array)
+          Sort:                       Arrays.sort(varArray)(Import util.Arrays)
+          Copy array:                 Arrays.copyOf(..,..)
+          Print:                      Arrays.toString(varArray)
+
+  <br/>
+  <br/>
+  <br/>
 
 ### ArrayList:
 
