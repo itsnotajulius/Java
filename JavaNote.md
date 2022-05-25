@@ -215,24 +215,32 @@ Recursion Method: dataType myMethod(?dataType? ?var?,...){return myMethod(?var?)
 abstract Method: abstract void myMethod();
 Call Method: myMethod(?var?,...);
 
-OOP:
-Object Oriented Programming:
+## OOP:
+
+### Object Oriented Programming:
+
 Definition: OOP is about creating objects that contain both data and methods. It is reuseable and less code and shorted dev time
+
 Classes: Is a blueprint. Is the template for objects
+
 Objects: Is an instance/refence of classes, they inherit all public variables and methods of class
 When assigning Instances to Instances you assign it to the object in memory and can modify both at once
 No static mean instance has its own variables, with static mean variables of different instances are same
+
 Getters/setters: Used for validation and tests
 
     Class:                      public class myClass{dataType arriType = data;....}
-    Class Constructor:          public myClass(?dataType? ?var?,...){set stuff}                               (must be public, no void, dont use getters and setters)
+    Class Constructor:          public myClass(?dataType? ?var?,...){set stuff}
+                                (must be public, no void, dont use getters and setters)
                                 public myClass(){?set default?}
                                 this(?var?,...);                                                              (Calling constructer in object)(Make consturc chains for no dups)
-    Object:                     myClass myObj = new myClass();                                                (Can be in different java files but same dir)
+    Object:                     myClass myObj = new myClass();
+                                (Can be in different java files but same dir)
     Object variable:            myObj.x
     Modi Variable:              myObj.x = stuff
-    Current object:             this.x                                                                        (Used if parameter has same name as instance/object variable)
-    Static and Public:          static can be accesed without object, public need object to be accessed
+    Current object:             this.x
+                                (If parameter has same name as instance/object variable)
+    Static and Public:          static access without object, public need object to be accessed
 
 
 
