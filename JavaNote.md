@@ -146,6 +146,8 @@ Extra:
   - METHOD:
     - Add:
       - `varList.add(item)`
+    - Add:
+      - `varList.remove(#)` - Make a method for finding int indexOf()
     - Delete all:
       - `varList.clear()`
     - Contains:
