@@ -152,8 +152,8 @@ Extra:
       - `varList.contains("item")` - Boolean
     - Print Out:
       - `varList.toString()`
-    - Add:
-      - `varList.add(item)`
+    - Clone:
+      - `varList.clone(item)`
     - Delete all:
       - `varList.clear`
     - Contains:
