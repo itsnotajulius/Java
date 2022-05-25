@@ -51,14 +51,14 @@ Extra:
 
 |                      |          |     |     |     |     |     |                                                |
 | -------------------- | -------- | --- | --- | --- | --- | --- | ---------------------------------------------- |
-| Final                |          |     |     |     |     |     | final dataType VAR = X;                        |
+| Final                |          |     |     |     |     |     | `final dataType VAR = X;`                      |
 |                      |          |     |     |     |     |     | (Sets the output as constant, Spell with CAPS) |
-| Converting/Parsing:: |          |     |     |     |     |     | dataType var = dataType.parseType(text)        |
+| Converting/Parsing:: |          |     |     |     |     |     | `dataType var = dataType.parseType(text)`      |
 |                      |          |     |     |     |     |     |                                                |
 |                      |          |     |     |     |     |     |                                                |
 | Type Casting:        |          |     |     |     |     |     |                                                |
-|                      | Widening |     |     |     |     |     | double var = varByte;                          |
-|                      | Narrow   |     |     |     |     |     | byte var = (byte) varDouble;                   |
+|                      | Widening |     |     |     |     |     | `double var = varByte;`                        |
+|                      | Narrow   |     |     |     |     |     | `byte var = (byte) varDouble;`                 |
 
 ---
 
@@ -71,20 +71,24 @@ Extra:
 ### Arrays:
 
 - Single Array:
-  - dataType[ ] varArray; (No assigned)
-  - dataType[ ] varArray = new dataType[#] (Sets default: 0,false,null)
-  - dataType[ ] varArray = {element,element,..};
+  - `dataType[ ] varArray;` (No assigned)
+  - `dataType[ ] varArray = new dataType[#]` (Sets default: 0,false,null)
+  - `dataType[ ] varArray = {element,element,..};`
 - TwoD Array
-  - dataType[ ] [ ] varArray = { {} , {} };
+  - `dataType[ ] [ ] varArray = { {} , {} };`
 - Assign Array: -
-  varArray = new dataType[ ] {element,..,}
+  `varArray = new dataType[ ] {element,..,}`
 
-  Methods:
-  Length: varArray.length (single Array)
-  varArray[i].length (2d Array)
-  Sort: Arrays.sort(varArray)(Import util.Arrays)
-  Copy array: Arrays.copyOf(..,..)
-  Print: Arrays.toString(varArray)
+  - Methods:
+    - Length:
+      - `varArray.length` (single Array)
+      - `varArray[i].length` (2d Array)
+    - Sort:
+      - `Arrays.sort(varArray)`(Import util.Arrays)
+    - Copy array:
+      - `Arrays.copyOf(..,..)`
+    - Print:
+      - `Arrays.toString(varArray)`
 
   <br/>
   <br/>
@@ -133,7 +137,17 @@ Extra:
 </br>
 </br>
 
-### LinkedList
+### LINKEDLIST
+
+- Single Array:
+
+  - `LinkedList<typeClass> varList = new LinkedList<typeClass>();`
+
+  - METHOD:
+    - Add:
+      - `varList.add(item)`
+    - Iterator:
+      - `varList.iterator` (C)
 
 ---
 
