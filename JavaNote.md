@@ -233,7 +233,8 @@ Getters/setters: Used for validation and tests
     Class Constructor:          public myClass(?dataType? ?var?,...){set stuff}
                                 (must be public, no void, dont use getters and setters)
                                 public myClass(){?set default?}
-                                this(?var?,...);                                                              (Calling constructer in object)(Make consturc chains for no dups)
+                                this(?var?,...);
+                                (Calling constructer in object)(Make consturc chains for no dups)
     Object:                     myClass myObj = new myClass();
                                 (Can be in different java files but same dir)
     Object variable:            myObj.x
