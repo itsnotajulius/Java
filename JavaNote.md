@@ -83,20 +83,29 @@ Extra:
 
 ### ArrayList:
 
-Single Array: ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>() (No Primitive)
+- Single Array: ArrayList<dataTypeClass> varList = new ArrayList<dataTypeClass>() (No Primitive)
 
-Methds:
-Add: varList.add(item) (Kinda append)
-Change item: varList.set(posInt,newItem) (Replace item with new Item at posInt)
-Call item: varList.get(posInt)
-Delete: varList.remove(posInt)
-Length: varList.size()
-Contains: varList.contains(searchItem)
-Copy Over: newList.addAll(varList) (make a getter method for quick access)
-new ArrayList<dataType>(varList)
-To Array: varList.toArray()
+#### Methds:
 
-### Boxing
+- Add:
+  - varList.add(item) (Kinda append)
+- Change item:
+  - varList.set(posInt,newItem) (Replace item with new Item at posInt)
+- Call item:
+  - varList.get(posInt)
+- Delete:
+  - varList.remove(posInt)
+- Length:
+  - varList.size()
+- Contains:
+  - varList.contains(searchItem)
+- Copy Over:
+  - newList.addAll(varList) (make a getter method for quick access)
+  - new ArrayList<dataType>(varList)
+- To Array:
+  - varList.toArray()
+
+#### Boxing
 
 - Autoboxing:
   - Converting primitive to dataTypeClass to store in List
