@@ -148,8 +148,8 @@ Extra:
       - `varList.add(item)`
     - Delete all:
       - `varList.clear`
-    - Add:
-      - `varList.add(item)`
+    - Contains:
+      - `varList.contains("item")` - Boolean
     - Delete all:
       - `varList.clear`
 
