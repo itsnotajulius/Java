@@ -96,7 +96,7 @@ Extra:
   - varList.set(posInt,newItem) (Replace item with new Item at posInt)
 - Call item:
   - varList.get(posInt)
-  - Unboxing: varList.get(posInt).typeClassValue();
+  - Unboxing: varList.get( posInt ).typeClassValue( );
 - Delete:
   - varList.remove(posInt)
 - Length:
