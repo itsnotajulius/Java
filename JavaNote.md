@@ -172,26 +172,30 @@ For Loop:                   for(init;termination;increment)
 For:Each                    for(init :array){...}
 
 While:                      while(condition){...}
-Do While:                   do{}while(condition)
+Do While:                   do{..}while(condition)
 
 Break:                      break;                    (stops)
 Continue:                   continue;                 (Next)
 ```
 
-Java KEYWORDS:
-Modifiers:
-Access Modifers: public (accessible by other classes)
-private (accessible only in declared class,subclasses can access)
-protected (only same packahe and subclasses)
-default (accessed by classes in same package, when no modifiers set)
-Non-Access Modifers: final (cant be inherited by other classes and attri cant be moded spell in caps)
-static (attr/methods belong to class can be used but static variables are shared across Instances) (eg change one all changes)
-(classes methods cant use instance variable\this.)
-abstract (the class cant make objects)
-abstract (methods can only be used in abstract class)
-transient (attri and methods are skipped when serializing)
-synchronized (methods can only be access one thread @ time)
-volatile (attri is not cached)
+## Java KEYWORDS:
+### Modifiers:
+
+- Access Modifers: 
+  - public (accessible by other classes)
+  - private (accessible only in declared class,subclasses can access)
+  - protected (only same packahe and subclasses)
+  - default (accessed by classes in same package, when no modifiers set)
+- Non-Access Modifers: 
+  - final (cant be inherited by other classes and attri cant be moded spell in caps)
+  - static (attr/methods belong to class can be used but static variables are shared across Instances) 
+    - (eg change one all changes)
+  - (classes methods cant use instance variable\this.)
+  - abstract (the class cant make objects)
+  - abstract (methods can only be used in abstract class)
+  - transient (attri and methods are skipped when serializing)
+  - synchronized (methods can only be access one thread @ time)
+  - volatile (attri is not cached)
 
 FUNCTIONS:
 
