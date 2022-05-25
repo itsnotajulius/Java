@@ -68,11 +68,11 @@ Extra:
 
 ### Arrays:
 
-- Single Array: dataType[] varArray; (No assigned)
-- dataType[] varArray = new dataType[#] (Sets default: 0,false,null)
-- dataType[] varArray = {element,element,..};
-- TwoD Array dataType[] [] varArray = { {} , {} };
-- Assign Array: varArray = new dataType[] {element,..,}
+- Single Array: dataType[ ] varArray; (No assigned)
+- dataType[ ] varArray = new dataType[#] (Sets default: 0,false,null)
+- dataType[ ] varArray = {element,element,..};
+- TwoD Array dataType[ ] [ ] varArray = { {} , {} };
+- Assign Array: varArray = new dataType[ ] {element,..,}
 
       Methods:
         Length:                     varArray.length (single Array)
@@ -91,11 +91,12 @@ Extra:
 
 - Add:
   - varList.add(item) (Kinda append)
+  - Autoboxing: varList.add( typeClass.valueOf (item) );
 - Change item:
   - varList.set(posInt,newItem) (Replace item with new Item at posInt)
 - Call item:
   - varList.get(posInt)
-  - Unboxing:
+  - Unboxing: varList.get(posInt).typeClassValue();
 - Delete:
   - varList.remove(posInt)
 - Length:
