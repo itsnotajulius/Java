@@ -151,10 +151,13 @@ Extra:
 
 #### INTERATORS:
 
-- Used to loop through collections (ArrayList, HashSet)
+- Used to loop through collections and store path (ArrayList, HashSet)
 - Upgrade from Enumeration
 - METHODS
-  -
+  - Has Next
+    - `varInter.hasNext()` - boolean
+  - Next
+    - `varInter.next()` - Goes to next
 
 </br>
 </br>
