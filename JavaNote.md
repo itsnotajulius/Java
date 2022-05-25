@@ -113,9 +113,7 @@ Extra:
     - newList.addAll(varList) (make a getter method for quick access)
     - new ArrayList`<dataType>`(varList)
   - To Array:
-
     - varList.toArray()
-
   - ### Boxing
     - Autoboxing:
       - Converting primitive to dataTypeClass to store in List
