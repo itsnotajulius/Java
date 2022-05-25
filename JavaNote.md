@@ -199,7 +199,7 @@ Getters/setters: Used for validation and tests
 
     Composition:
       Definition:                 Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
-                                  Inheritance has limits but use that here give access to all
+                                  Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
 
     Inheritance:
       Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
