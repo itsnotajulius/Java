@@ -78,8 +78,14 @@ Copy Over: newList.addAll(varList) (make a getter method for quick access)
 new ArrayList<dataType>(varList)
 To Array: varList.toArray()
 
-Operators:
-Arithmetic Operators:
+</br>
+
+---
+
+## Operators:
+
+### Arithmetic Operators:
+
 Addition: +
 Sub: -
 Multi \*
