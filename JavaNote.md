@@ -22,28 +22,28 @@
 
 Primitive Types:
 
-|           |     |     |     |     |     |     |                                                         |
-| --------- | --- | --- | --- | --- | --- | --- | ------------------------------------------------------- |
-| Char:     |     |     |     |     |     |     | char var = 'L'; (L = Letter)                            |
-|           |     |     |     |     |     |     | char var = '\u####' (\u is unicode, search for unicode) |
-| Byte:     |     |     |     |     |     |     | byte var = #; (Between -128 and 127)                    |
-| Short     |     |     |     |     |     |     | short var = #                                           |
-| Integer:: |     |     |     |     |     |     | int var = #;                                            |
-| Float:    |     |     |     |     |     |     | float var = decimal.7;                                  |
-| Double:   |     |     |     |     |     |     | double var = decimal.15                                 |
-| Boolean:  |     |     |     |     |     |     | boolean var = true/false;                               |
-| String:   |     |     |     |     |     |     | String var = "Text";                                    |
-| Long:     |     |     |     |     |     |     | long var =#;                                            |
+|           |     |     |     |     |     |     |                                                           |
+| --------- | --- | --- | --- | --- | --- | --- | --------------------------------------------------------- |
+| Char:     |     |     |     |     |     |     | `char var = 'L';` (L = Letter)                            |
+|           |     |     |     |     |     |     | `char var = '\u####'` (\u is unicode, search for unicode) |
+| Byte:     |     |     |     |     |     |     | `byte var = #;` (Between -128 and 127)                    |
+| Short     |     |     |     |     |     |     | `short var = # `                                          |
+| Integer:: |     |     |     |     |     |     | `int var = #;`                                            |
+| Float:    |     |     |     |     |     |     | `float var = decimal.7;`                                  |
+| Double:   |     |     |     |     |     |     | `double var = decimal.15`                                 |
+| Boolean:  |     |     |     |     |     |     | `boolean var = true/false;`                               |
+| String:   |     |     |     |     |     |     | `String var = "Text"; `                                   |
+| Long:     |     |     |     |     |     |     | `long var =#;`                                            |
 
 </br>
 
 Class Type:
 
-|          |     |     |     |     |     |     |                                      |
-| -------- | --- | --- | --- | --- | --- | --- | ------------------------------------ |
-| Integer: |     |     |     |     |     |     | Integer var = new Integer(#);        |
-| Double:  |     |     |     |     |     |     | Double var = new Double(decimal.15); |
-| String:  |     |     |     |     |     |     | String var = "Text";                 |
+|          |     |     |     |     |     |     |                                        |
+| -------- | --- | --- | --- | --- | --- | --- | -------------------------------------- |
+| Integer: |     |     |     |     |     |     | `Integer var = new Integer(#);`        |
+| Double:  |     |     |     |     |     |     | `Double var = new Double(decimal.15);` |
+| String:  |     |     |     |     |     |     | `String var = "Text";`                 |
 
 <br/>
 
@@ -70,11 +70,14 @@ Extra:
 
 ### Arrays:
 
-- Single Array: dataType[ ] varArray; (No assigned)
-- dataType[ ] varArray = new dataType[#] (Sets default: 0,false,null)
-- dataType[ ] varArray = {element,element,..};
-- TwoD Array dataType[ ] [ ] varArray = { {} , {} };
-- Assign Array: varArray = new dataType[ ] {element,..,}
+- Single Array:
+  - dataType[ ] varArray; (No assigned)
+  - dataType[ ] varArray = new dataType[#] (Sets default: 0,false,null)
+  - dataType[ ] varArray = {element,element,..};
+- TwoD Array
+  - dataType[ ] [ ] varArray = { {} , {} };
+- Assign Array: -
+  varArray = new dataType[ ] {element,..,}
 
   Methods:
   Length: varArray.length (single Array)
@@ -129,6 +132,8 @@ Extra:
 </br>
 </br>
 </br>
+
+### LinkedList
 
 ---
 
