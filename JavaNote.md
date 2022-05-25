@@ -159,7 +159,7 @@ Extra:
   - Next
     - `varInter.next()` - Goes to next
   - Remove
-  - `varInter.next()` - Goes to next
+  - `varInter.remove()` - Goes to next
 
 </br>
 </br>
