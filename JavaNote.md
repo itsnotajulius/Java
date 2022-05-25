@@ -153,7 +153,7 @@ Extra:
     - Print Out:
       - `varList.toString()`
     - Clone:
-      - `varList.clone(item)`
+      - `varList.clone()` - Still only reference type
     - Delete all:
       - `varList.clear`
     - Contains:
