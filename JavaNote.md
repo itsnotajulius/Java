@@ -16,6 +16,8 @@
 
 ---
 
+<br>
+
 ## Datatypes:
 
 Primitive Types:
@@ -33,17 +35,8 @@ Primitive Types:
 | String:   |     |     |     |     |     |     | String var = "Text";                                    |
 | Long:     |     |     |     |     |     |     | long var =#;                                            |
 
-Short
-
-:
-:
-:
-Class:
-:
-:
-
-    Final:                      final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
-    Converting/Parsing:         dataType var = dataType.parseType(text)
+Final: final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
+Converting/Parsing: dataType var = dataType.parseType(text)
 
     Type Casting:
       Widening Casting:         double var = varByte;
