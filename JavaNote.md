@@ -91,12 +91,12 @@ Extra:
 
 - Add:
   - varList.add(item) (Kinda append)
-  - Autoboxing: varList.add( typeClass.valueOf (item) );
+  - Autoboxing: varList.add( typeClass.valueOf (item) ); (Note: Java can do this auto)
 - Change item:
   - varList.set(posInt,newItem) (Replace item with new Item at posInt)
 - Call item:
   - varList.get(posInt)
-  - Unboxing: varList.get( posInt ).typeClassValue( );
+  - Unboxing: varList.get( posInt ).typeClassValue( ); (Note: Java can do this auto)
 - Delete:
   - varList.remove(posInt)
 - Length:
@@ -110,6 +110,8 @@ Extra:
   - varList.toArray()
 
 #### Boxing
+
+(Note: Java can do this auto)
 
 - Autoboxing:
   - Converting primitive to dataTypeClass to store in List
