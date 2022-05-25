@@ -198,6 +198,7 @@ Getters/setters: Used for validation and tests
       Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set
 
     Composition:
+      `Note:`                      `Use before Inheritance`
       Definition:                 Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
                                   Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
                                   Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
