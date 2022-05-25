@@ -203,6 +203,10 @@ Getters/setters: Used for validation and tests
       Override:                   @Override methodStuff                                         (Call child method thats in Superclass needs same methodName and paras)
                                                                                                 (Runtime Polymorphism)(Cant override final&private or static only instance/this)
 
+    Polymorphism:
+      Def:                        Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways. (Eg Superclass Animal has method Methodx(). Subclasses of Animals also have their own implementation of an methodX())
+
+
 
     Encapsulation:
       Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set
@@ -215,8 +219,7 @@ Getters/setters: Used for validation and tests
                                   Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
 
 
-    Polymorphism:
-      Def:                        Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways. (Eg Superclass Animal has method Methodx(). Subclasses of Animals also have their own implementation of an methodX())
+
 
 
     Packages:
