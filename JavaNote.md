@@ -1,52 +1,44 @@
 JAVANOTES
 
-
-
 Extra:
-  Comments:                       //
-  Multi-Line Comment:             \* */
-  References Types:               Represents an address in memory no actual memory .When assign to another ref to it is just a reference not new(Array/Objext/ any with new)
-  Value Types:                    Makes a new space in memory when assigned to each other, so addressed to actual memory 
-  JVM:                            This lets Java run on any system in the JVM is installed
-
+Comments: //
+Multi-Line Comment: \* \*/
+References Types: Represents an address in memory no actual memory .When assign to another ref to it is just a reference not new(Array/Objext/ any with new)
+Value Types: Makes a new space in memory when assigned to each other, so addressed to actual memory
+JVM: This lets Java run on any system in the JVM is installed
 
 Printing:
-  System.out.println(""/#/Boolean+...)
+System.out.println(""/#/Boolean+...)
 
+Datatypes:
+Primitive Types:
+Char: char var = 'L'; (L = Letter)
+char var = '\u####' (\u is unicode, search for unicode)
+Byte: byte var = #; (Between -128 and 127)
+Short short var = #
+Integer: int var = #;
+Float: float var = decimal.7;
+Double: double var = decimal.15
+Boolean: boolean var = true/false;
+Class:
+String: String var = "Text";
+Long: long var =#;
 
-
-
-
-  Datatypes:
-    Primitive Types:
-      Char:                     char var = 'L';         (L = Letter)
-                                char var = '\u####'     (\u is unicode, search for unicode)
-      Byte:                     byte var = #;           (Between -128 and 127)
-      Short                     short var = #
-      Integer:                  int var = #;
-      Float:                    float var = decimal.7;
-      Double:                   double var = decimal.15
-      Boolean:                  boolean var = true/false;
-    Class:
-      String:                   String var = "Text";
-      Long:                     long var =#;
-    
     Final:                      final dataType VAR = X; (Sets the output as constant, Spell with CAPS)
     Converting/Parsing:         dataType var = dataType.parseType(text)
 
     Type Casting:
       Widening Casting:         double var = varByte;
-      Narrow Casting:           byte var = (byte) varDouble;  
+      Narrow Casting:           byte var = (byte) varDouble;
 
+DataStructure
+Arrays:
+Single Array: dataType[] varArray; (No assigned)
+dataType[] varArray = new dataType[#] (Sets default: 0,false,null)
+dataType[] varArray = {element,element,..};
+TwoD Array dataType[][] varArray = {{},{}};
+Assign Array: varArray = new dataType[] {element,..,}
 
-  DataStructure
-    Arrays:
-      Single Array:                 dataType[] varArray;                                        (No assigned)
-                                    dataType[] varArray = new dataType[#]                       (Sets default: 0,false,null)
-                                    dataType[] varArray = {element,element,..};
-      TwoD Array                    dataType[][] varArray = {{},{}};
-      Assign Array:                 varArray = new dataType[] {element,..,}
-      
       Methods:
         Length:                     varArray.length                                             (single Array)
                                     varArray[i].length                                          (2d Array)
@@ -68,45 +60,39 @@ Printing:
                                     new ArrayList<dataType>(varList)
         To Array:                   varList.toArray()
 
-
-
 Operators:
-  Arithmetic Operators:
-    Addition:                   +
-    Sub:                        -
-    Multi                       *
-    Division                    /
-    Mod/Remainder               %
-    Power:                      ^
-    Increment:                  ++
-    Decrement:                  --
-    Abbreviated:                op= #
-                              
+Arithmetic Operators:
+Addition: +
+Sub: -
+Multi \*
+Division /
+Mod/Remainder %
+Power: ^
+Increment: ++
+Decrement: --
+Abbreviated: op= #
 
-  Comparison Operators:
-    Equal:                      =
-                                ==                              (boolean/int)
-    Not Equal:                  !=
-    Greater:                    >
-                                >=
-    Less Than:                  <
-                                <=
-  String Operators:
-    Equals:                     =
-                                text.equals(text)               (useful if toLowerCase)
+Comparison Operators:
+Equal: =
+== (boolean/int)
+Not Equal: !=
+Greater: > >=
+Less Than: <
+<=
+String Operators:
+Equals: =
+text.equals(text) (useful if toLowerCase)
 
-  Logical Operators:
-    AND:                        &&
-    OR:                         ||
-    Not:                        !
+Logical Operators:
+AND: &&
+OR: ||
+Not: !
 
-  
-  Conditions:
-    If:                         if(condition){}
-    If Else:                    if(condition){}else{}
-    Ternary Operator:           dataType var = (condition) ? conditionMet : else
-    Else if:                    if(condition){}else if(condition){}else{}
-
+Conditions:
+If: if(condition){}
+If Else: if(condition){}else{}
+Ternary Operator: dataType var = (condition) ? conditionMet : else
+Else if: if(condition){}else if(condition){}else{}
 
     Switch Case:                switch (expression){
                                   case checkValue1:
@@ -128,40 +114,34 @@ Operators:
 
     Break:                      break;                    (stops)
     Continue:                   continue;                 (Next)
- 
 
 Java KEYWORDS:
-  Modifiers:
-    Access Modifers:            public                    (accessible by other classes)
-                                private                   (accessible only in declared class,subclasses can access)
-                                protected                 (only same packahe and subclasses)
-                                default                   (accessed by classes in same package, when no modifiers set)
-    Non-Access Modifers:        final                     (cant be inherited by other classes and attri cant be moded spell in caps)
-                                static                    (attr/methods belong to class can be used but static variables are shared across Instances) (eg change one all changes)
-                                                          (classes methods cant use instance variable\this.)
-                                abstract                  (the class cant make objects)
-                                abstract                  (methods can only be used in abstract class)
-                                transient                 (attri and methods are skipped when serializing)
-                                synchronized              (methods can only be access one thread @ time)
-                                volatile                  (attri is not cached)
-
-
-
-
+Modifiers:
+Access Modifers: public (accessible by other classes)
+private (accessible only in declared class,subclasses can access)
+protected (only same packahe and subclasses)
+default (accessed by classes in same package, when no modifiers set)
+Non-Access Modifers: final (cant be inherited by other classes and attri cant be moded spell in caps)
+static (attr/methods belong to class can be used but static variables are shared across Instances) (eg change one all changes)
+(classes methods cant use instance variable\this.)
+abstract (the class cant make objects)
+abstract (methods can only be used in abstract class)
+transient (attri and methods are skipped when serializing)
+synchronized (methods can only be access one thread @ time)
+volatile (attri is not cached)
 
 FUNCTIONS:
 
-  String Functions:
-    Concatenation:              Text+""+Text
-    Cancate:                    text1.concat("text2")
-    Length:                     text.length()
-    Upper Case:                 text.toUpperCase()
-    Lower Case:                 text.toLowerCase()
-    IndexOf:                    text.indexOf("searchText")
-    Check if Digit:             text.matchs("[0-9]+.")            (+ means one or more times)
-    Format Numbers:             String.format("format",text)      (eg: "%.2f") 
-    Equal:                      text.Equal(text)                  (boolean output)
-
+String Functions:
+Concatenation: Text+""+Text
+Cancate: text1.concat("text2")
+Length: text.length()
+Upper Case: text.toUpperCase()
+Lower Case: text.toLowerCase()
+IndexOf: text.indexOf("searchText")
+Check if Digit: text.matchs("[0-9]+.") (+ means one or more times)
+Format Numbers: String.format("format",text) (eg: "%.2f")
+Equal: text.Equal(text) (boolean output)
 
     Special Charaters:
       Single Quote:             \'text\'
@@ -172,39 +152,35 @@ FUNCTIONS:
       Tab:                        \t
       Backspace:                  \b      (Del)
       Form Feed:                  \f
-    
-  Integer:
-    Pa
 
-  Math Functions:
-    Max:                        Math.max(x,y)
-    Min:                        Math.min(x,y)
-    Square Root:                Math.sqrt(x)
-    Absolute(Positive):         Math.abs(x)
-    Random:                     Math.random()
-    Round:                      Math.round(x)
-    Pi:                         Math.Pi()
+Integer:
+Pa
 
+Math Functions:
+Max: Math.max(x,y)
+Min: Math.min(x,y)
+Square Root: Math.sqrt(x)
+Absolute(Positive): Math.abs(x)
+Random: Math.random()
+Round: Math.round(x)
+Pi: Math.Pi()
 
-  
+METHODS:
+Void Method: void myMethod(?dataType? ?var?,...){}
+Not Void Method: dataType myMethod(?dataType? ?var?,...){return dataTypeVar;}
+Method Overloading: dataType1 myMethod(dataType1 var){return;} dataType2 myMethod(dataType2 var){return;} (use the same name)
+Recursion Method: dataType myMethod(?dataType? ?var?,...){return myMethod(?var?);}
+abstract Method: abstract void myMethod();
+Call Method: myMethod(?var?,...);
 
-  METHODS:
-    Void Method:                void myMethod(?dataType? ?var?,...){}
-    Not Void Method:            dataType myMethod(?dataType? ?var?,...){return dataTypeVar;}
-    Method Overloading:         dataType1 myMethod(dataType1 var){return;}  dataType2 myMethod(dataType2 var){return;}          (use the same name)
-    Recursion Method:           dataType myMethod(?dataType? ?var?,...){return myMethod(?var?);}
-    abstract Method:            abstract void myMethod();
-    Call Method:                myMethod(?var?,...);
-
-    
 OOP:
-  Object Oriented Programming:
-    Definition:                 OOP is about creating objects that contain both data and methods. It is reuseable and less code and shorted dev time
-                                Classes:  Is a blueprint. Is the template for objects
-                                Objects:  Is an instance/refence of classes, they inherit all public variables and methods of class
-                                          When assigning Instances to Instances you assign it to the object in memory and can modify both at once
-                                          No static mean instance has its own variables, with static mean variables of different instances are same
-                                Getters/setters:  Used for validation and tests
+Object Oriented Programming:
+Definition: OOP is about creating objects that contain both data and methods. It is reuseable and less code and shorted dev time
+Classes: Is a blueprint. Is the template for objects
+Objects: Is an instance/refence of classes, they inherit all public variables and methods of class
+When assigning Instances to Instances you assign it to the object in memory and can modify both at once
+No static mean instance has its own variables, with static mean variables of different instances are same
+Getters/setters: Used for validation and tests
 
     Class:                      public class myClass{dataType arriType = data;....}
     Class Constructor:          public myClass(?dataType? ?var?,...){set stuff}                               (must be public, no void, dont use getters and setters)
@@ -214,16 +190,16 @@ OOP:
     Object variable:            myObj.x
     Modi Variable:              myObj.x = stuff
     Current object:             this.x                                                                        (Used if parameter has same name as instance/object variable)
-    Static and Public:          static can be accesed without object, public need object to be accessed 
+    Static and Public:          static can be accesed without object, public need object to be accessed
 
 
 
     Encapsulation:
-      Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set                              
-    
+      Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set
+
     Composition:
       Definition:                 Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
-                                  Intheri
+                                  Inheritance has limits but use that here give access to all
 
     Inheritance:
       Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
@@ -233,17 +209,13 @@ OOP:
       Call Sup var:               super.var;                                                    (Access Parent Class vars)
       Override:                   @Override methodStuff                                         (Call child method thats in Superclass needs same methodName and paras)
                                                                                                 (Runtime Polymorphism)(Cant override final&private or static only instance/this)
-                                                                                                
-                                  
+
+
 
 
 
     Packages:
       Package:                  Used to group related classes
-                                Java API has built-In Packages 
+                                Java API has built-In Packages
       Built-In Pack:            import package.name.*/Class
       User-defined:             package mypack;
-
-  
-
-
