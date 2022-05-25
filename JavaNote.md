@@ -160,7 +160,7 @@ Extra:
       - `varList.iteraror` - Iterator Class of items
     - Iterator Desc:
       - `varList.descendingiteraror` - Iterator Class of items backwards
-    - Print Out:
+    - To Array:
       - `varList.toString()`
 
 #### INTERATORS:
