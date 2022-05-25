@@ -158,7 +158,7 @@ Extra:
       - `varList.iteraror` - Iterator Class of items
     - Iterator Desc:
       - `varList.descendingiteraror` - Iterator Class of items backwards
-    - Contains:
+    - Search Position:
       - `varList.contains("item")` - Boolean
     - Print Out:
       - `varList.toString()`
