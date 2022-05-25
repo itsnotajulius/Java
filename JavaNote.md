@@ -1,6 +1,7 @@
-JAVANOTES
+# JAVANOTES
 
-Extra:
+### Extra:
+
 Comments: //
 Multi-Line Comment: \* \*/
 References Types: Represents an address in memory no actual memory .When assign to another ref to it is just a reference not new(Array/Objext/ any with new)
