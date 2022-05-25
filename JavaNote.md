@@ -111,7 +111,7 @@ Extra:
 
 - Autoboxing:
   - Converting primitive to dataTypeClass to store in List
-    - EG: `datatypeClass.valyeOf(#);`
+    - EG: `datatypeClass.valueOf(#);`
 - Unboxing
   - Converting dataTypeClass back to primitive
     - Eg: `datatypeClassVar.datatypeClassValue(); `
