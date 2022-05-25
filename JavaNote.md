@@ -196,6 +196,7 @@ Getters/setters: Used for validation and tests
 
     Encapsulation:
       Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set
+                                  Hide things from other classes
 
     Composition:
       `Note:`                      `Use before Inheritance`
