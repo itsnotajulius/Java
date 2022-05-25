@@ -161,7 +161,7 @@ Extra:
     - Iterator Desc:
       - `varList.descendingiteraror` - Iterator Class of items backwards
     - To Array:
-      - `varList.toString()`
+      - `varList.toString(new String[0]);`
 
 #### INTERATORS:
 
