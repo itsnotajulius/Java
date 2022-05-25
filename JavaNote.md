@@ -21,12 +21,10 @@
 Primitive Types:
 | | ||
 ---------|----------|---------
-A1 | B1 | C1
-A2 | B2 | C2
+Char: | | char var = 'L'; (L = Letter)
+| | char var = '\u####' (\u is unicode, search for unicode)
 A3 | B3 | C3
 
-Char: char var = 'L'; (L = Letter)
-char var = '\u####' (\u is unicode, search for unicode)
 Byte: byte var = #; (Between -128 and 127)
 Short short var = #
 Integer: int var = #;
