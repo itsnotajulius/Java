@@ -536,4 +536,36 @@ Inner Classes:
 ## GENERICS
 
 - Def:
-  - No having things in raw state (eg. Lists)
+
+  > No having things in raw state (eg. Lists)
+
+- Use generics
+  > You create a generic type declaration public class className<typeParm>. This introduces the type variable, T, that can be used anywhere inside the class.
+
+With this change, the Box class becomes:
+
+```java
+public class className<typeParm> {
+    // T stands for "Type"
+    private typeParm t;
+
+    public void set(typeParm t) { this.t = t; }
+    public typeParm get() { return t; }
+}
+```
+
+As you can see, all occurrences of Object are replaced by T. A type variable can be any non-primitive type you specify: any class type, any interface type, any array type, or even another type variable.
+
+This same technique can be applied to create generic interfaces.
+
+Type Parameter Naming Conventions
+By convention, type parameter names are single, uppercase letters. This stands in sharp contrast to the variable naming conventions that you already know about, and with good reason: Without this convention, it would be difficult to tell the difference between a type variable and an ordinary class or interface name.
+
+The most commonly used type parameter names are:
+
+E - Element (used extensively by the Java Collections Framework)
+K - Key
+N - Number
+T - Type
+V - Value
+S,U,V etc. - 2nd, 3rd, 4th types
