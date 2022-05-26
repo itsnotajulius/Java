@@ -489,7 +489,8 @@ Inner Classes:
   - `var.method(new InnerClass() {...} ... }`
   - Calling
     - Made there an then in method
-    - Can only call in local method
+    - Has no name
+    - Can be passed as parmeter
 
 ## <br/>
 
