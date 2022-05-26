@@ -423,7 +423,7 @@ Interfaces:
   > **Interface attributes** are by default `public, static and final`
   > An interface has `no constructor `
 
--Why And When To Use Interfaces?
+- Why And When To Use Interfaces?
 
 1. To achieve security - hide certain details and only show the important details of an object (interface).
 
