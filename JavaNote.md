@@ -293,8 +293,10 @@ Continue:                   continue;                 (Next)
 - Format Numbers:
   - `String.format("format",text)` (eg: "%.2f")
 - Equal:
+
   - `text.Equal(text)` (boolean output)
   - Special Charaters:
+
     Single Quote: \'text\'
     Double Quote: \"text\"
     Backslash: \\
