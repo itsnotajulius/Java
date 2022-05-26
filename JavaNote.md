@@ -530,3 +530,7 @@ Inner Classes:
   - package path;
 
 ---
+
+<br/>
+
+## GENERICS
