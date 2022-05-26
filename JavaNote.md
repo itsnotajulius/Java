@@ -467,8 +467,8 @@ Inner Classes:
 - Non Static Class
   - `class OuterClass {... class InnerClass {...} ... }`
   - Calling
-    - `OuterClass myOuter = new OuterClass()`
-    - `OuterClass.InnerClass myInner = myOuter.new InnerClass()`
+    - `OuterClass` **`myOuter`** `= new OuterClass()`
+    - `OuterClass.InnerClass` **`myInner `**`= myOuter.new InnerClass()`
 
 ## <br/>
 
