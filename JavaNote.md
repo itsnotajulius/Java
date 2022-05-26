@@ -274,7 +274,7 @@ Continue:                   continue;                 (Next)
 
 ## FUNCTIONS:
 
-### String Functions:
+### [String Functions:]()
 
 - Concatenation:
   - `Text+""+Text`
