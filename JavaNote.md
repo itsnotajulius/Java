@@ -312,7 +312,7 @@ Continue:                   continue;                 (Next)
 
 <br/>
 
-### Math Functions:
+### [Math Functions:](https://www.w3schools.com/java/java_ref_math.asp)
 
 - Max:
   - `Math.max(x,y)`
