@@ -400,6 +400,10 @@ Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
 
 <br>
 
+Abstract
+
+<br/>
+
 Interfaces:
 
 - Def:
