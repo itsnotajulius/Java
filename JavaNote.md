@@ -429,8 +429,25 @@ Interfaces:
   1. To achieve security - hide certain details and only show the important details of an object (interface).
   2. Java does not support "multiple inheritance" (a class can only inherit from one superclass). However, it can be achieved with interfaces, because the class can implement multiple interfaces.
 
-```java
+EG:
 
+```java
+  interface FirstInterface {
+    public void myMethod(); // interface method
+  }
+
+  interface SecondInterface {
+    public void myOtherMethod(); // interface method
+  }
+
+  class DemoClass implements FirstInterface, SecondInterface {
+    public void myMethod() {
+      System.out.println("Some text..");
+    }
+    public void myOtherMethod() {
+      System.out.println("Some other text...");
+    }
+  }
 ```
 
 <br/>
