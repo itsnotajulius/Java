@@ -274,15 +274,14 @@ Continue:                   continue;                 (Next)
 
 - Concatenation:
   - Text+""+Text
-
-* Cancate: text1.concat("text2")
-* Length: text.length()
-* Upper Case: text.toUpperCase()
-* Lower Case: text.toLowerCase()
-* IndexOf: text.indexOf("searchText")
-* Check if Digit: text.matchs("[0-9]+.") (+ means one or more times)
-* Format Numbers: String.format("format",text) (eg: "%.2f")
-* Equal: text.Equal(text) (boolean output)
+- Cancate: text1.concat("text2")
+- Length: text.length()
+- Upper Case: text.toUpperCase()
+- Lower Case: text.toLowerCase()
+- IndexOf: text.indexOf("searchText")
+- Check if Digit: text.matchs("[0-9]+.") (+ means one or more times)
+- Format Numbers: String.format("format",text) (eg: "%.2f")
+- Equal: text.Equal(text) (boolean output)
 
             Special Charaters:
               Single Quote:             \'text\'
