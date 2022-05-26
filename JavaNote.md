@@ -474,10 +474,17 @@ Inner Classes:
   - Calling
     - `OuterClass.InnerClass` **`myInner `**`= new OuterClass.InnerClass()` - Don't need OuterClass instance
 - Private inner Class
+
   - `class OuterClass {... private class InnerClass {...} ... }`
   - Calling
     - `OuterClass` **`myOuter`** `= new OuterClass()`
     - Can't call Inner but OuterClass can see InnerClass
+
+- Local inner Class
+  - `method {... class InnerClass {...} ... }`
+  - Calling
+    - `InnerClass` **`myInner`** `= new InnerClass()`
+    - Can only call in local method
 
 ## <br/>
 
