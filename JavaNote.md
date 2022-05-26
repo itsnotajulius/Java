@@ -248,9 +248,9 @@ Continue:                   continue;                 (Next)
 
 <br/>
 
-## Java KEYWORDS:
+## JAVA KEYWORDS:
 
-### Modifiers:
+### MODIFIERS:
 
 - Access Modifers:
   - public (accessible by other classes)
@@ -268,7 +268,7 @@ Continue:                   continue;                 (Next)
   - synchronized (methods can only be access one thread @ time)
   - volatile (attri is not cached)
 
-FUNCTIONS:
+## FUNCTIONS:
 
 String Functions:
 Concatenation: Text+""+Text
