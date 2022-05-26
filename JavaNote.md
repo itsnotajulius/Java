@@ -411,13 +411,19 @@ Interfaces:
   > To `access` the interface methods, the interface must be `"implemented"` (kinda like inherited) by another class with the implements keyword (instead of extends).
 
 - Note:
+
   > Like abstract classes, cannot be used to create objects
+
   > Interface methods do not have a body - the body is provided by the "implement" class
-  > On implementation of an interface, you must override all of its methods
-  > Interface methods are by default abstract and public
-  > Interface attributes are by default public, static and final
-  > An interface cannot contain a constructor (as it cannot be used to create objects)
-  > Why And When To Use Interfaces?
+
+  > On implementation of an interface, you must `override` all of its `methods`
+
+  > **Interface methods** are by default `abstract and public`
+
+  > **Interface attributes** are by default `public, static and final`
+  > An interface has `no constructor `
+
+-Why And When To Use Interfaces?
 
 1. To achieve security - hide certain details and only show the important details of an object (interface).
 
