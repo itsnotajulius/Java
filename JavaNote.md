@@ -329,13 +329,22 @@ Continue:                   continue;                 (Next)
 - Pi:
   - `Math.Pi()`
 
-METHODS:
+---
+
+<br/>
+
+## METHODS:
+
 Void Method: void myMethod(?dataType? ?var?,...){}
 Not Void Method: dataType myMethod(?dataType? ?var?,...){return dataTypeVar;}
 Method Overloading: dataType1 myMethod(dataType1 var){return;} dataType2 myMethod(dataType2 var){return;} (use the same name)
 Recursion Method: dataType myMethod(?dataType? ?var?,...){return myMethod(?var?);}
 abstract Method: abstract void myMethod();
 Call Method: myMethod(?var?,...);
+
+---
+
+<br/>
 
 ## OOP:
 
