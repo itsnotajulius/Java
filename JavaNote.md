@@ -465,6 +465,7 @@ Inner Classes:
   > To access the inner class, create an object of the outer class, and then create an object of the inner class
 
 - Non Static Class
+  - `class OuterClass {... class InnerClass {...} ... }`
 
 ## <br/>
 
