@@ -402,12 +402,14 @@ Getters/setters: Used for validation and tests
                                   Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
                                   Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
 
+``
 
+### Packages:
 
-
-
-    Packages:
-      Package:                  Used to group related classes
-                                Java API has built-In Packages
-      Built-In Pack:            import package.name.*/Class
-      User-defined:             package path;
+- Package:
+  - Used to group related classes
+  - Java API has built-In Packages
+- Built-In Pack:
+  - import package.name.\*/Class
+- User-defined:
+  - package path;
