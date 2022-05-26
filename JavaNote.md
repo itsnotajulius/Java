@@ -477,7 +477,7 @@ Inner Classes:
   - `class OuterClass {... private class InnerClass {...} ... }`
   - Calling
     - `OuterClass` **`myOuter`** `= new OuterClass()`
-    - Can't call Inner
+    - Can't call Inner but OuterClass can see InnerClass
 
 ## <br/>
 
