@@ -310,9 +310,10 @@ Continue:                   continue;                 (Next)
   | Backspace:       |     | `\b` (Del) |
   | Form Feed:       |     | `\f`       |
 
-### Maths
+<br/>
 
-Math Functions:
+### Math Functions:
+
 Max: Math.max(x,y)
 Min: Math.min(x,y)
 Square Root: Math.sqrt(x)
