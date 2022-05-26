@@ -534,3 +534,6 @@ Inner Classes:
 <br/>
 
 ## GENERICS
+
+- Def:
+  - No having things in raw state (eg. Lists)
