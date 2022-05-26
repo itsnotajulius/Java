@@ -553,6 +553,12 @@ public class className<typeParm> {
 
 > This same technique can be applied to create generic interfaces.
 
+Multiple Type Parameters
+
+```java
+public interface/class className<K, V> {..}
+```
+
 <br/>
 
 ### Type Parameter Naming Conventions
