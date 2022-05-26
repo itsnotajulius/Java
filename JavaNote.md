@@ -468,7 +468,7 @@ Inner Classes:
   - `class OuterClass {... class InnerClass {...} ... }`
   - Calling
     - `OuterClass myOuter = new OuterClass()`
-    - `OuterClass.InnerClass myInner`
+    - `OuterClass.InnerClass myInner = myOuter.new InnerClass()`
 
 ## <br/>
 
