@@ -468,7 +468,7 @@ Inner Classes:
   - `class OuterClass {... class InnerClass {...} ... }`
   - Calling
     - `OuterClass` **`myOuter`** `= new OuterClass()`
-    - `OuterClass.InnerClass` **`myInner `**`= myOuter.new InnerClass()`
+    - `OuterClass.InnerClass` **`myInner `**`= myOuter.new InnerClass()` - need instance of OuterClass
 
 ## <br/>
 
