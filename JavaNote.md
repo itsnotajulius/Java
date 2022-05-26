@@ -456,9 +456,13 @@ EG:
 
 <br/>
 
-Inner Classes
+Inner Classes:
+
+- Non Static Class
 
 ## <br/>
+
+---
 
 ### Packages:
 
