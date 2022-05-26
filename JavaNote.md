@@ -488,7 +488,7 @@ Inner Classes:
 - anonymous inner Class
   - `var.method(new InnerClass() {...} ... }`
   - Calling
-    - `InnerClass` **`myInner`** `= new InnerClass()`
+    - Made there an then in method
     - Can only call in local method
 
 ## <br/>
