@@ -314,13 +314,20 @@ Continue:                   continue;                 (Next)
 
 ### Math Functions:
 
-Max: Math.max(x,y)
-Min: Math.min(x,y)
-Square Root: Math.sqrt(x)
-Absolute(Positive): Math.abs(x)
-Random: Math.random()
-Round: Math.round(x)
-Pi: Math.Pi()
+- Max:
+  - `Math.max(x,y)`
+- Min:
+  - `Math.min(x,y)`
+- Square Root:
+  - `Math.sqrt(x)`
+- Absolute(Positive):
+  - `Math.abs(x)`
+- Random:
+  - `Math.random()`
+- Round:
+  - `Math.round(x)`
+- Pi:
+  - `Math.Pi()`
 
 METHODS:
 Void Method: void myMethod(?dataType? ?var?,...){}
