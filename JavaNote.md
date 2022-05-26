@@ -360,49 +360,49 @@ No static mean instance has its own variables, with static mean variables of dif
 
 Getters/setters: Used for validation and tests
 
-```
-    Class:                      public class myClass{dataType arriType = data;....}
-    Class Constructor:          public myClass(?dataType? ?var?,...){set stuff}
-                                (must be public, no void, dont use getters and setters)
-                                public myClass(){?set default?}
-                                this(?var?,...);
-                                (Calling constructer in object)(Make consturc chains for no dups)
-    Object:                     myClass myObj = new myClass();
-                                (Can be in different java files but same dir)
-    Object variable:            myObj.x
-    Modi Variable:              myObj.x = stuff
-    Current object:             this.x
-                                (If parameter has same name as instance/object variable)
-    Static and Public:          static access without object, public need object to be accessed
+Class: public class myClass{dataType arriType = data;....}
+Class Constructor: public myClass(?dataType? ?var?,...){set stuff}
+(must be public, no void, dont use getters and setters)
+public myClass(){?set default?}
+this(?var?,...);
+(Calling constructer in object)(Make consturc chains for no dups)
+Object: myClass myObj = new myClass();
+(Can be in different java files but same dir)
+Object variable: myObj.x
+Modi Variable: myObj.x = stuff
+Current object: this.x
+(If parameter has same name as instance/object variable)
+Static and Public: static access without object, public need object to be accessed
 
+Inheritance:
+Def: A Superclass-name you know another Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
+To inherit: class subclass-Name extends superclass-Name (if it has constructer subclass must have constructer)
+Call SupConstruc: super(?var?,...); (Access Parent Class Construcs)
+Call Sup Method: super.methodName(...); (Access Parent Class methods)
+Call Sup var: super.var; (Access Parent Class vars)
+Override: @Override methodStuff (Call child method thats in Superclass needs same methodName and paras)
+(Runtime Polymorphism)(Cant override final&private or static only instance/this)
 
+Polymorphism:
+Def: Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+Polymorphism usesthose methods to perform different tasks. This allows us to perform a single action in different ways.
+(Eg Superclass Animal has method Methodx(). Subclasses of Animals also have their own implementation of an methodX())
 
-    Inheritance:
-      Def:                        A Superclass-name you know another  Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
-      To inherit:                 class subclass-Name extends superclass-Name                   (if it has constructer subclass must have constructer)
-      Call SupConstruc:           super(?var?,...);                                             (Access Parent Class Construcs)
-      Call Sup Method:            super.methodName(...);                                        (Access Parent Class methods)
-      Call Sup var:               super.var;                                                    (Access Parent Class vars)
-      Override:                   @Override methodStuff                                         (Call child method thats in Superclass needs same methodName and paras)
-                                                                                                (Runtime Polymorphism)(Cant override final&private or static only instance/this)
+Encapsulation:
+Definition: Is used to make sure sensitive data is hidden from user with private variables and public get and set
+Hide things from other classes
 
-    Polymorphism:
-      Def:                        Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
-                                  Polymorphism usesthose methods to perform different tasks. This allows us to perform a single action in different ways.
-                                  (Eg Superclass Animal has method Methodx(). Subclasses of Animals also have their own implementation of an methodX())
+Composition:
+`Note:` `Use before Inheritance`
+Definition: Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
+Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
+Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
 
+Interfaces:
 
-
-    Encapsulation:
-      Definition:                 Is used to make sure sensitive data is hidden from user with private variables and public get and set
-                                  Hide things from other classes
-
-    Composition:
-      `Note:`                      `Use before Inheritance`
-      Definition:                 Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
-                                  Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
-                                  Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
-```
+- Def:
+  > Another way to achieve abstraction in Java, is with interfaces.
+  > An interface is a completely "abstract class" that is used to group related methods with empty bodies
 
 <br/>
 
