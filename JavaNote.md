@@ -293,28 +293,19 @@ Continue:                   continue;                 (Next)
 - Format Numbers:
   - `String.format("format",text)` (eg: "%.2f")
 - Equal:
-
   - `text.Equal(text)` (boolean output)
-  - Special Charaters:
+- Special Charaters:
 
-|                  |     |            |
-| ---------------- | --- | ---------- |
-| Single Quote:    |     | `\'text\'` |
-| Double Quote     |     | `\"text\"` |
-| Backslash:       |     | `\\`       |
-| New Line:        |     | `\n`       |
-| Carriage Return: |     | `\r`       |
-| Tab:             |     | `\t`       |
-| Backspace:       |     | `\b` (Del) |
-| Form Feed:       |     | `\f`       |
-
-    :
-
-
-
-
-
-
+  |                  |     |            |
+  | ---------------- | --- | ---------- |
+  | Single Quote:    |     | `\'text\'` |
+  | Double Quote     |     | `\"text\"` |
+  | Backslash:       |     | `\\`       |
+  | New Line:        |     | `\n`       |
+  | Carriage Return: |     | `\r`       |
+  | Tab:             |     | `\t`       |
+  | Backspace:       |     | `\b` (Del) |
+  | Form Feed:       |     | `\f`       |
 
 ### Maths
 
