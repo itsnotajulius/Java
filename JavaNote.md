@@ -410,6 +410,10 @@ Interfaces:
 
   > To `access` the interface methods, the interface must be `"implemented"` (kinda like inherited) by another class with the implements keyword (instead of extends).
 
+- Interface:
+  - `interface FirstInterface {.. methods...}`
+- Implements
+  - `class className implements FirstInterface, ... { ... overried methods...}`
 - Note:
 
   > Like abstract classes, cannot be used to create objects
