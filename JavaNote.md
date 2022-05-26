@@ -303,19 +303,18 @@ Continue:                   continue;                 (Next)
 | Double Quote     |     | `\"text\"` |
 | Backslash:       |     | `\\`       |
 | New Line:        |     | `\n`       |
-| Double Quote     |     | `\r`       |
-| Carriage Return: |     | `\\`       |
-| New Line:        |     | `\n`       |
-| Double Quote     |     | `\r`       |
-| Carriage Return: |     | `\\`       |
+| Carriage Return: |     | `\r`       |
+| Tab:             |     | `\t`       |
+| Backspace:       |     | `\b` (Del) |
+| Form Feed:       |     | `\f`       |
 
     :
 
 
 
-    Tab: \t
-    Backspace: \b (Del)
-    Form Feed: \f
+
+
+
 
 ### Maths
 
