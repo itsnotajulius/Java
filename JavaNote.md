@@ -360,6 +360,7 @@ No static mean instance has its own variables, with static mean variables of dif
 
 Getters/setters: Used for validation and tests
 
+```
     Class:                      public class myClass{dataType arriType = data;....}
     Class Constructor:          public myClass(?dataType? ?var?,...){set stuff}
                                 (must be public, no void, dont use getters and setters)
@@ -401,8 +402,8 @@ Getters/setters: Used for validation and tests
       Definition:                 Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
                                   Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
                                   Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
+```
 
-``
 <br/>
 
 ---
