@@ -297,11 +297,22 @@ Continue:                   continue;                 (Next)
   - `text.Equal(text)` (boolean output)
   - Special Charaters:
 
-    Single Quote: \'text\'
-    Double Quote: \"text\"
-    Backslash: \\
-    New Line: \n
-    Carriage Return: \r
+|                  |     |            |
+| ---------------- | --- | ---------- |
+| Single Quote:    |     | `\'text\'` |
+| Double Quote     |     | `\"text\"` |
+| Backslash:       |     | `\\`       |
+| New Line:        |     | `\n`       |
+| Double Quote     |     | `\r`       |
+| Carriage Return: |     | `\\`       |
+| New Line:        |     | `\n`       |
+| Double Quote     |     | `\r`       |
+| Carriage Return: |     | `\\`       |
+
+    :
+
+
+
     Tab: \t
     Backspace: \b (Del)
     Form Feed: \f
