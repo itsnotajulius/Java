@@ -565,7 +565,7 @@ public class subClass<K, V> implements className<K, V> {
     private K key;
     private V value;
 
-    public OrderedPair(K key, V value) {
+    public subClass(K key, V value) {
       this.key = key;
       this.value = value;
     }
