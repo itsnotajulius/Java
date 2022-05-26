@@ -294,6 +294,9 @@ Continue:                   continue;                 (Next)
   - `String.format("format",text)` (eg: "%.2f")
 - Equal:
   - `text.Equal(text)` (boolean output)
+
+<br>
+
 - Special Charaters:
 
   |                  |     |            |
