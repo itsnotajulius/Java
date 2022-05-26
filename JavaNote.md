@@ -485,7 +485,7 @@ Inner Classes:
   - Calling
     - `InnerClass` **`myInner`** `= new InnerClass()`
     - Can only call in local method
-- Annonomis inner Class
+- anonymous inner Class
   - `method {... class InnerClass {...} ... }`
   - Calling
     - `InnerClass` **`myInner`** `= new InnerClass()`
