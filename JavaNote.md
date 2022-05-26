@@ -416,6 +416,11 @@ Abstract:
 
   > An abstract class can have both abstract and regular methods
 
+- Abstract Method:
+  - public void method();
+- Abstract Class:
+  - public abstract class Class{... }
+
 <br/>
 
 Interfaces:
