@@ -470,7 +470,7 @@ Inner Classes:
     - `OuterClass` **`myOuter`** `= new OuterClass()`
     - `OuterClass.InnerClass` **`myInner `**`= myOuter.new InnerClass()` - need instance of OuterClass
 - Static Class
-  - `class OuterClass {... class InnerClass {...} ... }`
+  - `class OuterClass {...` **`static`** `class InnerClass {...} ... }`
   - Calling
     - `OuterClass.InnerClass` **`myInner `**`= new OuterClass.InnerClass()` - Don't need OuterClass instance
 
