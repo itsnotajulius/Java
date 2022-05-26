@@ -274,7 +274,7 @@ Continue:                   continue;                 (Next)
 
 ## FUNCTIONS:
 
-### [String Functions:]()
+### [String Functions:](https://www.w3schools.com/java/java_ref_string.asp)
 
 - Concatenation:
   - `Text+""+Text`
