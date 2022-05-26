@@ -458,6 +458,12 @@ EG:
 
 Inner Classes:
 
+- Def
+
+  > Possible to nest classes (a class within a class). The purpose of nested classes is to group classes that belong together, which makes your code more readable and maintainable.
+
+  > To access the inner class, create an object of the outer class, and then create an object of the inner class
+
 - Non Static Class
 
 ## <br/>
