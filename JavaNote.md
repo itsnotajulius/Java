@@ -186,12 +186,12 @@ Extra:
 
 ## OPERATORS:
 
-### Arithmetic Operators:
+### Operators:
 
 <div>
 
-|               |     |         |     |     |     |     |     |     |     |     |
-| ------------- | --- | ------- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Arithmetic    |     |         | Comparison |     |     |     |     |     |     |     |
+| ------------- | --- | ------- | ---------- | --- | --- | --- | --- | --- | --- | --- |
 | Addition      |     | `+`     |
 | Sub           |     | `-`     |
 | Multi         |     | `*`     |
@@ -206,7 +206,7 @@ Extra:
 
 <div>
 
-Comparison Operators:
+Operators:
 Equal: =
 == (boolean/int)
 Not Equal: !=
