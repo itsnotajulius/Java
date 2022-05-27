@@ -206,14 +206,6 @@ Extra:
 |               |     |       |
 
 </div>
-:
-: - \*
- /
-Mod/Remainder 
-: 
-: ++
-: --
-:
 
 Comparison Operators:
 Equal: =
