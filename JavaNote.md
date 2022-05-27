@@ -190,17 +190,17 @@ Extra:
 
 <div>
 
-| Arithmetic    |     |         |     | Comparison |     |                    |     | Logical |     |     |
-| ------------- | --- | ------- | --- | ---------- | --- | ------------------ | --- | ------- | --- | --- |
-| Addition      |     | `+`     |     | Equal      |     | `=`                |     | Logical |     |     |
-| Sub           |     | `-`     |     |            |     | `==` (boolean/int) |     | Logical |     |     |
-| Multi         |     | `*`     |     | Not Equal  |     | `!=`               |     | Logical |     |     |
-| Division      |     | `/`     |     | Greater    |     | `>`                |     | Logical |     |     |
-| Mod/Remainder |     | `%`     |     |            |     | `>=`               |     | Logical |     |     |
-| Power         |     | `^`     |     | Less Than  |     | <                  |     | Logical |     |     |
-| Increment     |     | `++`    |     |            |     | <=                 |     | Logical |     |     |
-| Decrement     |     | `--`    |     |            |     |                    |     | Logical |     |     |
-| Abbreviated   |     | `op= #` |     |            |     |                    |     | Logical |     |     |
+| Arithmetic    |     |         |     | Comparison |     |                    |     | Logical |     |      |
+| ------------- | --- | ------- | --- | ---------- | --- | ------------------ | --- | ------- | --- | ---- | --- | --- |
+| Addition      |     | `+`     |     | Equal      |     | `=`                |     | AND     |     | `&&` |
+| Sub           |     | `-`     |     |            |     | `==` (boolean/int) |     | OR      |     | `    |     | `   |
+| Multi         |     | `*`     |     | Not Equal  |     | `!=`               |     | Not     |     | `!`  |
+| Division      |     | `/`     |     | Greater    |     | `>`                |     | Logical |     |      |
+| Mod/Remainder |     | `%`     |     |            |     | `>=`               |     | Logical |     |      |
+| Power         |     | `^`     |     | Less Than  |     | `<`                |     | Logical |     |      |
+| Increment     |     | `++`    |     |            |     | `<= `              |     | Logical |     |      |
+| Decrement     |     | `--`    |     |            |     |                    |     | Logical |     |      |
+| Abbreviated   |     | `op= #` |     |            |     |                    |     | Logical |     |      |
 
 </div>
 
@@ -220,9 +220,9 @@ text.equals(text) (useful if toLowerCase)
 </div>
 
 Operators:
-AND: &&
-OR: ||
-Not: !
+AND:
+: ||
+: !
 
 ### Conditions:
 
