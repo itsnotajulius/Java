@@ -591,10 +591,13 @@ Bounded Types Parameters:
 
   > To declare bounded type parameter, list the type parameter's name, followed by the `'extends'` , followed by its upper bound
 
+- Multiple Bounds
+  - `<T extends Comparable<T> & Serializable>`
+
 EG:
 
 ```java
-  public class className<typeParm extends Class/Interface> {
+  public class className<typeParm extends Class/Interface &...> {
 
     private typeParm n;
 
