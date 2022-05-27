@@ -211,11 +211,8 @@ Extra:
 | Equals |     | `=`                                         |
 |        |     | `text.equals(text)` (useful if toLowerCase) |
 
-</div>
-
-<div>
-
-</div>
+</br>
+</br>
 
 ### Conditions:
 
@@ -247,6 +244,8 @@ Break:                      break;                    (stops)
 Continue:                   continue;                 (Next)
 ```
 
+<br/>
+
 ---
 
 <br/>
@@ -256,13 +255,13 @@ Continue:                   continue;                 (Next)
 ### MODIFIERS:
 
 - Access Modifers:
-  - public (accessible by other classes)
-  - private (accessible only in declared class,subclasses can access)
-  - protected (only same packahe and subclasses)
-  - default (accessed by classes in same package, when no modifiers set)
+  - `public` (accessible by other classes)
+  - `private` (accessible only in declared class,subclasses can access)
+  - `protected` (only same packahe and subclasses)
+  - `default` (accessed by classes in same package, when no modifiers set)
 - Non-Access Modifers:
-  - final (cant be inherited by other classes and attri cant be moded spell in caps)
-  - static (attr/methods belong to class can be used but static variables are shared across Instances)
+  - `final` (cant be inherited by other classes and attri cant be moded spell in caps)
+  - `static` (attr/methods belong to class can be used but static variables are shared across Instances)
     - (eg change one all changes)
   - (classes methods cant use instance variable\this.)
   - abstract (the class cant make objects)
