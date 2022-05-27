@@ -204,25 +204,25 @@ Extra:
 
 ### String Operators:
 
-| Arithmetic    |     |         |     | Comparison |     |                    |     | Logical |     |      |
-| ------------- | --- | ------- | --- | ---------- | --- | ------------------ | --- | ------- | --- | ---- |
-| Addition      |     | `+`     |     | Equal      |     | `=`                |     | AND     |     | `&&` |
-| Sub           |     | `-`     |     |            |     | `==` (boolean/int) |     | OR      |     |      |
-| Multi         |     | `*`     |     | Not Equal  |     | `!=`               |     | Not     |     | `!`  |
-| Division      |     | `/`     |     | Greater    |     | `>`                |     |         |     |      |
-| Mod/Remainder |     | `%`     |     |            |     | `>=`               |     |         |     |      |
-| Power         |     | `^`     |     | Less Than  |     | `<`                |     |         |     |      |
-| Increment     |     | `++`    |     |            |     | `<= `              |     |         |     |      |
-| Decrement     |     | `--`    |     |            |     |                    |     |         |     |      |
-| Abbreviated   |     | `op= #` |     |            |     |                    |     |         |     |      |
+| String |     |                   |     | Comparison |     |                    |     | Logical |     |      |
+| ------ | --- | ----------------- | --- | ---------- | --- | ------------------ | --- | ------- | --- | ---- |
+| Equals |     | `=`               |     | Equal      |     | `=`                |     | AND     |     | `&&` |
+|        |     | text.equals(text) |     |            |     | `==` (boolean/int) |     | OR      |     |      |
+|        |     | `*`               |     | Not Equal  |     | `!=`               |     | Not     |     | `!`  |
+|        |     | `/`               |     | Greater    |     | `>`                |     |         |     |      |
+|        |     | `%`               |     |            |     | `>=`               |     |         |     |      |
+|        |     | `^`               |     | Less Than  |     | `<`                |     |         |     |      |
+|        |     | `++`              |     |            |     | `<= `              |     |         |     |      |
+|        |     | `--`              |     |            |     |                    |     |         |     |      |
+|        |     | `op= #`           |     |            |     |                    |     |         |     |      |
 
 </div>
 
 <div>
 
 String Operators:
-Equals: =
-text.equals(text) (useful if toLowerCase)
+:
+(useful if toLowerCase)
 
 </div>
 
