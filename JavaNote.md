@@ -595,7 +595,20 @@ Bounded Types Parameters:
 
   > A type parameter is said to be contravariant if it has a type constraint that is a supertype of the type parameter.
 
+EG:
+
 ```java
+  public class className<typeParm extends Class/Interface> {
+
+    private typeParm n;
+
+    public className(typeParm n)  { this.n = n; }
+
+    public boolean isEven() {
+        return n.intValue() % 2 == 0;
+    }
+}
+```
 
 <br/>
 
@@ -609,4 +622,7 @@ The most commonly used type parameter names are:
 - T - Type
 - V - Value
 - S,U,V etc. - 2nd, 3rd, 4th types
+
+```
+
 ```
