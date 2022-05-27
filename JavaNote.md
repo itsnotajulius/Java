@@ -202,6 +202,8 @@ Extra:
 | Decrement     |     | `--`    |     |            |     |                    |     |         |     |      |
 | Abbreviated   |     | `op= #` |     |            |     |                    |     |         |     |      |
 
+### String Operators:
+
 | Arithmetic    |     |         |     | Comparison |     |                    |     | Logical |     |      |
 | ------------- | --- | ------- | --- | ---------- | --- | ------------------ | --- | ------- | --- | ---- |
 | Addition      |     | `+`     |     | Equal      |     | `=`                |     | AND     |     | `&&` |
