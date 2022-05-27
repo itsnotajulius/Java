@@ -193,14 +193,14 @@ Extra:
 | Arithmetic    |     |         |     | Comparison |     |                  |     | Logical |     |     |
 | ------------- | --- | ------- | --- | ---------- | --- | ---------------- | --- | ------- | --- | --- |
 | Addition      |     | `+`     |     | Equal      |     | =                |     | Logical |     |     |
-| Sub           |     | `-`     |     | Comparison |     | == (boolean/int) |     | Logical |     |     |
-| Multi         |     | `*`     |     | Comparison |     |                  |     | Logical |     |     |
-| Division      |     | `/`     |     | Comparison |     |                  |     | Logical |     |     |
-| Mod/Remainder |     | `%`     |     | Comparison |     |                  |     | Logical |     |     |
-| Power         |     | `^`     |     | Comparison |     |                  |     | Logical |     |     |
-| Increment     |     | `++`    |     | Comparison |     |                  |     | Logical |     |     |
-| Decrement     |     | `--`    |     | Comparison |     |                  |     | Logical |     |     |
-| Abbreviated   |     | `op= #` |     | Comparison |     |                  |     | Logical |     |     |
+| Sub           |     | `-`     |     |            |     | == (boolean/int) |     | Logical |     |     |
+| Multi         |     | `*`     |     |            |     |                  |     | Logical |     |     |
+| Division      |     | `/`     |     |            |     |                  |     | Logical |     |     |
+| Mod/Remainder |     | `%`     |     |            |     |                  |     | Logical |     |     |
+| Power         |     | `^`     |     |            |     |                  |     | Logical |     |     |
+| Increment     |     | `++`    |     |            |     |                  |     | Logical |     |     |
+| Decrement     |     | `--`    |     |            |     |                  |     | Logical |     |     |
+| Abbreviated   |     | `op= #` |     |            |     |                  |     | Logical |     |     |
 
 </div>
 
