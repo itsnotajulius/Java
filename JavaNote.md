@@ -587,11 +587,9 @@ Bounded Types Parameters:
 
 - Def:
 
-  > A type parameter is said to be bounded if it has a type constraint.
+  > To restrict the types that can be used as type arguments in a parameterized type. For example, a method that operates on numbers might only want to accept instances of Number or its subclasses. This is what bounded type parameters are for.
 
-  > A type parameter is said to be unbounded if it does not have a type constraint.
-
-  > A type parameter is said to be invariant if it does not have a type constraint.
+  > To declare a bounded type parameter, list the type parameter's name, followed by the extends keyword, followed by its upper bound, which in this example is Number. Note that, in this context, extends is used in a general sense to mean either "extends" (as in classes) or "implements" (as in interfaces).
 
   > A type parameter is said to be covariant if it has a type constraint that is a subtype of the type parameter.
 
