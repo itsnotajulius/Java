@@ -195,11 +195,20 @@ Extra:
 | Addition |     | `+` |
 | Sub      |     | `-` |
 | Multi    |     | `*` |
+| Division |     |     |
+|          |     |     |
+|          |     |     |
+|          |     |     |
+|          |     |     |
+|          |     |     |
+|          |     |     |
+|          |     |     |
+|          |     |     |
 
 </div>
 :
 : - \*
-Division /
+ /
 Mod/Remainder %
 Power: ^
 Increment: ++
