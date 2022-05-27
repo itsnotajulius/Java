@@ -188,12 +188,15 @@ Extra:
 
 ### Arithmetic Operators:
 
+<div>
+
 |          |     |     |
 | -------- | --- | --- |
 | Addition |     | `+` |
 | Sub      |     | `-` |
 | Multi    |     | `*` |
 
+</div>
 :
 : - \*
 Division /
