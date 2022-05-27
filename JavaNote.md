@@ -583,6 +583,8 @@ public class subClass<K, V> implements className<K, V> {
 
 <br/>
 
+Bounded Types
+
 <br/>
 
 ### Type Parameter Naming Conventions
