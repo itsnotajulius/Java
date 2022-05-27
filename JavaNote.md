@@ -204,7 +204,7 @@ Extra:
 
 <br/>
 
-### String Operators:
+### [String Operators:](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
 
 | String |     |                     |
 | ------ | --- | ------------------- |
