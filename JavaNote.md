@@ -190,30 +190,30 @@ Extra:
 
 <div>
 
-|          |     |     |
-| -------- | --- | --- |
-| Addition |     | `+` |
-| Sub      |     | `-` |
-| Multi    |     | `*` |
-| Division |     |     |
-|          |     |     |
-|          |     |     |
-|          |     |     |
-|          |     |     |
-|          |     |     |
-|          |     |     |
-|          |     |     |
-|          |     |     |
+|               |     |     |
+| ------------- | --- | --- |
+| Addition      |     | `+` |
+| Sub           |     | `-` |
+| Multi         |     | `*` |
+| Division      |     | `/` |
+| Mod/Remainder |     | `%` |
+| Power         |     | `^` |
+| Increment     |     |     |
+| Decrement     |     |     |
+| Abbreviated   |     |     |
+|               |     |     |
+|               |     |     |
+|               |     |     |
 
 </div>
 :
 : - \*
  /
-Mod/Remainder %
-Power: ^
-Increment: ++
-Decrement: --
-Abbreviated: op= #
+Mod/Remainder 
+: 
+: ++
+: --
+: op= #
 
 Comparison Operators:
 Equal: =
