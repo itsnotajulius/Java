@@ -298,7 +298,7 @@ Continue:                   continue;                 (Next)
 - Check if Digit:
   - `text.matchs("[0-9]+.")` (+ means one or more times)
 - Format:
-  - `String.format("format",text)` (eg: "%.2f")
+  - `String.format("format",text)` (eg: "%.2f" - 2 decimal places)
 - Equal:
   - `text.Equal(text)` (boolean output)
 
