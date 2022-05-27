@@ -194,9 +194,9 @@ Extra:
 | ------------- | --- | ------- | --- | ---------- | --- | ---------------- | --- | ------- | --- | --- |
 | Addition      |     | `+`     |     | Equal      |     | =                |     | Logical |     |     |
 | Sub           |     | `-`     |     |            |     | == (boolean/int) |     | Logical |     |     |
-| Multi         |     | `*`     |     |            |     |                  |     | Logical |     |     |
-| Division      |     | `/`     |     |            |     |                  |     | Logical |     |     |
-| Mod/Remainder |     | `%`     |     |            |     |                  |     | Logical |     |     |
+| Multi         |     | `*`     |     | Not Equal  |     | !=               |     | Logical |     |     |
+| Division      |     | `/`     |     | Greater    |     | >                |     | Logical |     |     |
+| Mod/Remainder |     | `%`     |     |            |     | >=               |     | Logical |     |     |
 | Power         |     | `^`     |     |            |     |                  |     | Logical |     |     |
 | Increment     |     | `++`    |     |            |     |                  |     | Logical |     |     |
 | Decrement     |     | `--`    |     |            |     |                  |     | Logical |     |     |
@@ -209,8 +209,8 @@ Extra:
 Operators:
 :
 
-Not Equal: !=
-Greater: > >=
+:
+:  
 Less Than: <
 <=
 String Operators:
