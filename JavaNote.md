@@ -195,12 +195,12 @@ Extra:
 | Addition      |     | `+`     |     | Equal      |     | `=`                |     | AND     |     | `&&` |
 | Sub           |     | `-`     |     |            |     | `==` (boolean/int) |     | OR      |     | `    |     | `   |
 | Multi         |     | `*`     |     | Not Equal  |     | `!=`               |     | Not     |     | `!`  |
-| Division      |     | `/`     |     | Greater    |     | `>`                |     | Logical |     |      |
-| Mod/Remainder |     | `%`     |     |            |     | `>=`               |     | Logical |     |      |
-| Power         |     | `^`     |     | Less Than  |     | `<`                |     | Logical |     |      |
-| Increment     |     | `++`    |     |            |     | `<= `              |     | Logical |     |      |
-| Decrement     |     | `--`    |     |            |     |                    |     | Logical |     |      |
-| Abbreviated   |     | `op= #` |     |            |     |                    |     | Logical |     |      |
+| Division      |     | `/`     |     | Greater    |     | `>`                |     |         |     |      |
+| Mod/Remainder |     | `%`     |     |            |     | `>=`               |     |         |     |      |
+| Power         |     | `^`     |     | Less Than  |     | `<`                |     |         |     |      |
+| Increment     |     | `++`    |     |            |     | `<= `              |     |         |     |      |
+| Decrement     |     | `--`    |     |            |     |                    |     |         |     |      |
+| Abbreviated   |     | `op= #` |     |            |     |                    |     |         |     |      |
 
 </div>
 
