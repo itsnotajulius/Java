@@ -591,10 +591,6 @@ Bounded Types Parameters:
 
   > To declare bounded type parameter, list the type parameter's name, followed by the `'extends'` , followed by its upper bound
 
-  > A type parameter is said to be covariant if it has a type constraint that is a subtype of the type parameter.
-
-  > A type parameter is said to be contravariant if it has a type constraint that is a supertype of the type parameter.
-
 EG:
 
 ```java
