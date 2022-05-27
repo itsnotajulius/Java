@@ -190,25 +190,25 @@ Extra:
 
 <div>
 
-| Arithmetic    |     |         |     | Comparison |     |     |     | Logical |     |     |
-| ------------- | --- | ------- | --- | ---------- | --- | --- | --- | ------- | --- | --- |
-| Addition      |     | `+`     |
-| Sub           |     | `-`     |
-| Multi         |     | `*`     |
-| Division      |     | `/`     |
-| Mod/Remainder |     | `%`     |
-| Power         |     | `^`     |
-| Increment     |     | `++`    |
-| Decrement     |     | `--`    |
-| Abbreviated   |     | `op= #` |
+| Arithmetic    |     |         |     | Comparison |     |                  |     | Logical |     |     |
+| ------------- | --- | ------- | --- | ---------- | --- | ---------------- | --- | ------- | --- | --- |
+| Addition      |     | `+`     |     | Equal      |     | =                |     | Logical |     |     |
+| Sub           |     | `-`     |     | Comparison |     | == (boolean/int) |     | Logical |     |     |
+| Multi         |     | `*`     |     | Comparison |     |                  |     | Logical |     |     |
+| Division      |     | `/`     |     | Comparison |     |                  |     | Logical |     |     |
+| Mod/Remainder |     | `%`     |     | Comparison |     |                  |     | Logical |     |     |
+| Power         |     | `^`     |     | Comparison |     |                  |     | Logical |     |     |
+| Increment     |     | `++`    |     | Comparison |     |                  |     | Logical |     |     |
+| Decrement     |     | `--`    |     | Comparison |     |                  |     | Logical |     |     |
+| Abbreviated   |     | `op= #` |     | Comparison |     |                  |     | Logical |     |     |
 
 </div>
 
 <div>
 
 Operators:
-Equal: =
-== (boolean/int)
+:
+
 Not Equal: !=
 Greater: > >=
 Less Than: <
