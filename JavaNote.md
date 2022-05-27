@@ -297,7 +297,7 @@ Continue:                   continue;                 (Next)
   - `text.indexOf("searchText")`
 - Check if Digit:
   - `text.matchs("[0-9]+.")` (+ means one or more times)
-- Format Numbers:
+- Format:
   - `String.format("format",text)` (eg: "%.2f")
 - Equal:
   - `text.Equal(text)` (boolean output)
