@@ -188,12 +188,14 @@ Extra:
 
 ### Arithmetic Operators:
 
+|          |     |     |
+| -------- | --- | --- |
+| Addition |     | `+` |
+| Sub      |     | `-` |
+| Multi    |     | `*` |
 
-
-
-Addition: +
-Sub: -
-Multi \*
+:
+: - \*
 Division /
 Mod/Remainder %
 Power: ^
