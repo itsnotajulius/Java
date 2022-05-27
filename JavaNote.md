@@ -221,7 +221,9 @@ If:                         if(condition){..}
 If_Else:                    if(condition){..}else{..}
 Ternary Operator:           dataType var = (condition) ? conditionMet : .._else_...
 Else_if:                    if(condition){..}else if(condition){..}else{..}
+```
 
+```java
 Switch Case:                switch (expression){
                               case checkValue1:
                                 executeBox....
@@ -233,7 +235,9 @@ Switch Case:                switch (expression){
                                 executeBox....
                                 break;
                             }
+```
 
+```java
 For Loop:                   for(init;termination;increment)
 For:Each                    for(init :array){...}
 
@@ -263,12 +267,12 @@ Continue:                   continue;                 (Next)
   - `final` (cant be inherited by other classes and attri cant be moded spell in caps)
   - `static` (attr/methods belong to class can be used but static variables are shared across Instances)
     - (eg change one all changes)
-  - (classes methods cant use instance variable\this.)
-  - abstract (the class cant make objects)
-  - abstract (methods can only be used in abstract class)
-  - transient (attri and methods are skipped when serializing)
-  - synchronized (methods can only be access one thread @ time)
-  - volatile (attri is not cached)
+    - (classes methods cant use instance variable\this.)
+  - `abstract` (the class cant make objects)
+  - `abstract` (methods can only be used in abstract class)
+  - `transient` (attri and methods are skipped when serializing)
+  - `synchronized` (methods can only be access one thread @ time)
+  - `volatile` (attri is not cached)
 
 ---
 
