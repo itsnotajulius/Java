@@ -202,27 +202,27 @@ Extra:
 | Decrement     |     | `--`    |     |            |     |                    |     |         |     |      |
 | Abbreviated   |     | `op= #` |     |            |     |                    |     |         |     |      |
 
+| Arithmetic    |     |         |     | Comparison |     |                    |     | Logical |     |      |
+| ------------- | --- | ------- | --- | ---------- | --- | ------------------ | --- | ------- | --- | ---- |
+| Addition      |     | `+`     |     | Equal      |     | `=`                |     | AND     |     | `&&` |
+| Sub           |     | `-`     |     |            |     | `==` (boolean/int) |     | OR      |     |      |
+| Multi         |     | `*`     |     | Not Equal  |     | `!=`               |     | Not     |     | `!`  |
+| Division      |     | `/`     |     | Greater    |     | `>`                |     |         |     |      |
+| Mod/Remainder |     | `%`     |     |            |     | `>=`               |     |         |     |      |
+| Power         |     | `^`     |     | Less Than  |     | `<`                |     |         |     |      |
+| Increment     |     | `++`    |     |            |     | `<= `              |     |         |     |      |
+| Decrement     |     | `--`    |     |            |     |                    |     |         |     |      |
+| Abbreviated   |     | `op= #` |     |            |     |                    |     |         |     |      |
+
 </div>
 
 <div>
-
-Operators:
-:
-
-:
-:  
-:
 
 String Operators:
 Equals: =
 text.equals(text) (useful if toLowerCase)
 
 </div>
-
-Operators:
-AND:
-: ||
-: !
 
 ### Conditions:
 
