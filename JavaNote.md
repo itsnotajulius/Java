@@ -190,8 +190,8 @@ Extra:
 
 <div>
 
-|               |     |         |
-| ------------- | --- | ------- |
+|               |     |         |     |     |     |     |     |     |     |     |
+| ------------- | --- | ------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Addition      |     | `+`     |
 | Sub           |     | `-`     |
 | Multi         |     | `*`     |
@@ -204,6 +204,8 @@ Extra:
 
 </div>
 
+<div>
+
 Comparison Operators:
 Equal: =
 == (boolean/int)
@@ -214,6 +216,8 @@ Less Than: <
 String Operators:
 Equals: =
 text.equals(text) (useful if toLowerCase)
+
+</div>
 
 Logical Operators:
 AND: &&
