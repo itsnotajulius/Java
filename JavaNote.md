@@ -583,7 +583,21 @@ public class subClass<K, V> implements className<K, V> {
 
 <br/>
 
-Bounded Types
+Bounded Types Parameters:
+
+- Def:
+
+  > A type parameter is said to be bounded if it has a type constraint.
+
+  > A type parameter is said to be unbounded if it does not have a type constraint.
+
+  > A type parameter is said to be invariant if it does not have a type constraint.
+
+  > A type parameter is said to be covariant if it has a type constraint that is a subtype of the type parameter.
+
+  > A type parameter is said to be contravariant if it has a type constraint that is a supertype of the type parameter.
+
+```java
 
 <br/>
 
@@ -597,3 +611,4 @@ The most commonly used type parameter names are:
 - T - Type
 - V - Value
 - S,U,V etc. - 2nd, 3rd, 4th types
+```
