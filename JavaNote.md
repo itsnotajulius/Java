@@ -204,10 +204,10 @@ Extra:
 
 ### String Operators:
 
-| String |     |                   |
-| ------ | --- | ----------------- |
-| Equals |     | `=`               |
-|        |     | text.equals(text) |
+| String |     |                     |
+| ------ | --- | ------------------- |
+| Equals |     | `=`                 |
+|        |     | `text.equals(text)` |
 
 </div>
 
