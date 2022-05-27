@@ -592,7 +592,8 @@ Bounded Types Parameters:
   > To declare bounded type parameter, list the type parameter's name, followed by the `'extends'` , followed by its upper bound
 
 - Multiple Bounds
-  - `<T extends Comparable<T> & Serializable>`
+  - `<typeParm extends B1 & B2 & B3>`
+  - If any is class, then must be class 1st.
 
 EG:
 
