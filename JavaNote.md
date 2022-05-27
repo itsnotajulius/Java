@@ -510,7 +510,7 @@ Inner Classes:
     - Can't call Inner but OuterClass can see InnerClass
 
 - Local inner Class
-  - `method {... class InnerClass {...} ... }`
+  - `method {... class LocalInnerClass {...} ... }`
   - Calling
     - `InnerClass` **`myInner`** `= new InnerClass()`
     - Can only call in local method
