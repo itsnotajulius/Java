@@ -206,18 +206,14 @@ Extra:
 
 ### [String Operators:](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
 
-| String |     |                     |
-| ------ | --- | ------------------- |
-| Equals |     | `=`                 |
-|        |     | `text.equals(text)` |
+| String |     |                                             |
+| ------ | --- | ------------------------------------------- |
+| Equals |     | `=`                                         |
+|        |     | `text.equals(text)` (useful if toLowerCase) |
 
 </div>
 
 <div>
-
-String Operators:
-:
-(useful if toLowerCase)
 
 </div>
 
@@ -281,7 +277,7 @@ Continue:                   continue;                 (Next)
 
 ## FUNCTIONS:
 
-### [String Functions:](https://www.w3schools.com/java/java_ref_string.asp)
+### [String Functions:](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
 
 - Concatenation:
   - `Text+""+Text`
@@ -297,7 +293,7 @@ Continue:                   continue;                 (Next)
   - `text.indexOf("searchText")`
 - Check if Digit:
   - `text.matchs("[0-9]+.")` (+ means one or more times)
-- Format:
+- [Format:](https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html#syntax)
   - `String.format("format",text)` (eg: "%.2f" - 2 decimal places)
 - Equal:
   - `text.Equal(text)` (boolean output)
