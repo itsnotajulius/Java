@@ -190,8 +190,8 @@ Extra:
 
 <div>
 
-| Arithmetic    |     |         |     | Comparison |     |     |     |     |     |     |
-| ------------- | --- | ------- | --- | ---------- | --- | --- | --- | --- | --- | --- |
+| Arithmetic    |     |         |     | Comparison |     |     |     | Logical |     |     |
+| ------------- | --- | ------- | --- | ---------- | --- | --- | --- | ------- | --- | --- |
 | Addition      |     | `+`     |
 | Sub           |     | `-`     |
 | Multi         |     | `*`     |
@@ -219,7 +219,7 @@ text.equals(text) (useful if toLowerCase)
 
 </div>
 
-Logical Operators:
+Operators:
 AND: &&
 OR: ||
 Not: !
