@@ -622,7 +622,3 @@ The most commonly used type parameter names are:
 - T - Type
 - V - Value
 - S,U,V etc. - 2nd, 3rd, 4th types
-
-```
-
-```
