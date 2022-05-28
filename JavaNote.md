@@ -598,7 +598,7 @@ Bounded Types Parameters:
 EG:
 
 ```java
-  public class className<typeParm extends Class/Interface &...> {
+  public class className<typeParm extends Class/Interface &...> ?implements Interface1<typeParm>,..? {
 
     private typeParm n;
 
