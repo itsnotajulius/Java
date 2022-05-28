@@ -539,7 +539,10 @@ Inner Classes:
   - Used to group related classes
   - Java API has built-In Packages
 - Built-In Pack:
-  - import package.name.\*/Class
+  - Can only import one of the built-in packages with same name
+  - Can't import a package with same name as a class
+  - Can define variables as type of package (`package.name var = new package.name();`)
+  - `import package.name.Class`
 - User-defined:
   - package path;
 
