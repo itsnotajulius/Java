@@ -49,16 +49,16 @@ Class Type:
 
 Extra:
 
-|                      |          |     |     |     |     |     |                                                |
-| -------------------- | -------- | --- | --- | --- | --- | --- | ---------------------------------------------- |
-| Final                |          |     |     |     |     |     | `final dataType VAR = X;`                      |
-|                      |          |     |     |     |     |     | (Sets the output as constant, Spell with CAPS) |
-| Converting/Parsing:: |          |     |     |     |     |     | `dataType var = dataType.parseType(text)`      |
-|                      |          |     |     |     |     |     |                                                |
-|                      |          |     |     |     |     |     |                                                |
-| Type Casting:        |          |     |     |     |     |     |                                                |
-|                      | Widening |     |     |     |     |     | `double var = varByte;`                        |
-|                      | Narrow   |     |     |     |     |     | `byte var = (byte) varDouble;`                 |
+|                      |          |     |     |     |     |     |                                                                 |
+| -------------------- | -------- | --- | --- | --- | --- | --- | --------------------------------------------------------------- |
+| Final                |          |     |     |     |     |     | `final dataType VAR = X;` (Uppercase with Underscore Separater) |
+|                      |          |     |     |     |     |     | (Sets the output as constant, Spell with CAPS)                  |
+| Converting/Parsing:: |          |     |     |     |     |     | `dataType var = dataType.parseType(text)`                       |
+|                      |          |     |     |     |     |     |                                                                 |
+|                      |          |     |     |     |     |     |                                                                 |
+| Type Casting:        |          |     |     |     |     |     |                                                                 |
+|                      | Widening |     |     |     |     |     | `double var = varByte;`                                         |
+|                      | Narrow   |     |     |     |     |     | `byte var = (byte) varDouble;`                                  |
 
 ---
 
@@ -272,7 +272,7 @@ Continue:                   continue;                 (Next)
   - `protected` (only same packahe and subclasses)
   - `default` (accessed by classes in same package, when no modifiers set)
 - Non-Access Modifers:
-  - `final` (cant be inherited by other classes and attri cant be moded spell in caps)
+  - `final` (cant be inherited by other classes and attri cant be moded and spell in caps with underscore separaters)
   - `static` (attr/methods belong to class can be used but static variables are shared across Instances)
     - (eg change one all changes)
     - (classes methods cant use instance variable\this.)
