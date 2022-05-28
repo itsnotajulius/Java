@@ -533,7 +533,7 @@ Inner Classes:
 
 ---
 
-### Packages:
+### [Packages:](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7)
 
 - Package:
   - Used to group related classes
