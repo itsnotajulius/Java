@@ -93,7 +93,7 @@ Extra:
   <br/>
   <br/>
 
-<div style = "background: white">
+<div style = "background: white opacity: 50%">
 
   <img src = "https://static.javatpoint.com/images/java-collection-hierarchy.png" alt = "Java Collection Hierarchy" width = "100%">
 
