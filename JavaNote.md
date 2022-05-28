@@ -92,6 +92,13 @@ Extra:
 
   <br/>
   <br/>
+
+<div style = "background: white">
+
+  <img src = "https://static.javatpoint.com/images/java-collection-hierarchy.png" alt = "Java Collection Hierarchy" width = "100%">
+
+</div>
+
   <br/>
 
 ### ARRAYLIST:
