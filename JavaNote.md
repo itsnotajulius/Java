@@ -84,7 +84,7 @@ Extra:
       - `varArray.length` (single Array)
       - `varArray[i].length` (2d Array)
     - Sort:
-      - `Arrays.sort(varArray)`(Import util.Arrays)
+      - `Arrays.sort(varArray)`(Import java.util.Arrays)
     - Copy array:
       - `Arrays.copyOf(..,..)`
     - Print:
@@ -99,7 +99,8 @@ Extra:
 
 </div>
 
-  <br/>
+<br/>
+<br/>
 
 ### ARRAYLIST:
 
