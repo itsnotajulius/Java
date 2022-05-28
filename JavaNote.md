@@ -547,7 +547,7 @@ Inner Classes:
 
 <br/>
 
-## GENERICS
+## [GENERICS](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
 
 - Def:
 
