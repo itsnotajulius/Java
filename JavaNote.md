@@ -271,6 +271,7 @@ Continue:                   continue;                 (Next)
   - `package-private` (Visible to all classes in same package)(used when public keyword)
 - Access Modifers:
   - `public` (accessible by other classes)
+  - `package-private` (Visible to all classes in same package)(used when public keyword)
   - `private` (accessible only in declared class,subclasses cant access)
   - `protected` (only same packahe and subclasses)
   - `default` (accessed by classes in same package, when no modifiers set)
