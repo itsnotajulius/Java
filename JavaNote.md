@@ -266,9 +266,12 @@ Continue:                   continue;                 (Next)
 
 ### MODIFIERS:
 
+- Top Level
+  - `public` (Visible to all classes)
+  - `package-private` (Visible to all classes in same package)(used when public keyword)
 - Access Modifers:
   - `public` (accessible by other classes)
-  - `private` (accessible only in declared class,subclasses can access)
+  - `private` (accessible only in declared class,subclasses cant access)
   - `protected` (only same packahe and subclasses)
   - `default` (accessed by classes in same package, when no modifiers set)
 - Non-Access Modifers:
