@@ -278,6 +278,7 @@ Continue:                   continue;                 (Next)
 - Non-Access Modifers:
   - `final` (cant be inherited by other classes and attri cant be moded and spell in caps with underscore separaters)
   - `static` (attr/methods belong to class can be used but static variables are shared across Instances)
+    - Can also make a static block
     - Static methods cant use non-static variables/methods
     - (eg change one all changes)
     - (classes methods cant use instance variable\this.)
