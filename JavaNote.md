@@ -541,6 +541,7 @@ Inner Classes:
 - Built-In Pack:
   - Can only import one of the built-in packages with same name
   - Can't import a package with same name as a class
+  - Different packages have different paths (java.awt._ wont pick up java.awt.event._)
   - Can define variables as type of package (`package.name var = new package.name();`)
   - `import package.name.Class`
 - User-defined:
