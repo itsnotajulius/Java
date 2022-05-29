@@ -545,6 +545,18 @@ Inner Classes:
   - `import package.name.Class`
 - User-defined:
   - package path;
+- Types
+  - AWT (Abstract Window Toolkit)
+  - Swing (Swing Components)
+  - SQL (Structured Query Language)
+  - JPA (Java Persistence API)
+  - JAXB (Java Architecture for XML Binding)
+  - JMS (Java Message Service)
+  - JAX-RS (Java API for RESTful Web Services)
+  - JAX-WS (Java API for Web Services)
+  - JAX-B (Java API for XML Binding)
+  - JAX-P (Java API for XML Processing)
+  - JAX-RPC (Java API for Remote Procedure Call)
 
 ---
 
