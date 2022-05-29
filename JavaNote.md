@@ -270,7 +270,7 @@ Continue:                   continue;                 (Next)
   - `public` (Visible to all classes)
   - `package-private` (Visible to all classes in same package)(used when public keyword)
 - Access Modifers:
-  - `public` (accessible by other classes)
+  - `public` (accessible by other classes)(interface methods are public by default)
   - `package-private` (Visible to all classes in same package)(used when public keyword)
   - `private` (accessible only in declared class,subclasses cant access)
   - `protected` (only same packahe and subclasses)(Like package-private but can be accessed by subclasses))
