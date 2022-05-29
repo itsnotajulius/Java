@@ -273,7 +273,7 @@ Continue:                   continue;                 (Next)
   - `public` (accessible by other classes)
   - `package-private` (Visible to all classes in same package)(used when public keyword)
   - `private` (accessible only in declared class,subclasses cant access)
-  - `protected` (only same packahe and subclasses)
+  - `protected` (only same packahe and subclasses)(Like package-private but can be accessed by subclasses))
   - `default` (accessed by classes in same package, when no modifiers set)
 - Non-Access Modifers:
   - `final` (cant be inherited by other classes and attri cant be moded and spell in caps with underscore separaters)
