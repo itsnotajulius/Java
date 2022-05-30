@@ -13,6 +13,8 @@
   - Makes a new space in memory when assigned to each other, so addressed to actual memory
 - JVM:
   - This lets Java run on any system in the JVM is installed
+- Bits (Binary digITS):
+  - 1 Byte = 8 bits
 
 ---
 
