@@ -120,4 +120,8 @@ Methods:
 
   ***
 
-##
+## Styles
+
+- Style
+  - `setStyle(String)` or `setStyle(Style)`
+  - this superceeds setting methods
