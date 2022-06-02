@@ -133,7 +133,7 @@ Methods:
 ### TAGS
 
 - Labels
-  - <Labels></Labels>
+  - <Label></Label>
 
 <br/>
 
