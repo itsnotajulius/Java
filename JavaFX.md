@@ -50,3 +50,8 @@ Note:
 > Calling `Platform.exit()` is the preferred way to terminate Application. Calling `System.exit(int)` is acceptable, but `stop()` method doesn't run.
 
 A JavaFX Application should not attempt to use JavaFX after the FX toolkit has terminated or from a ShutdownHook, that is, after the stop() method returns or System.exit(int) is called.
+
+<br/>
+<br/>
+
+### Stage
