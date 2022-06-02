@@ -121,6 +121,8 @@ Methods:
 
 <br/>
 
+-
+
 - The name of the controller class.
   - fx:controller = "package.MyController"
   - In `<gridpane>`
