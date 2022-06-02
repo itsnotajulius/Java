@@ -70,6 +70,17 @@ Def:
 - Aka `Main Window`
 
 <br/>
+
+Methods:
+
+- setTitle(String)
+- setScene(Scene)
+- show()
+- close()
+- setFullScreen(boolean)
+- setFullScreenExitHint(String)
+- setFullScreenExitKeyCombination(KeyCode, Modifier...)
+
 <br/>
 
 ---
