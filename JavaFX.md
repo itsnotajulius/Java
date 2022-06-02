@@ -57,6 +57,7 @@ A JavaFX Application should not attempt to use JavaFX after the FX toolkit has t
 ### Stage
 
 <br/>
+
 Def:
 
 - Stage is the top-level container for a JavaFX application.
