@@ -107,7 +107,10 @@ Methods:
 
 ## ROOT NODE
 
--
+- Root variable
+  - root node of the scene graph.
+  - Can be specified as a Parent
+    - Can set/get things from children.
 
 <br/>
 <br/>
