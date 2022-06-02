@@ -135,6 +135,8 @@ Methods:
 
 ## Styles
 
+- Def
+  - Can be in code file but should be fxml file.
 - Style
   - `setStyle(String)` or `setStyle(Style)`
   - this superceeds setting methods
