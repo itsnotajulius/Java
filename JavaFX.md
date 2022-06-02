@@ -54,6 +54,8 @@ A JavaFX Application should not attempt to use JavaFX after the FX toolkit has t
 <br/>
 <br/>
 
+---
+
 ### Stage
 
 <br/>
