@@ -111,5 +111,5 @@ Methods:
 - The name of the controller class.
   - fx:controller = "package.MyController"
   - In `<gridpane>`
-- Parent Root Node
-  -
+- Load from FXML
+  - `FXMLLoader.load(URL);`
