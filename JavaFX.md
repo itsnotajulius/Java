@@ -24,7 +24,7 @@ Def:
   - Flavour of XML
   - XML is a markup language.
 - Understaning
-  - Need a Stage
+  - Need a Stage for different scenes. We use root nodes(fxml) to build the scene.
 
 <br/>
 <br/>
