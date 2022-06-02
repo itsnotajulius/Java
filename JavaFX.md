@@ -15,3 +15,8 @@ Def:
 <br/>
 
 <br/>
+
+Extras:
+Application:
+
+- Main class must extend Application.
