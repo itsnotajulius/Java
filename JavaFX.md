@@ -16,10 +16,13 @@ Def:
 
 <br/>
 
-Extras:
-Application:
+## Extras:
 
-- Main class must extend Application.
+- Application:
+  - Main class must extend Application.
+- FXML
+  - Flavour of XML
+  - XML is a markup language.
 
 <br/>
 <br/>
