@@ -128,10 +128,19 @@ Methods:
 
   - `FXMLLoader.load(URL);`
 
+<br/>
+
+### TAGS
+
+- Labels
+  - <Labels></Labels>
+
+<br/>
+
   <br/>
   <br/>
 
-  ***
+---
 
 ## Styles
 
