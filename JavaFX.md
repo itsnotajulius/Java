@@ -73,13 +73,30 @@ Def:
 
 Methods:
 
-- setTitle(String)
-- setScene(Scene)
-- show()
-- close()
-- setFullScreen(boolean)
-- setFullScreenExitHint(String)
-- setFullScreenExitKeyCombination(KeyCode, Modifier...)
+- Title:
+  - Sets the title of the stage.
+  - `setTitle(String)`
+- Scene
+  - Sets the scene for the stage.
+  - `setScene(Scene)`
+- Show
+  - Shows the stage.
+  - `show()`
+- Close
+  - Closes the stage.
+  - `close()`
+- Minimize
+  - Minimizes the stage.
+  - `setIconified(boolean)`
+- Maximize
+  - Maximizes the stage.
+  - `setMaximized(boolean)`
+- Full Screen
+  - Enables full screen mode.
+  - `setFullScreen(boolean)`
+- Full Screen Exit Hint
+  - Sets the full screen exit hint.
+  - `setFullScreenExitHint(String)`
 
 <br/>
 
