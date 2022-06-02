@@ -29,23 +29,24 @@ Application:
 ## APPLICATIONS:
 
 Def:
-Application class from which JavaFX applications extend.
+The entry point for JavaFX applications is the Application class. The JavaFX runtime does the following
 
 Life-cycle
 
-```
-The entry point for JavaFX applications is the Application class. The JavaFX runtime does the following, in order, whenever an application is launched:
-Constructs an instance of the specified Application class
-Calls the init() method
-Calls the start(javafx.stage.Stage) method
-Waits for the application to finish, which happens when either of the following occur:
-the application calls Platform.exit()
-the last window has been closed and the implicitExit attribute on Platform is true
-Calls the stop() method
-```
+1. Constructs an instance of Application class
+2. Calls the init() method
+3. Calls start(javafx.stage.Stage) method
+4. Waits for the application to finish:
+   - the application calls Platform.exit()
+   - the last window has been closed and the implicitExit attribute on Platform is true
+5. Calls the stop() method
 
-Note that the start method is abstract and must be overridden. The init and stop methods have concrete implementations that do nothing.
+Note:
 
-Calling Platform.exit() is the preferred way to explicitly terminate a JavaFX Application. Directly calling System.exit(int) is an acceptable alternative, but doesn't allow the Application stop() method to run.
+> Start method is abstract and must be overridden.
+
+> The init and stop methods have concrete implementations that do nothing.
+
+> Calling `Platform.exit()` is the preferred way to terminate Application. Calling `System.exit(int)` is acceptable, but `stop()` method doesn't run.
 
 A JavaFX Application should not attempt to use JavaFX after the FX toolkit has terminated or from a ShutdownHook, that is, after the stop() method returns or System.exit(int) is called.
