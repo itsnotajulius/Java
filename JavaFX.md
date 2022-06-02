@@ -126,7 +126,7 @@ Methods:
   - Instance declarations are used to create new instances of classes/modules of Javafx.
   - If a tag is `UpperCase` then it is an instance declaration. And must import the class.
     ```
-
+      <?import javafx.scene.control.*?>
     ```
 
 - The name of the controller class.
