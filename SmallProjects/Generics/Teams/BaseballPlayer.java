@@ -1,4 +1,4 @@
-package src.Teams;
+package Generics.Teams;
 
 public class BaseballPlayer extends Player {
 

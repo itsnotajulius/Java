@@ -1,27 +1,27 @@
-package src;
+package OOP.Encapsulation.Player;
 
 public class EnhancedPlayer {
     private String name;
-    private int hitPoints =100;
+    private int hitPoints = 100;
     private String weapon;
 
     public EnhancedPlayer(String name, int health, String weapon) {
         this.name = name;
-        if(health>0&&health<=100){
+        if (health > 0 && health <= 100) {
             this.hitPoints = health;
         }
         this.weapon = weapon;
     }
 
-    public void loseHealth(int damage){
+    public void loseHealth(int damage) {
         this.hitPoints -= damage;
-        if(this.hitPoints<=0){
+        if (this.hitPoints <= 0) {
             System.out.println("Player is died");
         }
     }
 
-    public int remainHealth(){
+    public int remainHealth() {
         return this.hitPoints;
     }
-    
+
 }

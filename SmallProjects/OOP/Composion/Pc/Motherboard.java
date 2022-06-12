@@ -1,13 +1,12 @@
-package src.mypack;
+package OOP.Composion.Pc;
 
 public class Motherboard {
-    
+
     private String model;
     private String manufacturer;
     private int ramSlots;
     private int cardSlots;
     private String bios;
-
 
     public Motherboard(String model, String manufacturer, int ramSlots, int cardSlots, String bios) {
         this.model = model;
@@ -17,12 +16,9 @@ public class Motherboard {
         this.bios = bios;
     }
 
-
-
-    public void loadProgram(String ProgramName){
-        System.out.println("Program "+ ProgramName+" is running");
+    public void loadProgram(String ProgramName) {
+        System.out.println("Program " + ProgramName + " is running");
     }
-    
 
     /**
      * @return String return the model

@@ -1,20 +1,18 @@
-package mypack;
+package OOP.Inheritance.Animal;
 
-
-class shoes{
+class shoes {
 
 }
 
-
-public class Dog extends Animal{
+public class Dog extends Animal {
 
     private int eyes;
     private int legs;
-    private int  teeth;
+    private int teeth;
     private int tail;
     private String coat;
 
-    public Dog(String name, int size, int weight, int eyes, int legs, int teeth, int tail,String coat) {
+    public Dog(String name, int size, int weight, int eyes, int legs, int teeth, int tail, String coat) {
         super(name, 1, 1, size, weight);
         this.eyes = eyes;
         this.legs = legs;
@@ -22,10 +20,8 @@ public class Dog extends Animal{
         this.tail = tail;
         this.coat = coat;
     }
-    
 
-
-    public void chew(){
+    public void chew() {
         System.out.println("Dog.chew() called");
     }
 
@@ -36,17 +32,17 @@ public class Dog extends Animal{
         super.eat();
     }
 
-    public void walk(){
+    public void walk() {
         System.out.println("Dog.walk() called");
         move(5);
     }
 
-    public void run(){
+    public void run() {
         System.out.println("Dog.run() called");
         move(10);
     }
 
-    public void moveLegs(){
+    public void moveLegs() {
         System.out.println("Dog.moveLegs() called");
     }
 
@@ -56,7 +52,6 @@ public class Dog extends Animal{
         moveLegs();
         super.move(speed);
     }
-    
 
     /**
      * @return int return the eyes

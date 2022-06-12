@@ -1,4 +1,4 @@
-package src.Uefa;
+package Generics.Uefa;
 
 public class Player {
     String name;

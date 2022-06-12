@@ -1,4 +1,4 @@
-package src.Uefa;
+package Generics.Uefa;
 
 import java.util.ArrayList;
 import java.util.Collections;

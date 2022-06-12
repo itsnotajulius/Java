@@ -1,5 +1,4 @@
-package src.mypack;
-
+package OOP.Composion.Pc;
 
 public class Monitor {
 
@@ -15,12 +14,9 @@ public class Monitor {
         this.nativeResolution = nativeResolution;
     }
 
-    public void drawPixelAt(int x, int y, String color){
-        System.out.println("Drawing pixel at "+x+" , "+y+ " in colour "+color);
+    public void drawPixelAt(int x, int y, String color) {
+        System.out.println("Drawing pixel at " + x + " , " + y + " in colour " + color);
     }
-    
-
-    
 
     /**
      * @return String return the model

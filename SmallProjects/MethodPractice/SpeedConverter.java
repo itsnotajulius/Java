@@ -1,20 +1,22 @@
+package MethodPractice;
+
 public class SpeedConverter {
 
-    //Summary: Converting Kilometer to Miles
+    // Summary: Converting Kilometer to Miles
 
-    public static long toMilesPerHour(double kilometersPerHour){
+    public static long toMilesPerHour(double kilometersPerHour) {
         long answer = -1L;
-        if(kilometersPerHour>=0){
-            answer =  Math.round(kilometersPerHour/1.609);
+        if (kilometersPerHour >= 0) {
+            answer = Math.round(kilometersPerHour / 1.609);
         }
         return answer;
-        
+
     }
 
-    public static void printConversion(double kilometersPerHour){
-        if(kilometersPerHour>=0){
-            System.out.println(kilometersPerHour+" km/h = "+Math.round(kilometersPerHour/1.609)+" mi/h");
-        }else{
+    public static void printConversion(double kilometersPerHour) {
+        if (kilometersPerHour >= 0) {
+            System.out.println(kilometersPerHour + " km/h = " + Math.round(kilometersPerHour / 1.609) + " mi/h");
+        } else {
             System.out.println("Invalid Value");
         }
     }

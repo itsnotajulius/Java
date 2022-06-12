@@ -1,5 +1,4 @@
-package src.mypack;
-
+package OOP.Composion.Pc;
 
 public class PC {
     private Case theCase;
@@ -12,16 +11,13 @@ public class PC {
         this.motherboard = motherboard;
     }
 
-    public void powerUp(){
+    public void powerUp() {
         theCase.pressButton();
         drawLogo();
     }
 
-    private void drawLogo(){
+    private void drawLogo() {
         monitor.drawPixelAt(1200, 5, "Yellow");
     }
-
-
-    
 
 }

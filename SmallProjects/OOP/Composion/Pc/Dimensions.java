@@ -1,5 +1,4 @@
-package src.mypack;
-
+package OOP.Composion.Pc;
 
 public class Dimensions {
     private int width;
@@ -35,9 +34,5 @@ public class Dimensions {
     public void setDepth(int depth) {
         this.depth = depth;
     }
-
-
-
-    
 
 }

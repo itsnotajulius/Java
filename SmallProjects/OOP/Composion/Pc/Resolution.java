@@ -1,16 +1,13 @@
-package src.mypack;
+package OOP.Composion.Pc;
 
 public class Resolution {
     private int width;
     private int height;
-    
+
     public Resolution(int width, int height) {
         this.width = width;
         this.height = height;
     }
-
-    
-    
 
     /**
      * @return int return the width

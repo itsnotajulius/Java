@@ -1,4 +1,4 @@
-package mypack;
+package TestGround.src.mypack;
 
 public class TestGround {
 

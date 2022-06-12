@@ -1,13 +1,10 @@
-package src.mypack;
-
+package OOP.Composion.Pc;
 
 public class Case {
     private String model;
     private String manufacturer;
     private String powerSupply;
     private Dimensions dimensions;
-
-   
 
     public Case(String model, String manufacturer, String powerSupply, Dimensions dimensions) {
         this.model = model;
@@ -16,13 +13,11 @@ public class Case {
         this.dimensions = dimensions;
     }
 
-
-    
-    public void pressButton(){
+    public void pressButton() {
         System.out.println("Power Button pressed");
     }
 
-    public String getModel(){
+    public String getModel() {
         return model;
     }
 

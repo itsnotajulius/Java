@@ -1,47 +1,40 @@
-package src.Interfacess.Saving;
+package OOP.Interface.Saving;
 
 import java.util.*;
 
-public class Main{
+public class Main {
 
     public static void main(String[] args) {
         Player tim = new Player("Tim", 410);
         System.out.println(tim.toString());
         saveObject(tim);
-        
+
         tim.setHealth(8);
         System.out.println(tim);
         saveObject(tim);
-        //loadObject(tim);
+        // loadObject(tim);
 
         System.out.println(tim);
 
-
-
-
         ISaveable werewolf = new Monster("werewolf", 40);
-
 
         System.out.println(werewolf);
         saveObject(werewolf);
 
-
     }
 
-
-
-    public static void saveObject(ISaveable objectToSave){
+    public static void saveObject(ISaveable objectToSave) {
         for (int i = 0; i < objectToSave.write().size(); i++) {
-            System.out.println("Saving "+objectToSave.write().get(i)+ " to storage device");
+            System.out.println("Saving " + objectToSave.write().get(i) + " to storage device");
         }
     }
 
-    public static void loadObject(ISaveable objectToLoad){
+    public static void loadObject(ISaveable objectToLoad) {
         ArrayList<String> values = readValues();
         objectToLoad.read(values);
     }
 
-///////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////
 
     public static ArrayList<String> readValues() {
         ArrayList<String> values = new ArrayList<String>();
@@ -55,7 +48,7 @@ public class Main{
 
         while (!quit) {
             System.out.println("Choose an option: ");
-            while(!scanner.hasNextInt()){
+            while (!scanner.hasNextInt()) {
                 System.out.println("Choose an option: ");
                 scanner.next();
             }
@@ -79,6 +72,4 @@ public class Main{
         return values;
     }
 
-    
-    
 }

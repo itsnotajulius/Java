@@ -1,3 +1,5 @@
+package Scanner;
+
 import java.util.Scanner;
 
 public class ReadNameAge {
@@ -8,21 +10,21 @@ public class ReadNameAge {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Year of Birth:");
         boolean hasNextIntegter = sc.hasNextInt();
-        if(hasNextIntegter){
+        if (hasNextIntegter) {
             int year = sc.nextInt();
-            int age = year-2022;
+            int age = year - 2022;
             sc.nextLine();
             System.out.println("Enbter Name:");
             String name = sc.nextLine();
 
-            if(age>=0 && age<=100){
-                System.out.println("name "+name+" and age: "+age);
-            }else{
+            if (age >= 0 && age <= 100) {
+                System.out.println("name " + name + " and age: " + age);
+            } else {
                 System.out.println(INVALID_VALUE_MESSAGE);
             }
-        }else{
+        } else {
             System.out.println("Unable to parse year of birth");
         }
-        
+
     }
 }

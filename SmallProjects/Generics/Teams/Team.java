@@ -1,4 +1,4 @@
-package src.Teams;
+package Generics.Teams;
 
 import java.util.ArrayList;
 

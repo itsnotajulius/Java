@@ -1,4 +1,4 @@
-package src.mypack;
+package OOP.Composion.Pc;
 
 public class App {
     public static void main(String[] args) throws Exception {
