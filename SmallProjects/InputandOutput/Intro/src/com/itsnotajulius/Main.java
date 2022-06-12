@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    private static Locations locations = new Locations();
+    private static LocationsWithSplit locations = new LocationsWithSplit();
 
     public static void main(String[] args) {
         // Allows players to type full words, or phrases, then move
@@ -27,7 +27,7 @@ public class Main {
         vocabulary.put("WEST", "W");
         vocabulary.put("EAST", "E");
 
-        int loc = 1;
+        int loc = 64;
         while (true) {
             System.out.println(locations.get(loc).getDescription());
 

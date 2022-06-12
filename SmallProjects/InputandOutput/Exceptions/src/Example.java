@@ -19,8 +19,7 @@ public class Example {
     private static int getInt(String var) {
 
         int num;
-        try {
-            Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Enter in INTEGER for " + var);
             num = scanner.nextInt();
         } catch (InputMismatchException e) {

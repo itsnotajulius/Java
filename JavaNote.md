@@ -62,6 +62,9 @@ Extra:
 |                      | Widening |     |     |     |     |     | `double var = varByte;`                                         |
 |                      | Narrow   |     |     |     |     |     | `byte var = (byte) varDouble;`                                  |
 
+<br/>
+<br/>
+
 ---
 
 <br/>
@@ -95,7 +98,7 @@ Extra:
   <br/>
   <br/>
 
-<div style = "background-color: rgba(100,100,100, 0.3);">
+<div style = "background-color: rgba(100,100,100, 0.3); ">
 
   <img src = "https://static.javatpoint.com/images/java-collection-hierarchy.png" alt = "Java Collection Hierarchy" width = "100%">
 
@@ -377,61 +380,102 @@ Continue:                   continue;                 (Next)
 
 <br/>
 
-## OOP:
+## [OOP:](https://www.javatpoint.com/java-oops-concepts)
 
-### Object Oriented Programming:
+<br/>
 
-Definition: OOP is about creating objects that contain both data and methods. It is reuseable and less code and shorted dev time
+### [Object Oriented Programming:](https://www.javatpoint.com/java-oops-concepts)
 
-Classes: Is a blueprint. Is the template for objects
+- Definition:
 
-Objects: Is an instance/refence of classes, they inherit all public variables and methods of class
-When assigning Instances to Instances you assign it to the object in memory and can modify both at once
-No static mean instance has its own variables, with static mean variables of different instances are same
+  - OOP is about creating objects that contain both data and methods. It is reuseable and less code and shorted dev time
 
-Getters/setters: Used for validation and tests
+- Classes:
 
-Class: public class myClass{dataType arriType = data;....}
-Class Constructor: public myClass(?dataType? ?var?,...){set stuff}
-(must be public, no void, dont use getters and setters)
-public myClass(){?set default?}
-this(?var?,...);
-(Calling constructer in object)(Make consturc chains for no dups)
-Object: myClass myObj = new myClass();
-(Can be in different java files but same dir)
-Object variable: myObj.x
-Modi Variable: myObj.x = stuff
-Current object: this.x
-(If parameter has same name as instance/object variable)
-Static and Public: static access without object, public need object to be accessed
+  - Is a blueprint. Is the template for objects
 
-Inheritance:
-Def: A Superclass-name you know another Subclass-name will need. (Eg PetCode needs Class:dog needs Class: Characteristics)
-To inherit: class subclass-Name extends superclass-Name (if it has constructer subclass must have constructer)
-Call SupConstruc: super(?var?,...); (Access Parent Class Construcs)
-Call Sup Method: super.methodName(...); (Access Parent Class methods)
-Call Sup var: super.var; (Access Parent Class vars)
-Override: @Override methodStuff (Call child method thats in Superclass needs same methodName and paras)
-(Runtime Polymorphism)(Cant override final&private or static only instance/this)
+- Objects:
 
-Polymorphism:
-Def: Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
-Polymorphism usesthose methods to perform different tasks. This allows us to perform a single action in different ways.
-(Eg Superclass Animal has method Methodx(). Subclasses of Animals also have their own implementation of an methodX())
+  - Is an instance/refence of classes, they inherit all public variables and methods of class
+  - When assigning Instances to Instances you assign it to the object in memory and can modify both at once
+  - No static mean instance has its own variables, with static mean variables of different instances are same
 
-Encapsulation:
-Definition: Is used to make sure sensitive data is hidden from user with private variables and public get and set
-Hide things from other classes
+- Getters/setters:
 
-Composition:
-`Note:` `Use before Inheritance`
-Definition: Describes a class that references one or more objects of other classes. Allows you to model a has-a association between objects.
-Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
-Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
+  - Used for validation and tests
+
+- Class:
+  - public class myClass{dataType arriType = data;....}
+- Class Constructor:
+  - public myClass(?dataType? ?var?,...){set stuff}
+  - (must be public, no void, dont use getters and setters)
+  - public myClass(){?set default?}
+  - this(?var?,...);
+  - (Calling constructer in object)(Make consturc chains for no dups)
+- Object:
+  - myClass myObj = new myClass();
+  - (Can be in different java files but same dir)
+- Object variable: -`myObj.x`
+- Modi Variable:
+  - `myObj.x = stuff`
+- Current object:
+  - `this.x`
+  - (If parameter has same name as instance/object variable)
+- Static and Public:
+  - static access without object, public need object to be accessed
+
+<br/>
+
+### [Inheritance:](https://www.javatpoint.com/inheritance-in-java)
+
+- Def:
+  - A Superclass-name you know another Subclass-name will need.
+  - (Eg PetCode needs Class:dog needs Class: Characteristics)
+- To inherit:
+  - `class subclass-Name extends superclass-Name`
+  - (if it has constructer subclass must have constructer)
+- Call SupConstruc:
+  `- super(?var?,...);` (Access Parent Class Construcs)
+- Call Sup Method:
+  - `super.methodName(...);` (Access Parent Class methods)
+- Call Sup var:
+  - `super.var;` (Access Parent Class vars)
+- Override:
+  - `@Override methodStuff` (Call child method thats in Superclass needs same methodName and paras)
+  - (Runtime Polymorphism)(Cant override final&private or static only instance/this)
+
+<br/>
+
+### [Polymorphism:](https://www.javatpoint.com/runtime-polymorphism-in-java)
+
+- Def:
+  - Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+  - Polymorphism usesthose methods to perform different tasks.
+  - This allows us to perform a single action in different ways.
+  - (Eg Superclass Animal has method Methodx(). Subclasses of Animals also have their own implementation of an methodX())
+
+<br/>
+
+### [Encapsulation:](https://www.javatpoint.com/encapsulation)
+
+- Definition:
+  - Is used to make sure sensitive data is hidden from user with private variables and public get and set
+- Hide things from other classes
+
+<br/>
+
+### Composition:
+
+- `Note:` `Use before Inheritance`
+- Definition:
+  - Describes a class that references one or more objects of other classes.
+  - Allows you to model a has-a association between objects.
+- Inheritance has limits but use that here give access to all. (Pc has case, monitor, motherboard)
+- Object that has other Objects (Pc has case, monitor, motherboard)(Dog is animal)
 
 <br>
 
-Abstract:
+### [Abstract:](https://www.javatpoint.com/encapsulation)
 
 - Def
 
@@ -454,7 +498,7 @@ Abstract:
 
 <br/>
 
-Interfaces:
+### Interfaces:
 
 - Def:
 
@@ -481,7 +525,7 @@ Interfaces:
   > **Interface attributes** are by default `public, static and final`
   > An interface has `no constructor `
 
-<br>
+  <br>
 
 - Why And When To Use Interfaces?
   1. To achieve security - hide certain details and only show the important details of an object (interface).
@@ -510,7 +554,7 @@ EG:
 
 <br/>
 
-Inner Classes:
+### Inner Classes:
 
 - Def
 
@@ -546,7 +590,35 @@ Inner Classes:
     - Has no name
     - Can be passed as parmeter
 
-## <br/>
+### [Initializing Fields](https://docs.oracle.com/javase/tutorial/java/javaOO/initial.html)
+
+- Def
+  - If initialization requires some logic.
+  - A static initialization block is a normal block of code enclosed in braces
+
+<br/>
+
+```java
+  class MyClass {
+    static {
+      // whatever cod
+  }
+```
+
+OR
+
+```java
+  class MyClass {
+    public static varType myVar = initializeClassVariable();
+
+    private static varType initializeClassVariable() {
+
+        // initialization code goes here
+    }
+  }
+```
+
+<br/>
 
 ---
 
@@ -600,7 +672,7 @@ public class className<typeParm> {
 
 > This same technique can be applied to create generic interfaces.
 
-Multiple Type Parameters
+### Multiple Type Parameters
 
 ```java
 public interface className<K, V> {
@@ -624,7 +696,7 @@ public class subClass<K, V> implements className<K, V> {
 
 <br/>
 
-Bounded Types Parameters:
+### Bounded Types Parameters:
 
 - Def:
 
@@ -688,6 +760,21 @@ The most commonly used type parameter names are:
     - `import java.util.*;`
   - Initialize Scanner:
     - `Scanner myScanObj = new Scanner(parms)`
+    - parms:
+      - `System.in` - Standard input
+      - `new File("fileName")` - File
+      - `new URL("http://www.google.com")` - URL
+      - `new Socket("localhost", 8080)` - Socket
+      - `new DataInputStream(new FileInputStream("fileName"))` - DataInputStream
+      - `new DataOutputStream(new FileOutputStream("fileName"))` - DataOutputStream
+      - `new Pipe("pipeName")` - Pipe
+      - `new String("string")` - String
+      - `new StringReader("string")` - StringReader
+      - `new StringWriter()` - StringWriter
+      - `new BufferedReader(new InputStreamReader(System.in))` - BufferedReader
+      - `new BufferedWriter(new OutputStreamWriter(System.out))` - BufferedWriter
+      - `new BufferedReader(new FileReader("fileName"))` - BufferedReader
+      - `new BufferedWriter(new FileWriter("fileName"))` - BufferedWriter
   - Read users input:
     - `new Scanner(System.in)`
   - Close scanner:
@@ -712,6 +799,72 @@ The most commonly used type parameter names are:
     - `.skip(int n)`
   - Skip Line:
     - `.skipLine()`
+
+<br/>
+
+### [Buffered Writer](https://www.javatpoint.com/java-bufferedwriter-class)
+
+- Def
+  - Used to write to files/console/sockets/pipes/String
+
+<br/>
+
+- Constructor
+  - `BufferedWriter(parms)`
+  - parms:
+    - `new FileWriter("fileName")`
+    - `new OutputStreamWriter(System.out)`
+    - `new OutputStreamWriter(new FileOutputStream("fileName"))`
+    - `new OutputStreamWriter(new Socket("localhost", 8080))`
+
+<br/>
+
+- Methods
+  - New Line:
+    - `.newLine()`
+  - Write:
+    - `.write(var)`
+  - Write Chars:
+    - `.write(char[] cbuf, int off, int len)`
+  - Close:
+    - `.close()`
+
+<br/>
+
+### [Buffered Reader](https://www.javatpoint.com/BufferedReader-class)
+
+- Def
+
+  - Used to read input from the user/files/console/sockets/pipes/String
+
+- Constructor
+
+  - `BufferedReader(params)`
+  - params:
+    - `new FileReader("fileName")`
+    - `new InputStreamReader(System.in)`
+    - `new InputStreamReader(new FileInputStream("fileName"))`
+    - `new InputStreamReader(new Socket("localhost", 8080))`
+    - `new InputStreamReader(new DataInputStream(new FileInputStream("fileName")))`
+
+- Methods
+  - Read Line:
+    - `.readLine()`
+  - Read:
+    - `.read()` (Used to read a single character)
+    - `.read(char[] cbuf, ?int off?, ?int len?)`
+  - Read All
+    - `.readAll()`
+  - Close:
+    - `.close()`
+  - Mark:
+    - `.mark(int readAheadLimit)` (Mark present position of stream)
+  - Reset:
+    - `.reset()` (Reset to marked position)
+  - MarkSupported:
+    - `.markSupported()` (Check if mark/reset is supported)
+  - ready:
+    - `.ready()` (Check if ready to read)
 
 <br/>
 

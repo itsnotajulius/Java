@@ -2,22 +2,27 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    private final static String INVALID_INPUT = "INVALID";
 
     public static void main(String[] args) throws Exception {
         int x = getIntEAFP("x");
         int y = getIntEAFP("y");
         System.out.println("This is x: " + x + ", This is y: " + y);
         System.out.println(divideEAFP(x, y));
+        getInt("");
+        getIntLBYL("var");
+        divideLBYL(x, y);
+        divideE(x, y);
+
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
     // Will throw errors if not INT
     private static int getInt(String var) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter in Integer for " + var + " ");
-        return scanner.nextInt();
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Enter in Integer for " + var + " ");
+            return scanner.nextInt();
+        }
     }
 
     private static int getIntLBYL(String var) {
@@ -31,26 +36,29 @@ public class Main {
                 break;
             }
         }
-
+        int output;
         if (isValid) {
-            return Integer.parseInt(input);
+            output = Integer.parseInt(input);
         } else {
             System.out.println("Not valid input");
-            return 0;
+            output = 0;
         }
+        scanner.close();
+        return output;
     }
 
     private static int getIntEAFP(String var) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter in Integer for " + var + " ");
-        try {
-            return scanner.nextInt();
-        } catch (InputMismatchException e) {
-            System.out.println(e);
-            return 0;
-        } catch (Exception e) {
-            System.out.println(e);
-            return 0;
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Enter in Integer for " + var + " ");
+            try {
+                return scanner.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println(e);
+                return 0;
+            } catch (Exception e) {
+                System.out.println(e);
+                return 0;
+            }
         }
 
     }

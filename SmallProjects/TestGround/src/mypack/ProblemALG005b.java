@@ -1,7 +1,5 @@
 package TestGround.src.mypack;
 
-import java.util.Arrays;
-
 public class ProblemALG005b {
     public static final String INVALID_VALUE_MESSAGE = "Invalid value";
 
