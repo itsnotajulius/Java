@@ -672,7 +672,49 @@ The most commonly used type parameter names are:
 <br/>
 <br/>
 
-## Basic Input & Output
+## [Basic Input & Output](https://www.javatpoint.com/java-io)
+
+<br/>
+
+###
 
 <br/>
 <br/>
+
+### Exceptions
+
+ <br/>
+
+- Def
+
+  > Exception is a class that is used to indicate that an error has occurred.
+
+  > Handles the runtime errors so that the normal flow of the application can be maintained.
+
+ <br/>
+
+- Ways of Handling Exceptions
+
+  - use Try and Catch to handle errors
+  - Make your code catch all possible exceptions
+  - To add errors messages to your code, use the `throws` keyword
+
+ <br/>
+
+- Types of Exceptions
+  - `IOException` - Input/Output Exception
+  - `NullPointerException` - Null Pointer Exception
+  - `ArithmeticException` - Arithmetic Exception
+  - `ArrayIndexOutOfBoundsException` - Array Index Out Of Bounds Exception
+  - `ClassCastException` - Class Cast Exception
+  - `IllegalArgumentException` - Illegal Argument Exception
+  - `ArithemeticException` - Arithmetic Exception
+
+ <br/>
+
+<div style = "background-color: rgba(100,100,100, 0.3);">
+  <a href = "https://www.javatpoint.com/multiple-catch-block-in-java#:~:text=Java%20Catch%20Multiple%20Exceptions&text=A%20try%20block%20can%20be,contain%20a%20different%20exception%20handler.">
+    <img src = "https://static.javatpoint.com/core/images/multiple-catch-block-in-java.png" alt = "Pictures" width = "100%">
+  </a>
+
+</div>
