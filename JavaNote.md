@@ -676,9 +676,81 @@ The most commonly used type parameter names are:
 
 <br/>
 
-###
+### [Scanner](https://www.javatpoint.com/Scanner-class)
+
+- Def
+  - Used to read input from the user/files/console/sockets/pipes/String
 
 <br/>
+
+- Setup
+  - Import Scanner:
+    - `import java.util.*;`
+  - Initialize Scanner:
+    - `Scanner myScanObj = new Scanner(parms)`
+  - Read users input:
+    - `new Scanner(System.in)`
+  - Close scanner:
+    - `myScanObj.close();`
+
+<br/>
+
+- METHODS:
+  - Gets next:
+    - `.next()`
+  - Gets Line:
+    - `.nextLine()` (need to use if getting nextInt()/enter)
+  - Gets next Int:
+    - `.nextInt()`
+  - delimiter
+    - `.useDelimiter(Pattern/String pattern)`
+  - HasNext:
+    - `.hasNext()`
+  - HasNextLine:
+    - `.hasNextLine()`
+  - Skip:
+    - `.skip(int n)`
+  - Skip Line:
+    - `.skipLine()`
+
+<br/>
+
+### [FileWriter](https://www.javatpoint.com/java-filewriter-class)
+
+- Def
+
+  - Used to write to a file
+  - Can be used to write to a file or to a network connection
+
+- Constructor
+
+  - `FileWriter(String/File fileName)`
+
+- Methods
+  - Writing
+    - `write(String/char/char[])`
+  - Closing
+    - `close()`
+
+<br/>
+
+### [FilerReader](https://www.javatpoint.com/java-filereader-class)
+
+- Def
+
+  - Used to read from a file
+  - Can be used to read from a file or from a network connection
+
+- Constructor
+
+  - `FileReader(String/File fileName)`
+
+- Methods
+  - Reading
+    - `read(char[])`
+  - Closing
+    - `close()`
+
 <br/>
 
 ### Exceptions
@@ -691,22 +763,55 @@ The most commonly used type parameter names are:
 
   > Handles the runtime errors so that the normal flow of the application can be maintained.
 
+<br/>
+
+- Two types of exceptions
+  - Checked Exceptions - `IOException`
+  - Unchecked Exceptions - `Exception`
+
  <br/>
 
 - Ways of Handling Exceptions
 
   - use Try and Catch to handle errors
+  - Use try with resources to handle resources
+    - Resources are things like files, sockets, etc. that `need to be closed` after use
+    - If you can use try with resources over try-catch
   - Make your code catch all possible exceptions
-  - To add errors messages to your code, use the `throws` keyword
+  - To add errors messages to your code, use the `throw` keyword
 
- <br/>
+<br/>
+
+- Method
+
+  ```java
+    try{
+      ... "Will try this"
+    } catch(Exception e) {
+      ... "Will throw this if error"
+    } finally {
+      ... "Will do this no matter what"
+    }
+  ```
+
+  ```java
+    try(Resource r = new Resource()) {
+      ... "Will try this"
+    } catch(Exception e) {
+      ... "Will throw this if error"
+    } finally {
+      ... "Will do this no matter what"
+    }
+  ```
+
+<br/>
 
 - Types of Exceptions
   - `IOException` - Input/Output Exception
   - `NullPointerException` - Null Pointer Exception
   - `ArithmeticException` - Arithmetic Exception
   - `ArrayIndexOutOfBoundsException` - Array Index Out Of Bounds Exception
-  - `ClassCastException` - Class Cast Exception
+  - `Clas1stException` - Class Cast Exception
   - `IllegalArgumentException` - Illegal Argument Exception
   - `ArithemeticException` - Arithmetic Exception
 
@@ -715,6 +820,7 @@ The most commonly used type parameter names are:
 <div style = "background-color: rgba(100,100,100, 0.3);">
   <a href = "https://www.javatpoint.com/multiple-catch-block-in-java#:~:text=Java%20Catch%20Multiple%20Exceptions&text=A%20try%20block%20can%20be,contain%20a%20different%20exception%20handler.">
     <img src = "https://static.javatpoint.com/core/images/multiple-catch-block-in-java.png" alt = "Pictures" width = "100%">
+    <img src = "https://static.javatpoint.com/core/images/java-finally-block.png" alt = "Pictures" width = "100%">
   </a>
 
 </div>

@@ -1,7 +1,5 @@
 package Random.calculator.src;
 
-import java.util.*;
-
 public class App {
     public static float[] plusArray;;
 
