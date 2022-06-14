@@ -1,7 +1,10 @@
 package Intro.src.com.itsnotajulius;
 
+import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -11,23 +14,28 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
-public class LocationsWithSplit implements Map<Integer, Location> {
+public class LocationsWithBytes implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new LinkedHashMap<Integer, Location>();
     private static String locFilePath = "C:/Users/PC/Documents/Coding/Java/Java/SmallProjects/InputandOutput/Intro/src/com/itsnotajulius";
 
     public static void main(String[] args) throws IOException {
-        try (BufferedWriter locFile = new BufferedWriter(new FileWriter(locFilePath + "/locations.txt"));
-                BufferedWriter dirFile = new BufferedWriter(new FileWriter(locFilePath + "/directions.txt"))) {
+        try (DataOutputStream locFile = new DataOutputStream(
+                new BufferedOutputStream(new FileOutputStream(locFilePath + "/locations.dat")))) {
             for (Location location : locations.values()) {
-                locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
+                locFile.writeInt(location.getLocationID());
+                locFile.writeUTF(location.getDescription());
+                System.out.println("Writing location: " + location.getLocationID() + " : " + location.getDescription());
+                System.out.println("Writing " + (location.getExits().size() - 1) + " exits.");
+                locFile.writeInt(location.getExits().size() - 1);
                 for (String direction : location.getExits().keySet()) {
                     if (!direction.equalsIgnoreCase("Q")) {
-                        dirFile.write(
-                                location.getLocationID() + "," + direction + "," + location.getExits().get(direction)
-                                        + "\n");
+                        System.out.println("\t\t" + direction + "," + location.getExits().get(direction));
+                        locFile.writeUTF(direction);
+                        locFile.writeInt(location.getExits().get(direction));
                     }
                 }
             }
+
         }
 
     }
