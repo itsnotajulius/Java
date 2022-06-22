@@ -1,12 +1,10 @@
-package Intro.src.com.itsnotajulius;
+package InputandOutput.Intro.src.com.itsnotajulius;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.LinkedHashMap;

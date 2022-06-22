@@ -1,4 +1,4 @@
-package Intro.src.com.itsnotajulius;
+package InputandOutput.Intro.src.com.itsnotajulius;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
