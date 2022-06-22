@@ -1,4 +1,4 @@
-package InputandOutput.Intro.src.com.itsnotajulius;
+package Intro.src.com.itsnotajulius;
 
 import java.util.HashMap;
 import java.util.Map;

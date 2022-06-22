@@ -1,0 +1,26 @@
+Open book test
+
+We want
+Write OOP Java program
+from command line
+Count words in file
+
+command line - argment
+    Two:
+        Abs path to file
+        URL to a file
+
+
+Program must take either of the Two
+File will be all of text
+Process the input file/url file an output file
+Output same data as input but - extension is ".res"
+
+inside output all the lines coontains one words
+Right at the end on new: "Total Words:"+ tottal_word_Couted
+
+
+
+http://support.soliditech.com/solidtickets/javachallengefiles/TestFile1.text
+
+http://support.soliditech.com/solidtickets/javachallengefiles/TestFile2.text
